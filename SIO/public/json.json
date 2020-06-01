@@ -1,0 +1,1137 @@
+{
+    "AuditFile": {
+        "xmlns": "urn:OECD:StandardAuditFile-Tax:PT_1.04_01",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:schemaLocation": "urn:OECD:StandardAuditFile-Tax:PT_1.04_01 ../schemas/SAF-T.xsd",
+        "xmlns:doc": "urn:schemas-basda-org:schema-extensions:documentation",
+        "Header": {
+            "AuditFileVersion": "1.04_01",
+            "CompanyID": "500600700",
+            "TaxRegistrationNumber": "500600700",
+            "TaxAccountingBasis": "I",
+            "CompanyName": "EVITAR",
+            "CompanyAddress": {
+                "BuildingNumber": "15",
+                "StreetName": "R. Das Descobertas",
+                "AddressDetail": "R. Das Descobertas, 15",
+                "City": "Porto",
+                "PostalCode": "1234-123",
+                "Region": "Porto",
+                "Country": "PT"
+            },
+            "FiscalYear": "2020",
+            "StartDate": "2020-01-01",
+            "EndDate": "2020-12-31",
+            "CurrencyCode": "EUR",
+            "DateCreated": "2020-05-27",
+            "TaxEntity": "Sede",
+            "ProductCompanyTaxID": "503140600",
+            "SoftwareCertificateNumber": "0030",
+            "ProductID": "ERP v750/PRIMAVERA Business Software Solutions",
+            "ProductVersion": "09.1507.1039",
+            "Telephone": "211234567",
+            "Fax": "211234568",
+            "Email": "geral@evitar.pt",
+            "Website": "evitar.pt"
+        },
+        "MasterFiles": {
+            "GeneralLedgerAccounts": {
+                "TaxonomyReference": "S",
+                "Account": [
+                    {
+                        "AccountID": "21",
+                        "AccountDescription": "Clientes",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "2898.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GR"
+                    },
+                    {
+                        "AccountID": "211",
+                        "AccountDescription": "Clientes - c/c",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "2898.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "21"
+                    },
+                    {
+                        "AccountID": "2112",
+                        "AccountDescription": "Clientes - c/c - M. Intrac.",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "2898.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "211"
+                    },
+                    {
+                        "AccountID": "21123004",
+                        "AccountDescription": "Soluciones Cad de Madrid, SA",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "2898.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GM",
+                        "GroupingCode": "2112",
+                        "TaxonomyCode": "11"
+                    },
+                    {
+                        "AccountID": "22",
+                        "AccountDescription": "Fornecedores",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "1638.00",
+                        "GroupingCategory": "GR"
+                    },
+                    {
+                        "AccountID": "221",
+                        "AccountDescription": "Fornecedores - c/c",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "1638.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "22"
+                    },
+                    {
+                        "AccountID": "2211",
+                        "AccountDescription": "Fornecedores - c/c - M.Nacional",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "1638.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "221"
+                    },
+                    {
+                        "AccountID": "22113003",
+                        "AccountDescription": "Companhia SA",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "546.00",
+                        "GroupingCategory": "GM",
+                        "GroupingCode": "2211",
+                        "TaxonomyCode": "37"
+                    },
+                    {
+                        "AccountID": "22113005",
+                        "AccountDescription": "SIO LA",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "1092.00",
+                        "GroupingCategory": "GM",
+                        "GroupingCode": "2211",
+                        "TaxonomyCode": "37"
+                    },
+                    {
+                        "AccountID": "24",
+                        "AccountDescription": "Estados e Outros Entes P�blicos",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GR"
+                    },
+                    {
+                        "AccountID": "243",
+                        "AccountDescription": "Imposto S/Valor Acrescentado - Iva",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "24"
+                    },
+                    {
+                        "AccountID": "2432",
+                        "AccountDescription": "Iva - Dedut�vel",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "243"
+                    },
+                    {
+                        "AccountID": "24321",
+                        "AccountDescription": "Exist�ncias",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "2432"
+                    },
+                    {
+                        "AccountID": "243211",
+                        "AccountDescription": "Exist�ncias Continente",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "24321"
+                    },
+                    {
+                        "AccountID": "2432113",
+                        "AccountDescription": "Ex. - Taxa Normal",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "243211"
+                    },
+                    {
+                        "AccountID": "243211320",
+                        "AccountDescription": "Ex. - Taxa Normal-Tx.20%",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "2432113"
+                    },
+                    {
+                        "AccountID": "2432113201",
+                        "AccountDescription": "Ex. Tx. Nm. - Mercado Nacional",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "243211320"
+                    },
+                    {
+                        "AccountID": "24321132011",
+                        "AccountDescription": "Ex. Tx. Nm..- MN-TT/Dedut�vel",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "273.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GM",
+                        "GroupingCode": "2432113201",
+                        "TaxonomyCode": "74"
+                    },
+                    {
+                        "AccountID": "31",
+                        "AccountDescription": "Compras",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "1365.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GR"
+                    },
+                    {
+                        "AccountID": "312",
+                        "AccountDescription": "Compras-Mercadorias",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "1365.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "31"
+                    },
+                    {
+                        "AccountID": "3121",
+                        "AccountDescription": "Compras-Merc-Mercado Nacional",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "1365.00",
+                        "ClosingCreditBalance": "0.00",
+                        "GroupingCategory": "GM",
+                        "GroupingCode": "312",
+                        "TaxonomyCode": "157"
+                    },
+                    {
+                        "AccountID": "71",
+                        "AccountDescription": "Vendas",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "2898.00",
+                        "GroupingCategory": "GR"
+                    },
+                    {
+                        "AccountID": "711",
+                        "AccountDescription": "Vendas-Mercadorias",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "2898.00",
+                        "GroupingCategory": "GA",
+                        "GroupingCode": "71"
+                    },
+                    {
+                        "AccountID": "7112",
+                        "AccountDescription": "Vendas-Merc.-Mercado Intrac.",
+                        "OpeningDebitBalance": "0.00",
+                        "OpeningCreditBalance": "0.00",
+                        "ClosingDebitBalance": "0.00",
+                        "ClosingCreditBalance": "2898.00",
+                        "GroupingCategory": "GM",
+                        "GroupingCode": "711",
+                        "TaxonomyCode": "506"
+                    }
+                ]
+            },
+            "Customer": [
+                {
+                    "CustomerID": "Consumidor final",
+                    "AccountID": "Desconhecido",
+                    "CustomerTaxID": "999999990",
+                    "CompanyName": "Consumidor final",
+                    "BillingAddress": {
+                        "AddressDetail": "Desconhecido",
+                        "City": "Desconhecido",
+                        "PostalCode": "Desconhecido",
+                        "Country": "Desconhecido"
+                    },
+                    "ShipToAddress": {
+                        "AddressDetail": "Desconhecido",
+                        "City": "Desconhecido",
+                        "PostalCode": "Desconhecido",
+                        "Country": "Desconhecido"
+                    },
+                    "SelfBillingIndicator": "0"
+                },
+                {
+                    "CustomerID": "ES989922456_C",
+                    "AccountID": "21123004",
+                    "CustomerTaxID": "989922456",
+                    "CompanyName": "Soluciones Cad de Madrid, SA",
+                    "BillingAddress": {
+                        "AddressDetail": "PASSEO DE PORTUGAL, 464646",
+                        "City": "VILANUEVA DE ARRIBA",
+                        "PostalCode": "61001",
+                        "Country": "ES"
+                    },
+                    "ShipToAddress": {
+                        "AddressDetail": "PASSEO DE PORTUGAL, 464646",
+                        "City": "VILANUEVA DE ARRIBA",
+                        "PostalCode": "61001",
+                        "Country": "ES"
+                    },
+                    "Telephone": "00.034.1.474747447",
+                    "Fax": "00.034.1.4374747474",
+                    "Website": "http://alcad.es",
+                    "SelfBillingIndicator": "0"
+                },
+                {
+                    "CustomerID": "PT506363864_C",
+                    "AccountID": "21123005",
+                    "CustomerTaxID": "506363864",
+                    "CompanyName": "Paulo Constru��es LDA",
+                    "BillingAddress": {
+                        "AddressDetail": "Rua dos Carvalhos",
+                        "City": "Ermesinde",
+                        "PostalCode": "4445-500",
+                        "Region": "Porto",
+                        "Country": "PT"
+                    },
+                    "ShipToAddress": {
+                        "AddressDetail": "Rua dos Carvalhos",
+                        "City": "Ermesinde",
+                        "PostalCode": "4445-500",
+                        "Region": "Porto",
+                        "Country": "PT"
+                    },
+                    "SelfBillingIndicator": "0"
+                },
+                {
+                    "CustomerID": "PT501085750_C",
+                    "AccountID": "21123006",
+                    "CustomerTaxID": "501085750",
+                    "CompanyName": "PC DIGA SA",
+                    "BillingAddress": {
+                        "AddressDetail": "Rua da Fontainhas",
+                        "City": "Vila Nova de Gaia",
+                        "PostalCode": "4560-123",
+                        "Region": "Porto",
+                        "Country": "PT"
+                    },
+                    "ShipToAddress": {
+                        "AddressDetail": "Rua da Fontainhas",
+                        "City": "Vila Nova de Gaia",
+                        "PostalCode": "4560-123",
+                        "Region": "Porto",
+                        "Country": "PT"
+                    },
+                    "SelfBillingIndicator": "0"
+                }
+            ],
+            "Supplier": [
+                {
+                    "SupplierID": "509932860_F",
+                    "AccountID": "22113003",
+                    "SupplierTaxID": "509932860",
+                    "CompanyName": "Companhia SA",
+                    "BillingAddress": {
+                        "AddressDetail": "Av. do Sul, 387383",
+                        "City": "Lisboa",
+                        "PostalCode": "1000-001",
+                        "Country": "PT"
+                    },
+                    "ShipFromAddress": {
+                        "AddressDetail": "Av. do Sul, 387383",
+                        "City": "Lisboa",
+                        "PostalCode": "1000-001",
+                        "Country": "PT"
+                    },
+                    "Telephone": "255255231",
+                    "Fax": "255255232",
+                    "Website": "http://socfornecimento.pt",
+                    "SelfBillingIndicator": "0"
+                },
+                {
+                    "SupplierID": "500040486_F",
+                    "AccountID": "22113005",
+                    "SupplierTaxID": "500040486",
+                    "CompanyName": "SIO LA",
+                    "BillingAddress": {
+                        "AddressDetail": "Rua Da Escola",
+                        "City": "Desconhecido",
+                        "PostalCode": "4620-432",
+                        "Region": "Porto",
+                        "Country": "PT"
+                    },
+                    "ShipFromAddress": {
+                        "AddressDetail": "Rua Da Escola",
+                        "City": "Desconhecido",
+                        "PostalCode": "4620-432",
+                        "Region": "Porto",
+                        "Country": "PT"
+                    },
+                    "SelfBillingIndicator": "0"
+                }
+            ],
+            "Product": [
+                {
+                    "ProductType": "P",
+                    "ProductCode": "A0001",
+                    "ProductGroup": "Computadores",
+                    "ProductDescription": "Pentium D925 Dual Core",
+                    "ProductNumberCode": "5601234901248"
+                },
+                {
+                    "ProductType": "P",
+                    "ProductCode": "A0003",
+                    "ProductGroup": "Computadores",
+                    "ProductDescription": "Processador INTEL CORE 2 DUO E6300 1.86GHZ",
+                    "ProductNumberCode": "5601234875527"
+                },
+                {
+                    "ProductType": "P",
+                    "ProductCode": "ARN",
+                    "ProductGroup": "Arnes",
+                    "ProductDescription": "Arnes",
+                    "ProductNumberCode": "ARN"
+                },
+                {
+                    "ProductType": "O",
+                    "ProductCode": "Especial",
+                    "ProductGroup": "Sem fam�lia",
+                    "ProductDescription": "Linha especial",
+                    "ProductNumberCode": "Especial"
+                }
+            ],
+            "TaxTable": {
+                "TaxTableEntry": [
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "ISE",
+                        "Description": "Isenta",
+                        "TaxPercentage": "0.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "4.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "RED",
+                        "Description": "Reduzida",
+                        "TaxPercentage": "5.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "8.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "9.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "INT",
+                        "Description": "Interm�dia",
+                        "TaxPercentage": "12.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "14.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "15.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "NOR",
+                        "Description": "Normal",
+                        "TaxPercentage": "20.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "NOR",
+                        "Description": "Normal",
+                        "TaxPercentage": "21.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "NOR",
+                        "Description": "Normal",
+                        "TaxPercentage": "23.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "23.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-AC",
+                        "TaxCode": "ISE",
+                        "Description": "Isenta",
+                        "TaxPercentage": "0.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-AC",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "4.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-AC",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "9.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-AC",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "16.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-MA",
+                        "TaxCode": "ISE",
+                        "Description": "Isenta",
+                        "TaxPercentage": "0.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-MA",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "5.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-MA",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "12.00"
+                    },
+                    {
+                        "TaxType": "IVA",
+                        "TaxCountryRegion": "PT-MA",
+                        "TaxCode": "OUT",
+                        "Description": "Outras",
+                        "TaxPercentage": "22.00"
+                    },
+                    {
+                        "TaxType": "IS",
+                        "TaxCountryRegion": "PT",
+                        "TaxCode": "ISE",
+                        "Description": "Isento",
+                        "TaxPercentage": "0.00"
+                    }
+                ]
+            }
+        },
+        "GeneralLedgerEntries": {
+            "NumberOfEntries": "5",
+            "TotalDebit": "4536.00",
+            "TotalCredit": "4536.00",
+            "Journal": [
+                {
+                    "JournalID": "00041",
+                    "Description": "Compras - MN",
+                    "Transaction": [
+                        {
+                            "TransactionID": "2020-05-18 00041 50003",
+                            "Period": "5",
+                            "TransactionDate": "2020-05-18",
+                            "SourceID": "estg",
+                            "Description": "VFA N� 3/D",
+                            "DocArchivalNumber": "50003",
+                            "TransactionType": "N",
+                            "GLPostingDate": "2020-05-18",
+                            "Lines": {
+                                "CreditLine": {
+                                    "RecordID": "1",
+                                    "AccountID": "22113005",
+                                    "SourceDocumentID": "VFA D/3",
+                                    "SystemEntryDate": "2020-05-18T11:17:18",
+                                    "Description": "VFA N� 3/D",
+                                    "CreditAmount": "546.00"
+                                },
+                                "DebitLine": [
+                                    {
+                                        "RecordID": "2",
+                                        "AccountID": "24321132011",
+                                        "SourceDocumentID": "VFA D/3",
+                                        "SystemEntryDate": "2020-05-18T11:17:18",
+                                        "Description": "VFA N� 3/D",
+                                        "DebitAmount": "91.00"
+                                    },
+                                    {
+                                        "RecordID": "3",
+                                        "AccountID": "3121",
+                                        "SourceDocumentID": "VFA D/3",
+                                        "SystemEntryDate": "2020-05-18T11:17:18",
+                                        "Description": "VFA N� 3/D",
+                                        "DebitAmount": "455.00"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "TransactionID": "2020-05-18 00041 50005",
+                            "Period": "5",
+                            "TransactionDate": "2020-05-18",
+                            "SourceID": "estg",
+                            "Description": "VFA N� 5/D",
+                            "DocArchivalNumber": "50005",
+                            "TransactionType": "N",
+                            "GLPostingDate": "2020-05-18",
+                            "Lines": {
+                                "CreditLine": {
+                                    "RecordID": "1",
+                                    "AccountID": "22113005",
+                                    "SourceDocumentID": "VFA D/5",
+                                    "SystemEntryDate": "2020-05-18T11:48:41",
+                                    "Description": "VFA N� 5/D",
+                                    "CreditAmount": "546.00"
+                                },
+                                "DebitLine": [
+                                    {
+                                        "RecordID": "2",
+                                        "AccountID": "24321132011",
+                                        "SourceDocumentID": "VFA D/5",
+                                        "SystemEntryDate": "2020-05-18T11:48:41",
+                                        "Description": "VFA N� 5/D",
+                                        "DebitAmount": "91.00"
+                                    },
+                                    {
+                                        "RecordID": "3",
+                                        "AccountID": "3121",
+                                        "SourceDocumentID": "VFA D/5",
+                                        "SystemEntryDate": "2020-05-18T11:48:41",
+                                        "Description": "VFA N� 5/D",
+                                        "DebitAmount": "455.00"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "TransactionID": "2020-05-18 00041 50006",
+                            "Period": "5",
+                            "TransactionDate": "2020-05-18",
+                            "SourceID": "estg",
+                            "Description": "VFA N� 6/D",
+                            "DocArchivalNumber": "50006",
+                            "TransactionType": "N",
+                            "GLPostingDate": "2020-05-18",
+                            "Lines": {
+                                "CreditLine": {
+                                    "RecordID": "1",
+                                    "AccountID": "22113003",
+                                    "SourceDocumentID": "VFA D/6",
+                                    "SystemEntryDate": "2020-05-18T11:50:26",
+                                    "Description": "VFA N� 6/D",
+                                    "CreditAmount": "546.00"
+                                },
+                                "DebitLine": [
+                                    {
+                                        "RecordID": "2",
+                                        "AccountID": "24321132011",
+                                        "SourceDocumentID": "VFA D/6",
+                                        "SystemEntryDate": "2020-05-18T11:50:26",
+                                        "Description": "VFA N� 6/D",
+                                        "DebitAmount": "91.00"
+                                    },
+                                    {
+                                        "RecordID": "3",
+                                        "AccountID": "3121",
+                                        "SourceDocumentID": "VFA D/6",
+                                        "SystemEntryDate": "2020-05-18T11:50:26",
+                                        "Description": "VFA N� 6/D",
+                                        "DebitAmount": "455.00"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "JournalID": "00051",
+                    "Description": "Vendas - Cr�dito - MN",
+                    "Transaction": [
+                        {
+                            "TransactionID": "2020-05-11 00051 50002",
+                            "Period": "5",
+                            "TransactionDate": "2020-05-11",
+                            "SourceID": "estg",
+                            "Description": "FA N� 2/E",
+                            "DocArchivalNumber": "50002",
+                            "TransactionType": "N",
+                            "GLPostingDate": "2020-05-25",
+                            "CustomerID": "Consumidor final",
+                            "Lines": {
+                                "DebitLine": {
+                                    "RecordID": "1",
+                                    "AccountID": "21123004",
+                                    "SourceDocumentID": "FA E/2",
+                                    "SystemEntryDate": "2020-05-25T10:40:01",
+                                    "Description": "FA N� 2/E",
+                                    "DebitAmount": "1700.00"
+                                },
+                                "CreditLine": {
+                                    "RecordID": "2",
+                                    "AccountID": "7112",
+                                    "SourceDocumentID": "FA E/2",
+                                    "SystemEntryDate": "2020-05-25T10:40:01",
+                                    "Description": "FA N� 2/E",
+                                    "CreditAmount": "1700.00"
+                                }
+                            }
+                        },
+                        {
+                            "TransactionID": "2020-05-11 00051 50003",
+                            "Period": "5",
+                            "TransactionDate": "2020-05-11",
+                            "SourceID": "estg",
+                            "Description": "FA N� 3/E",
+                            "DocArchivalNumber": "50003",
+                            "TransactionType": "N",
+                            "GLPostingDate": "2020-05-25",
+                            "CustomerID": "Consumidor final",
+                            "Lines": {
+                                "DebitLine": {
+                                    "RecordID": "1",
+                                    "AccountID": "21123004",
+                                    "SourceDocumentID": "FA E/3",
+                                    "SystemEntryDate": "2020-05-25T10:53:29",
+                                    "Description": "FA N� 3/E",
+                                    "DebitAmount": "1198.00"
+                                },
+                                "CreditLine": {
+                                    "RecordID": "2",
+                                    "AccountID": "7112",
+                                    "SourceDocumentID": "FA E/3",
+                                    "SystemEntryDate": "2020-05-25T10:53:29",
+                                    "Description": "FA N� 3/E",
+                                    "CreditAmount": "1198.00"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "SourceDocuments": {
+            "SalesInvoices": {
+                "NumberOfEntries": "3",
+                "TotalDebit": "0.00",
+                "TotalCredit": "3148.00",
+                "Invoice": [
+                    {
+                        "InvoiceNo": "FA E/1",
+                        "ATCUD": "0",
+                        "DocumentStatus": {
+                            "InvoiceStatus": "N",
+                            "InvoiceStatusDate": "2020-05-11T16:08:07",
+                            "SourceID": "ESTG",
+                            "SourceBilling": "P"
+                        },
+                        "Hash": "HumMwlfSkANtAcouISWOY/m2uKfbIYH05ZxijFo1sGeNZBndsl9Cj6V5yusWBGO35wUYggMujVsz/1ibecqx9JlQx1GkJ9RriPeOAWHqZ+usZLj6ndlkA9hZpNT/9YlX8PM7u8nZQzdkifHOrOmJK88QDNCaIPcGNJhL7os/ocE=",
+                        "HashControl": "1",
+                        "Period": "05",
+                        "InvoiceDate": "2020-05-11",
+                        "InvoiceType": "FT",
+                        "SpecialRegimes": {
+                            "SelfBillingIndicator": "0",
+                            "CashVATSchemeIndicator": "0",
+                            "ThirdPartiesBillingIndicator": "0"
+                        },
+                        "SourceID": "ESTG",
+                        "SystemEntryDate": "2020-05-11T16:08:07",
+                        "CustomerID": "PT506363864_C",
+                        "ShipTo": {
+                            "DeliveryDate": "2020-05-11",
+                            "Address": {
+                                "AddressDetail": "Rua dos Carvalhos",
+                                "City": "Ermesinde",
+                                "PostalCode": "4445-500",
+                                "Country": "PT"
+                            }
+                        },
+                        "ShipFrom": {
+                            "DeliveryDate": "2020-05-11",
+                            "Address": {
+                                "AddressDetail": "R. Das Descobertas, 15",
+                                "City": "Desconhecido",
+                                "PostalCode": "1234-123",
+                                "Country": "PT"
+                            }
+                        },
+                        "MovementStartTime": "2020-05-11T16:08:00",
+                        "Line": {
+                            "LineNumber": "1",
+                            "ProductCode": "ARN",
+                            "ProductDescription": "Arnes",
+                            "Quantity": "5",
+                            "UnitOfMeasure": "UN",
+                            "UnitPrice": "50",
+                            "TaxPointDate": "2020-05-11",
+                            "Description": "Arnes",
+                            "CreditAmount": "250.00",
+                            "Tax": {
+                                "TaxType": "IVA",
+                                "TaxCountryRegion": "PT",
+                                "TaxCode": "NOR",
+                                "TaxPercentage": "23.00"
+                            },
+                            "SettlementAmount": "0.00"
+                        },
+                        "DocumentTotals": {
+                            "TaxPayable": "57.50",
+                            "NetTotal": "250.00",
+                            "GrossTotal": "307.50"
+                        },
+                        "WithholdingTax": {
+                            "WithholdingTaxAmount": "0.00"
+                        }
+                    },
+                    {
+                        "InvoiceNo": "FA E/2",
+                        "ATCUD": "0",
+                        "DocumentStatus": {
+                            "InvoiceStatus": "N",
+                            "InvoiceStatusDate": "2020-05-25T10:39:55",
+                            "SourceID": "ESTG",
+                            "SourceBilling": "P"
+                        },
+                        "Hash": "BbWayzbfMtWjOlkcu0eSx1Ha/kD5jSBT7fBfgJqEhgjWibmZXAsOcr+xDPNku36Sb9qJC+RqtB15XynUrGrkiMK7Zs5CERRk4vSaD7UAf9qDF3RCQ1RtaPIRFYo34dinEJgx+GxIwyNg3SePf2IPEcRl59ZMd4Or7NPqfdjlEhk=",
+                        "HashControl": "1",
+                        "Period": "05",
+                        "InvoiceDate": "2020-05-11",
+                        "InvoiceType": "FT",
+                        "SpecialRegimes": {
+                            "SelfBillingIndicator": "0",
+                            "CashVATSchemeIndicator": "0",
+                            "ThirdPartiesBillingIndicator": "0"
+                        },
+                        "SourceID": "ESTG",
+                        "SystemEntryDate": "2020-05-25T10:39:55",
+                        "TransactionID": "2020-05-11 00051 50002",
+                        "CustomerID": "ES989922456_C",
+                        "ShipTo": {
+                            "DeliveryDate": "2020-05-25",
+                            "Address": {
+                                "AddressDetail": "PASSEO DE PORTUGAL, 464646",
+                                "City": "VILANUEVA DE ARRIBA",
+                                "PostalCode": "61001",
+                                "Country": "ES"
+                            }
+                        },
+                        "ShipFrom": {
+                            "DeliveryDate": "2020-05-25",
+                            "Address": {
+                                "AddressDetail": "R. Das Descobertas, 15",
+                                "City": "Desconhecido",
+                                "PostalCode": "1234-123",
+                                "Country": "PT"
+                            }
+                        },
+                        "MovementStartTime": "2020-05-25T10:41:00",
+                        "Line": {
+                            "LineNumber": "1",
+                            "ProductCode": "A0001",
+                            "ProductDescription": "Pentium D925 Dual Core",
+                            "Quantity": "2",
+                            "UnitOfMeasure": "UN",
+                            "UnitPrice": "850",
+                            "TaxPointDate": "2020-05-11",
+                            "Description": "Pentium D925 Dual Core",
+                            "CreditAmount": "1700.00",
+                            "Tax": {
+                                "TaxType": "IVA",
+                                "TaxCountryRegion": "PT",
+                                "TaxCode": "ISE",
+                                "TaxPercentage": "0.00"
+                            },
+                            "TaxExemptionReason": "Isento-TI.Art.14RITI",
+                            "TaxExemptionCode": "M99",
+                            "SettlementAmount": "300.00"
+                        },
+                        "DocumentTotals": {
+                            "TaxPayable": "0.00",
+                            "NetTotal": "1700.00",
+                            "GrossTotal": "1700.00"
+                        },
+                        "WithholdingTax": {
+                            "WithholdingTaxAmount": "0.00"
+                        }
+                    },
+                    {
+                        "InvoiceNo": "FA E/3",
+                        "ATCUD": "0",
+                        "DocumentStatus": {
+                            "InvoiceStatus": "N",
+                            "InvoiceStatusDate": "2020-05-25T10:53:27",
+                            "SourceID": "ESTG",
+                            "SourceBilling": "P"
+                        },
+                        "Hash": "gwyyGbTKV6WwKH8wjEm+Y7ZrGoHOmtR0XU4aFKlmzowPeNrnRWCIFF5t0b53gBFiKH3Ykkm+E91ppTio9ZjEw5tJQKmd7aebZqQsik6cy2LSPH7kBy7Nkgr/CHIavEu2bdJ1Evbz5faioDytC+dwkBBrUtEWlnbcpVFQ0IxT7l0=",
+                        "HashControl": "1",
+                        "Period": "05",
+                        "InvoiceDate": "2020-05-11",
+                        "InvoiceType": "FT",
+                        "SpecialRegimes": {
+                            "SelfBillingIndicator": "0",
+                            "CashVATSchemeIndicator": "0",
+                            "ThirdPartiesBillingIndicator": "0"
+                        },
+                        "SourceID": "ESTG",
+                        "SystemEntryDate": "2020-05-25T10:53:27",
+                        "TransactionID": "2020-05-11 00051 50003",
+                        "CustomerID": "ES989922456_C",
+                        "ShipTo": {
+                            "DeliveryDate": "2020-05-25",
+                            "Address": {
+                                "AddressDetail": "PASSEO DE PORTUGAL, 464646",
+                                "City": "VILANUEVA DE ARRIBA",
+                                "PostalCode": "61001",
+                                "Country": "ES"
+                            }
+                        },
+                        "ShipFrom": {
+                            "DeliveryDate": "2020-05-25",
+                            "Address": {
+                                "AddressDetail": "Av. do Progresso, 36",
+                                "City": "Vila Fria",
+                                "PostalCode": "9630-800",
+                                "Country": "PT"
+                            }
+                        },
+                        "MovementStartTime": "2020-05-25T10:55:00",
+                        "Line": {
+                            "LineNumber": "3",
+                            "OrderReferences": {
+                                "OriginatingON": "GR E/2",
+                                "OrderDate": "2020-05-25"
+                            },
+                            "ProductCode": "A0003",
+                            "ProductDescription": "Processador INTEL CORE 2 DUO E6300 1.86GHZ",
+                            "Quantity": "1",
+                            "UnitOfMeasure": "UN",
+                            "UnitPrice": "1198",
+                            "TaxPointDate": "2020-05-11",
+                            "Description": "Processador INTEL CORE 2 DUO E6300 1.86GHZ",
+                            "CreditAmount": "1198.00",
+                            "Tax": {
+                                "TaxType": "IVA",
+                                "TaxCountryRegion": "PT",
+                                "TaxCode": "ISE",
+                                "TaxPercentage": "0.00"
+                            },
+                            "TaxExemptionReason": "Isento-TI.Art.14RITI",
+                            "TaxExemptionCode": "M99",
+                            "SettlementAmount": "0.00"
+                        },
+                        "DocumentTotals": {
+                            "TaxPayable": "0.00",
+                            "NetTotal": "1198.00",
+                            "GrossTotal": "1198.00"
+                        },
+                        "WithholdingTax": {
+                            "WithholdingTaxAmount": "0.00"
+                        }
+                    }
+                ]
+            },
+            "MovementOfGoods": {
+                "NumberOfMovementLines": "2",
+                "TotalQuantityIssued": "2.00",
+                "StockMovement": [
+                    {
+                        "DocumentNumber": "GR E/1",
+                        "ATCUD": "0",
+                        "DocumentStatus": {
+                            "MovementStatus": "N",
+                            "MovementStatusDate": "2020-05-25T10:48:17",
+                            "SourceID": "ESTG",
+                            "SourceBilling": "P"
+                        },
+                        "Hash": "Cyaq7nIimAk0xcqe6QCGjLn0I5HTPvD3/qYZslXfodZ/fVJK0+OC+N99Fc6oUDBk6EreUnAmR0KrKC3Ez0cMpUy7tkHd8910UvL1vonAdM3y4/e/vam1/7OquxhjUm5uwWfeNvlWOiCllfZNqXMwGfqZ4a8ICjN6hzuSQvGwVXo=",
+                        "HashControl": "1",
+                        "Period": "05",
+                        "MovementDate": "2020-05-25",
+                        "MovementType": "GR",
+                        "SystemEntryDate": "2020-05-25T10:48:17",
+                        "CustomerID": "PT501085750_C",
+                        "SourceID": "ESTG",
+                        "ShipTo": {
+                            "DeliveryDate": "2020-05-25",
+                            "Address": {
+                                "AddressDetail": "Rua da Fontainhas",
+                                "City": "Vila Nova de Gaia",
+                                "PostalCode": "4560-123",
+                                "Country": "PT"
+                            }
+                        },
+                        "ShipFrom": {
+                            "DeliveryDate": "2020-05-25",
+                            "Address": {
+                                "AddressDetail": "Av. do Progresso, 36",
+                                "City": "Vila Fria",
+                                "PostalCode": "9630-800",
+                                "Country": "PT"
+                            }
+                        },
+                        "MovementStartTime": "2020-05-25T10:50:00",
+                        "Line": {
+                            "LineNumber": "1",
+                            "ProductCode": "A0001",
+                            "ProductDescription": "Pentium D925 Dual Core",
+                            "Quantity": "1",
+                            "UnitOfMeasure": "UN",
+                            "UnitPrice": "1000",
+                            "Description": "Pentium D925 Dual Core",
+                            "CreditAmount": "1000.00",
+                            "Tax": {
+                                "TaxType": "IVA",
+                                "TaxCountryRegion": "PT",
+                                "TaxCode": "NOR",
+                                "TaxPercentage": "20.00"
+                            },
+                            "SettlementAmount": "0.00"
+                        },
+                        "DocumentTotals": {
+                            "TaxPayable": "200.00",
+                            "NetTotal": "1000.00",
+                            "GrossTotal": "1200.00"
+                        }
+                    },
+                    {
+                        "DocumentNumber": "GR E/2",
+                        "ATCUD": "0",
+                        "DocumentStatus": {
+                            "MovementStatus": "F",
+                            "MovementStatusDate": "2020-05-25T10:53:27",
+                            "SourceID": "ESTG",
+                            "SourceBilling": "P"
+                        },
+                        "Hash": "b2Mz/x3G+irht1FqhNdh7RckCl/r+7ryCPvAJwWIEdJAxdn316HXEzcCD33khNI1KcTGJ2SADAYDPGC/7ZdmnpK9LCuMKteMImki3fxG5Fx0az3RXEwyblO+T8Zm2+NOQBBM6qYKmYNsh8D1nBsONU+F3ox5YB/3y33APeSaUds=",
+                        "HashControl": "1",
+                        "Period": "05",
+                        "MovementDate": "2020-05-25",
+                        "MovementType": "GR",
+                        "SystemEntryDate": "2020-05-25T10:52:48",
+                        "CustomerID": "ES989922456_C",
+                        "SourceID": "ESTG",
+                        "ShipTo": {
+                            "DeliveryDate": "1899-12-30",
+                            "Address": {
+                                "AddressDetail": "PASSEO DE PORTUGAL, 464646",
+                                "City": "VILANUEVA DE ARRIBA",
+                                "PostalCode": "61001",
+                                "Country": "ES"
+                            }
+                        },
+                        "ShipFrom": {
+                            "DeliveryDate": "2020-05-25",
+                            "Address": {
+                                "AddressDetail": "Av. do Progresso, 36",
+                                "City": "Vila Fria",
+                                "PostalCode": "9630-800",
+                                "Country": "PT"
+                            }
+                        },
+                        "MovementStartTime": "2020-05-25T10:54:00",
+                        "Line": {
+                            "LineNumber": "1",
+                            "ProductCode": "A0003",
+                            "ProductDescription": "Processador INTEL CORE 2 DUO E6300 1.86GHZ",
+                            "Quantity": "1",
+                            "UnitOfMeasure": "UN",
+                            "UnitPrice": "1198",
+                            "Description": "Processador INTEL CORE 2 DUO E6300 1.86GHZ",
+                            "CreditAmount": "1198.00",
+                            "Tax": {
+                                "TaxType": "IVA",
+                                "TaxCountryRegion": "PT",
+                                "TaxCode": "ISE",
+                                "TaxPercentage": "0.00"
+                            },
+                            "TaxExemptionReason": "Isento-TI.Art.14RITI",
+                            "TaxExemptionCode": "M99",
+                            "SettlementAmount": "0.00"
+                        },
+                        "DocumentTotals": {
+                            "TaxPayable": "0.00",
+                            "NetTotal": "1198.00",
+                            "GrossTotal": "1198.00"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "sio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "domparser": "^0.1.1",
+    "express": "~4.16.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "find-python": "0.0.5",
+    "libxmljs": "^0.19.7",
+    "mongoose": "^5.9.16",
+    "morgan": "~1.9.1",
+    "node-xml-lite": "0.0.7",
+    "nodemon": "^2.0.4",
+    "xml-js": "^1.6.11",
+    "xml-stream": "^0.4.5",
+    "xml2json": "^0.12.0",
+    "xsd-schema-validator": "^0.6.0"
+  }
+}
