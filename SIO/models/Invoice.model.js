@@ -6,14 +6,14 @@ var SpecialRegimes = require('./SpecialRegimes.model.js');
 var ShipTo = require('./ShipTo.model.js');
 var ShipFrom = require('./ShipFrom.model.js');
 var Line = require('./Line.model.js');
-var DocumentsTotals = require('./DocumentsTotals.model.js');
+var DocumentsTotals = require('./DocumentTotals.model.js');
 var WithholdingTax = require('./WithholdingTax.model.js');
 var documentStatusSchema = mongoose.model('DocumentStatus').schema;
 var specialRegimesSchema = mongoose.model('SpecialRegimes').schema;
 var shipToSchema = mongoose.model('ShipTo').schema;
 var shipFromSchema = mongoose.model('ShipFrom').schema;
 var lineSchema = mongoose.model('Line').schema;
-var documentsTotalsSchema = mongoose.model('DocumentsTotals').schema;
+var documentTotalsSchema = mongoose.model('DocumentTotals').schema;
 var withholdingTaxSchema = mongoose.model('WithholdingTax').schema;
 
 var InvoiceSchema = new Schema({
@@ -35,7 +35,7 @@ var InvoiceSchema = new Schema({
 	ShipFrom: { type: shipFromSchema },
 	MovementEndTime: { type: Date },
 	MovementStartTime: { type: Date },
-	DocumentsTotals: { type: documentsTotalsSchema },
+	DocumentTotals: { type: documentTotalsSchema },
 	WithholdingTax: [{ type: withholdingTaxSchema }],
 	FiscalYear: { type: Number },
 });

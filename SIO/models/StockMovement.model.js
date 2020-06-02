@@ -8,8 +8,8 @@ var Schema = mongoose.Schema,
 	ShipFrom = mongoose.model('ShipFrom').schema,
 	LineSchema = require('./Line.model.js'),
 	Line = mongoose.model('Line').schema,
-	DocumentsTotalsSchema = require('./DocumentsTotals.model.js'),
-	DocumentsTotals = mongoose.model('DocumentsTotals').schema;
+	DocumentTotalsSchema = require('./DocumentTotals.model.js'),
+	DocumentTotals = mongoose.model('DocumentTotals').schema;
 
 var StockMovementSchema = new Schema({
 	DocumentNumber: String,
@@ -32,13 +32,8 @@ var StockMovementSchema = new Schema({
 	MovementEndTime: Date,
 	MovementStartTime: Date,
 	AtdCodeID: String,
-	Line: [
-		{
-			type: mongoose.Schema.Types.ObjectId,
-			ref: 'Line',
-		},
-	],
-	DocumentsTotals: DocumentsTotals,
+	DocumentTotals: DocumentTotals,
+	FiscalYear:Number
 });
 
 module.exports = mongoose.model('StockMovement', StockMovementSchema);

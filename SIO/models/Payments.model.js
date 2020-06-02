@@ -5,7 +5,8 @@ var Schema = mongoose.Schema;
 var PaymentsSchema = new Schema({
     NumberOfEntries: {type: Number},
     TotalDebit: {type: Number},
-    TotalCredit: {type: Number}
+    TotalCredit: {type: Number},
+    FiscalYear:Number
     
 });
 

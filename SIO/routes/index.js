@@ -52,7 +52,8 @@ router.get('/test', async function (req, res, next) {
 	fs.readFile(fileXml, 'utf8', async function (err, xml) {
 		if (err) throw err;
 		var data = await parser.toJson(xml);
-    var jsonObj = JSON.parse(data);
+	var jsonObj = JSON.parse(data);
+	var FiscalYear=jsonObj.AuditFile.Header.FiscalYear;
     const Header=await HeaderSchema.create(jsonObj.AuditFile.Header).then((dados)=>{
       res.json(dados);
     });
@@ -69,7 +70,8 @@ router.get('/test', async function (req, res, next) {
     var GeneralLedgerEntriesObj={
       NumberOfEntries: GeneralLedgerEntries.NumberOfEntries,
             TotalDebit: GeneralLedgerEntries.TotalDebit,
-            TotalCredit: GeneralLedgerEntries.TotalCredit
+			TotalCredit: GeneralLedgerEntries.TotalCredit,
+			FiscalYear:FiscalYear
     }
     const GeneralLedgerEntriesData = await GeneralLedgerEntriesSchema.create(GeneralLedgerEntriesObj).then((dados) => {
       return dados;
@@ -111,9 +113,10 @@ router.get('/test', async function (req, res, next) {
     var SalesInvoicesObj={
       NumberOfEntries: SalesInvoices.NumberOfEntries,
             TotalDebit: SalesInvoices.TotalDebit,
-            TotalCredit: SalesInvoices.TotalCredit
+			TotalCredit: SalesInvoices.TotalCredit,
+			FiscalYear:FiscalYear
     }
-    const SalesInvoicesData = await SalesInvoicesSchema.create(SalesInvoicesObj).then((dados) => {
+    const SalesInvoicesData =  SalesInvoicesSchema.create(SalesInvoicesObj).then((dados) => {
       return dados;
     });
 		for (let i = 0; i < parseInt(SalesInvoices.NumberOfEntries); i++) {
@@ -136,11 +139,12 @@ router.get('/test', async function (req, res, next) {
 				ShipFrom: SalesInvoices.Invoice[i].ShipFrom,
 				MovementEndTime: SalesInvoices.Invoice[i].MovementEndTime,
 				MovementStartTime: SalesInvoices.Invoice[i].MovementStartTime,
-				DocumentsTotals: SalesInvoices.Invoice[i].DocumentsTotals,
+				DocumentTotals: SalesInvoices.Invoice[i].DocumentTotals,
 				WithholdingTax: SalesInvoices.Invoice[i].WithholdingTax,
+				FiscalYear:FiscalYear
 			};
 			const invoiceData = await InvoiceSchema.create(invoice).then((dados) => {
-				LinesInvoice(dados._id, SalesInvoices.Invoice[i].Line);
+				LinesInvoice(dados._id, SalesInvoices.Invoice[i].Line,FiscalYear);
 				return dados;
 			});
 		}
@@ -148,11 +152,12 @@ router.get('/test', async function (req, res, next) {
     var MovementOfGoods = jsonObj.AuditFile.SourceDocuments.MovementOfGoods;
     var MovementOfGoodsObj={
       NumberOfMovementLines: MovementOfGoods.NumberOfMovementLines,
-      TotalQuantityIssued: MovementOfGoods.TotalQuantityIssued
+	  TotalQuantityIssued: MovementOfGoods.TotalQuantityIssued,
+	  FiscalYear:FiscalYear
     }
-    const MovementOfGoodsData = await MovementOfGoodsSchema.create(MovementOfGoodsObj).then((dados) => {
+    const MovementOfGoodsData =await MovementOfGoodsSchema.create(MovementOfGoodsObj).then((dados) => {
       return dados;
-    });
+	});
 		for (let i = 0; i < parseInt(MovementOfGoods.NumberOfMovementLines); i++) {
 			stockMovement = {
 				DocumentNumber: MovementOfGoods.StockMovement[i].DocumentNumber,
@@ -174,10 +179,11 @@ router.get('/test', async function (req, res, next) {
 				ShipFrom: MovementOfGoods.StockMovement[i].ShipFrom,
 				MovementEndTime: MovementOfGoods.StockMovement[i].MovementEndTime,
 				MovementStartTime: MovementOfGoods.StockMovement[i].MovementStartTime,
-				DocumentsTotals: MovementOfGoods.StockMovement[i].DocumentsTotals,
+				DocumentTotals: MovementOfGoods.StockMovement[i].DocumentTotals,
+				FiscalYear:FiscalYear
 			};
 			const stockMovementData = await StockMovementSchema.create(stockMovement).then((dados) => {
-				LinesStockMovement(dados._id, MovementOfGoods.StockMovement[i].Line);
+				LinesStockMovement(dados._id, MovementOfGoods.StockMovement[i].Line,FiscalYear);
 				return dados;
 			});
 		}
@@ -222,7 +228,8 @@ router.get('/test', async function (req, res, next) {
       var PaymentsObj={
         NumberOfEntries: Payments.NumberOfEntries,
               TotalDebit: Payments.TotalDebit,
-              TotalCredit: Payments.TotalCredit
+			  TotalCredit: Payments.TotalCredit,
+			  FiscalYear:FiscalYear
       }
       const PaymentsData = await PaymentsSchema.create(PaymentsObj).then((dados) => {
         return dados;
@@ -247,7 +254,7 @@ router.get('/test', async function (req, res, next) {
 					WithholdingTax: Payments.Payment[i].WithholdingTax,
 				};
 				const paymentData = await PaymentSchema.create(payment).then((dados) => {
-					LinesPayment(dados._id, Payments.Payment[i].Line);
+					LinesPayment(dados._id, Payments.Payment[i].Line,FiscalYear);
 					return dados;
 				});
       }
@@ -369,34 +376,13 @@ const LinesCreditLine  = function (id , Lines) {
  }
 }
 
-const LinesInvoice = function (id, Lines) {
-	if (Lines.length)
-		for (let j = 0; j < Lines.length; j++) {
-			LineSchema.create(Lines[j], async function (err, data) {
-				const ola = await InvoiceSchema.findOneAndUpdate(
-					{ _id: data._id },
-					{ InvoiceId: id },
-					{ new: true, useFindAndModify: false }
-				);
-			});
-		}
-	else {
-		LineSchema.create(Lines, async function (err, data) {
-			const ola = await InvoiceSchema.findOneAndUpdate(
-				{ _id: data._id  },
-				{ InvoiceId: id },
-				{ new: true, useFindAndModify: false }
-			);
-		});
-	}
-};
-const LinesStockMovement = function (id, Lines) {
+const LinesInvoice = function (id, Lines,FiscalYear) {
 	if (Lines.length)
 		for (let j = 0; j < Lines.length; j++) {
 			LineSchema.create(Lines[j], async function (err, data) {
 				const ola = await LineSchema.findOneAndUpdate(
 					{ _id: data._id },
-					{StockMovementId: id },
+					{InvoiceId: id,FiscalYear:FiscalYear },
 					{ new: true, useFindAndModify: false }
 				);
 			});
@@ -405,19 +391,19 @@ const LinesStockMovement = function (id, Lines) {
 		LineSchema.create(Lines, async function (err, data) {
 			const ola = await LineSchema.findOneAndUpdate(
 				{ _id: data._id },
-				{StockMovementId: id },
+				{InvoiceId: id,FiscalYear:FiscalYear },
 				{ new: true, useFindAndModify: false }
 			);
 		});
 	}
 };
-const LinesWorkDocument = function (id, Lines) {
+const LinesStockMovement = function (id, Lines,FiscalYear) {
 	if (Lines.length)
 		for (let j = 0; j < Lines.length; j++) {
 			LineSchema.create(Lines[j], async function (err, data) {
 				const ola = await LineSchema.findOneAndUpdate(
 					{ _id: data._id },
-					{ WorkDocumentId: id },
+					{StockMovementId: id,FiscalYear:FiscalYear },
 					{ new: true, useFindAndModify: false }
 				);
 			});
@@ -426,20 +412,41 @@ const LinesWorkDocument = function (id, Lines) {
 		LineSchema.create(Lines, async function (err, data) {
 			const ola = await LineSchema.findOneAndUpdate(
 				{ _id: data._id },
-					{ WorkDocumentId: id },
+				{StockMovementId: id,FiscalYear:FiscalYear },
+				{ new: true, useFindAndModify: false }
+			);
+		});
+	}
+};
+const LinesWorkDocument = function (id, Lines,FiscalYear) {
+	if (Lines.length)
+		for (let j = 0; j < Lines.length; j++) {
+			LineSchema.create(Lines[j], async function (err, data) {
+				const ola = await LineSchema.findOneAndUpdate(
+					{ _id: data._id },
+					{ WorkDocumentId: id,FiscalYear:FiscalYear },
+					{ new: true, useFindAndModify: false }
+				);
+			});
+		}
+	else {
+		LineSchema.create(Lines, async function (err, data) {
+			const ola = await LineSchema.findOneAndUpdate(
+				{ _id: data._id },
+					{ WorkDocumentId: id,FiscalYear:FiscalYear },
 				{ new: true, useFindAndModify: false }
 			);
 		});
 	}
 };
 
-const LinesPayment = function (id, Lines) {
+const LinesPayment = function (id, Lines,FiscalYear) {
 	if (Lines.length)
 		for (let j = 0; j < Lines.length; j++) {
 			LineSchema.create(Lines[j], async function (err, data) {
 				const ola = await LineSchema.findOneAndUpdate(
 					{ _id: data._id },
-					{ PaymentId: id  },
+					{ PaymentId: id ,FiscalYear:FiscalYear },
 					{ new: true, useFindAndModify: false }
 				);
 			});
@@ -448,7 +455,7 @@ const LinesPayment = function (id, Lines) {
 		LineSchema.create(Lines, async function (err, data) {
 			const ola = await LineSchema.findOneAndUpdate(
 				{ _id: data._id },
-				{ PaymentId: id  },
+				{ PaymentId: id ,FiscalYear:FiscalYear },
 				{ new: true, useFindAndModify: false }
 			);
 		});

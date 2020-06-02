@@ -32,7 +32,8 @@ var LineSchema = new Schema({
 	TaxExemptionCode: { type: String },
 	SettlementAmount: { type: Number },
     CustomsInformation: { type: customsInformationSchema },
-    FiscalYear: {type:Number},
+	FiscalYear: {type:Number},
+	
 	InvoiceId: {
 		type: mongoose.Schema.Types.ObjectId,
 		ref: 'Invoice',
