@@ -16,14 +16,41 @@ LineController.getAllLine = function (req, res, next) {
 LineController.getTopProdutosYear = function (req, res, next) {
 	var year = req.params.year;
 	Line.aggregate(
-		([
-			{ $match: { FiscalYear: { $eq: year }, InvoiceId: { $exists: true } } },
-			{ $group: { _id: '$ProductCode', QuantidadeVendida: { $sum: '$Quantity' } } },
-			{ $sort: { QuantidadeVendida: 1 } },
-			{ $limit: 5 },
-		]),function(err,result){
-            console.log(result);
-        }
+		[
+			{
+				$match: {
+					FiscalYear: {
+						$eq: 2020,
+					},
+					InvoiceId: {
+						$exists: true,
+					},
+				},
+			},
+			{
+				$group: {
+					_id: '$ProductCode',
+                    Description: { $first: '$ProductDescription' },
+					Quantity: {
+						$sum: '$Quantity',
+					},
+					CreditAmount: {
+						$sum: '$CreditAmount',
+					},
+				},
+			},
+			{
+				$sort: {
+					Quantity: -1,
+				},
+			},
+			{
+				$limit: 5,
+			},
+		],
+		function (err, result) {
+			res.json(result);
+		}
 	);
 };
 module.exports = LineController;
