@@ -15,7 +15,7 @@ var SupplierSchema = new Schema({
     Telephone:String,
     Fax:String,
     Email:String,
-    WebSite:String,
+    Website:String,
     SelfBillingIndicator:Number,
 });
 
