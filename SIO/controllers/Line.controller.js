@@ -53,4 +53,5 @@ LineController.getTopProdutosYear = function (req, res, next) {
 		}
 	);
 };
+
 module.exports = LineController;
