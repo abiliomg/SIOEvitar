@@ -20,7 +20,7 @@ LineController.getTopProdutosYear = function (req, res, next) {
 			{
 				$match: {
 					FiscalYear: {
-						$eq: 2020,
+						$eq: parseInt(year),
 					},
 					InvoiceId: {
 						$exists: true,
