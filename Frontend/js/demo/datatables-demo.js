@@ -1,7 +1,12 @@
 // Call the dataTables jQuery plugin
+
+$.fn.dataTable.ext.errMode = 'none';
+
+
+
 $(document).ready(function() {
 
-	fetch("http://localhost:4000/product",{
+	fetch("http://localhost:4000/line/topProdutos/2020",{
 		headers:{
 			'Accept': 'application/json',
 			'Content-Type': 'application/json; charset=utf-8'
@@ -16,15 +21,20 @@ $(document).ready(function() {
 		}
 	}
 	).then(result=>{
-		$('#dataTableProdutos').DataTable({
+		
+
+		$('#dataTableProdutos2020').DataTable({
 			data: result,
 			columns: [
-			{ data: 'ProductType' },
-			{ data: 'ProductCode' },
-			{ data: 'ProductGroup' },
-			{ data: 'ProductDescription'},
-			{ data: 'ProductNumberCode'}
-			]
+			{ data: '_id' },
+			{ data: 'Description' },
+			{ data: 'Quantity' },
+			{ data: 'CreditAmount',render: $.fn.dataTable.render.number( '', '.', 2, '','€' )}
+			],
+			"order": [[ 2, "desc" ]],
+			"searching": false,
+			"paging": false,
+			"info": false
 		}
 		);
 
@@ -46,7 +56,7 @@ $(document).ready(function() {
 		}
 	}
 	).then(result=>{
-		$('#dataTableFornecedores').DataTable({
+		$('#dataTableFornecedores2020').DataTable({
 			data: result,
 			columns: [
 			{ data: 'CompanyName' },
@@ -54,14 +64,18 @@ $(document).ready(function() {
 			{ data: 'Fax' },
 			{ data: 'Email'},
 			{ data: 'Website'}
-			]
+			],
+			"order": [[ 4, "desc" ]],
+			"searching": false,
+			"paging": false,
+			"info": false
 		}
 		);
 
 	})
 	.catch(error => alert('Error! ' + error.message));
 
-	fetch("http://localhost:4000/customer",{
+	fetch("http://localhost:4000/invoice/topClientesAno/2020",{
 		headers:{
 			'Accept': 'application/json',
 			'Content-Type': 'application/json; charset=utf-8'
@@ -76,7 +90,83 @@ $(document).ready(function() {
 		}
 	}
 	).then(result=>{
-		$('#dataTableClientes').DataTable({
+	
+		$('#dataTableClientes2020').DataTable({
+			data: result,
+			costumerInfo : result.CustomerInfo,
+			columns: [
+			{ data: 'CustomerInfo.CompanyName' },
+			{ data: 'CustomerInfo.BillingAddress.AddressDetail' },
+			{ data: 'CustomerInfo.BillingAddress.City' },
+			{ data: 'CustomerInfo.BillingAddress.PostalCode'},
+			{ data: 'TotalDinheiro',render: $.fn.dataTable.render.number( '', '.', 2, '','€' )}
+			],
+			"order": [[ 4, "desc" ]],
+			"searching": false,
+			"paging": false,
+			"info": false
+		}
+		);
+
+	})
+	.catch(error => alert('Error! ' + error.message));
+});
+
+
+
+$(document).ready(function() {
+
+	fetch("http://localhost:4000/line/topProdutos/2019",{
+		headers:{
+			'Accept': 'application/json',
+			'Content-Type': 'application/json; charset=utf-8'
+		},       
+		method: 'GET'
+	}).then(
+	response=>{
+		if(response.ok){
+			return response.json();
+		}else{
+			throw new Error("something went wrong");
+		}
+	}
+	).then(result=>{
+		
+
+		$('#dataTableProdutos2019').DataTable({
+			data: result,
+			columns: [
+			{ data: '_id' },
+			{ data: 'Description' },
+			{ data: 'Quantity' },
+			{ data: 'CreditAmount',render: $.fn.dataTable.render.number( '', '.', 2, '','€' )}
+			],
+			"order": [[ 2, "desc" ]],
+			"searching": false,
+			"paging": false,
+			"info": false
+		}
+		);
+
+	})
+	.catch(error => alert('Error! ' + error.message));
+
+	fetch("http://localhost:4000/supplier",{
+		headers:{
+			'Accept': 'application/json',
+			'Content-Type': 'application/json; charset=utf-8'
+		},       
+		method: 'GET'
+	}).then(
+	response=>{
+		if(response.ok){
+			return response.json();
+		}else{
+			throw new Error("something went wrong");
+		}
+	}
+	).then(result=>{
+		$('#dataTableFornecedores2019').DataTable({
 			data: result,
 			columns: [
 			{ data: 'CompanyName' },
@@ -84,13 +174,52 @@ $(document).ready(function() {
 			{ data: 'Fax' },
 			{ data: 'Email'},
 			{ data: 'Website'}
-			]
+			],
+			"order": [[ 4, "desc" ]],
+			"searching": false,
+			"paging": false,
+			"info": false
 		}
 		);
 
 	})
 	.catch(error => alert('Error! ' + error.message));
 
-	
-	
+	fetch("http://localhost:4000/invoice/topClientesAno/2019",{
+		headers:{
+			'Accept': 'application/json',
+			'Content-Type': 'application/json; charset=utf-8'
+		},       
+		method: 'GET'
+	}).then(
+	response=>{
+		if(response.ok){
+			return response.json();
+		}else{
+			throw new Error("something went wrong");
+		}
+	}
+	).then(result=>{
+		console.log(result);
+
+
+		$('#dataTableClientes2019').DataTable({
+			data: result,
+			costumerInfo : result.CustomerInfo,
+			columns: [
+			{ data: 'CustomerInfo.CompanyName' },
+			{ data: 'CustomerInfo.BillingAddress.AddressDetail' },
+			{ data: 'CustomerInfo.BillingAddress.City' },
+			{ data: 'CustomerInfo.BillingAddress.PostalCode'},
+			{ data: 'TotalDinheiro',render: $.fn.dataTable.render.number( '', '.', 2, '','€' )}
+			],
+			"order": [[ 4, "desc" ]],
+			"searching": false,
+			"paging": false,
+			"info": false
+		}
+		);
+
+	})
+	.catch(error => alert('Error! ' + error.message));
 });

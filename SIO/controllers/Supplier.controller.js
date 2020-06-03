@@ -13,4 +13,6 @@ SupplierController.getAllSupplier = function (req, res, next) {
 	});
 };
 
+
+
 module.exports = SupplierController;

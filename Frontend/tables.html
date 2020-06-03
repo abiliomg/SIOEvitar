@@ -74,180 +74,228 @@
           <!-- Content Wrapper -->
           <div id="content-wrapper" class="d-flex flex-column">
 
-            <!-- Main Content -->
-            <div id="content">
+           <select class="bootstrap-select" id="selectYearTables">
+            <option value="2020" selected="selected">2020</option>
+            <option value="2019">2019</option>
+          </select>
 
+          <!-- Main Content -->
+          <div id="tables2020">
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
 
+              <!-- Page Heading -->
+              <h1 class="h3 mb-2 text-gray-800">Tabelas</h1>
+              <p class="mb-4"><a target="_blank" href="https://datatables.net">official DataTables documentation</a></p>
 
-              <!-- Begin Page Content -->
-              <div class="container-fluid">
-
-                <!-- Page Heading -->
-                <h1 class="h3 mb-2 text-gray-800">Tabelas</h1>
-                <p class="mb-4"><a target="_blank" href="https://datatables.net">official DataTables documentation</a></p>
-
-                <!-- DataTales Example -->
-                <div class="card shadow mb-4">
-                  <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Top Produtos</h6>
-                  </div>
-                  <div class="card-body">
-                    <div class="table-responsive">
-                      <table class="table table-bordered" id="dataTableProdutos" width="100%" cellspacing="0">
-                        <thead>
-                          <tr>
-                            <th>Tipo</th>
-                            <th>Código</th>
-                            <th>Grupo</th>
-                            <th>Descrição</th>
-                            <th>Código Numérico</th>
-                          </tr>
-                        </thead>
-                        <tfoot>
-                          <tr>
-                            <th>Tipo</th>
-                            <th>Código</th>
-                            <th>Grupo</th>
-                            <th>Descrição</th>
-                            <th>Código Numérico</th>
-                          </tr>
-                        </tfoot>
-                        <tbody>                  
-                        </tbody>
-                      </table>
-                    </div>
+              <!-- DataTales Example -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTableProdutos2020" width="100%" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>Código</th>
+                          <th>Descrição</th>
+                          <th>Quantidade</th>    
+                          <th>Valor Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>                  
+                      </tbody>
+                    </table>
                   </div>
                 </div>
+              </div>
 
-                <div class="card shadow mb-4">
-                  <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Top de Fornecedores</h6>
-                  </div>
-                  <div class="card-body">
-                    <div class="table-responsive">
-                      <table class="table table-bordered" id="dataTableFornecedores" width="100%" cellspacing="0">
-                        <thead>
-                          <tr>
-                            <th>Nome</th>
-                            <th>Telefone</th>
-                            <th>Fax</th>
-                            <th>Email</th>
-                            <th>Website</th>
-                          </tr>
-                        </thead>
-                        <tfoot>
-                          <tr>
-                            <th>Nome</th>
-                            <th>Telefone</th>
-                            <th>Fax</th>
-                            <th>Email</th>
-                            <th>Website</th>
-                          </tr>
-                        </tfoot>
-                        <tbody>                
-                        </tbody>
-                      </table>
-                    </div>
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Top de Fornecedores</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTableFornecedores2020" width="100%" cellspacing="0">
+                      <thead>
+                       <tr>
+                          <th>Nome</th>
+                          <th>Morada</th>
+                          <th>Cidade</th>
+                          <th>Código Postal</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>                
+                      </tbody>
+                    </table>
                   </div>
                 </div>
+              </div>
 
-                <div class="card shadow mb-4">
-                  <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Top de Clientes</h6>
-                  </div>
-                  <div class="card-body">
-                    <div class="table-responsive">
-                      <table class="table table-bordered" id="dataTableClientes" width="100%" cellspacing="0">
-                        <thead>
-                          <tr>
-                            <th>Nome</th>
-                            <th>Telefone</th>
-                            <th>Fax</th>
-                            <th>Email</th>
-                            <th>Website</th>
-                          </tr>
-                        </thead>
-                        <tfoot>
-                          <tr>
-                            <th>Nome</th>
-                            <th>Telefone</th>
-                            <th>Fax</th>
-                            <th>Email</th>
-                            <th>Website</th>
-                          </tr>
-                        </tfoot>
-                        <tbody>
-                        </tbody>
-                      </table>
-                    </div>
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Top 5 Clientes</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTableClientes2020" width="100%" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>Nome</th>
+                          <th>Morada</th>
+                          <th>Cidade</th>
+                          <th>Código Postal</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
-
-
-
+              </div>
             </div>
             <!-- /.container-fluid -->
 
           </div>
           <!-- End of Main Content -->
 
-          <!-- Footer -->
-          <footer class="sticky-footer bg-white">
-            <div class="container my-auto">
-              <div class="copyright text-center my-auto">
-                <span>Copyright &copy; EVITAR 2020</span>
+          <div id="tables2019">
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+              <!-- Page Heading -->
+              <h1 class="h3 mb-2 text-gray-800">Tabelas</h1>
+              <p class="mb-4"><a target="_blank" href="https://datatables.net">official DataTables documentation</a></p>
+
+              <!-- DataTales Example -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTableProdutos2019" width="100%" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>Código</th>
+                          <th>Descrição</th>
+                          <th>Quantidade</th>    
+                          <th>Valor Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>                  
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Top de Fornecedores</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTableFornecedores2019" width="100%" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>Nome</th>
+                          <th>Morada</th>
+                          <th>Cidade</th>
+                          <th>Código Postal</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>                
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Top de Clientes</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTableClientes2019" width="100%" cellspacing="0">
+                      <thead>
+                       <tr>
+                        <th>Nome</th>
+                        <th>Morada</th>
+                        <th>Cidade</th>
+                        <th>Código Postal</th>
+                        <th>Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
-          </footer>
-          <!-- End of Footer -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+              <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                  <span>Copyright &copy; EVITAR 2020</span>
+                </div>
+              </div>
+            </footer>
+            <!-- End of Footer -->
+
+          </div>
+          <!-- End of Content Wrapper -->
 
         </div>
-        <!-- End of Content Wrapper -->
+        <!-- End of Page Wrapper -->
 
-      </div>
-      <!-- End of Page Wrapper -->
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+          <i class="fas fa-angle-up"></i>
+        </a>
 
-      <!-- Scroll to Top Button-->
-      <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-      </a>
-
-      <!-- Logout Modal-->
-      <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-              <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-              <a class="btn btn-primary" href="login.html">Logout</a>
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-primary" href="login.html">Logout</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Bootstrap core JavaScript-->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      <!-- Core plugin JavaScript-->
-      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-      <!-- Custom scripts for all pages-->
-      <script src="js/sb-admin-2.min.js"></script>
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
 
-      <!-- Page level plugins -->
-      <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-      <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+        <!-- Page level plugins -->
+        <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+        <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
-      <!-- Page level custom scripts -->
-      <script src="js/demo/datatables-demo.js"></script>
+        <!-- Page level custom scripts -->
+        <script src="js/demo/datatables-demo.js"></script>
 
-    </body>
+      </body>
 
-    </html>
+      </html>

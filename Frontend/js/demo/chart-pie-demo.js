@@ -5,32 +5,31 @@ Chart.defaults.global.defaultFontColor = '#858796';
 // Pie Chart Example
 
 fetch("http://localhost:4000/supplier",{
-    headers:{
-      'Accept': 'application/json',
-      'Content-Type': 'application/json; charset=utf-8'
-    },       
-    method: 'GET'
-  }).then(
-  response=>{
-    if(response.ok){
-      return response.json();
-    }else{
-      throw new Error("something went wrong");
-    }
+  headers:{
+    'Accept': 'application/json',
+    'Content-Type': 'application/json; charset=utf-8'
+  },       
+  method: 'GET'
+}).then(
+response=>{
+  if(response.ok){
+    return response.json();
+  }else{
+    throw new Error("something went wrong");
   }
-  ).then(result=>{
+}
+).then(result=>{
 
  var labels = [];
 
-  console.log(result[0].CompanyName);
-  for(let i = 0; i < result.length; i++){
-    labels.push(result[i].CompanyName);
-  }
-  
+ console.log(result[0].CompanyName);
+ for(let i = 0; i < result.length; i++){
+  labels.push(result[i].CompanyName);
+}
 
 
-  var ctx = document.getElementById("myPieChart");
-  var myPieChart = new Chart(ctx, {
+var ctx = document.getElementById("myPieChart");
+var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
     labels: labels,
@@ -60,9 +59,72 @@ fetch("http://localhost:4000/supplier",{
   },
 });
 
-    
-
-  }).catch(error => alert('Error! ' + error.message));
 
 
+}).catch(error => alert('Error! ' + error.message));
+
+
+fetch("http://localhost:4000/salesInvoice/InvoiceCreditYear",{
+  headers:{
+    'Accept': 'application/json',
+    'Content-Type': 'application/json; charset=utf-8'
+  },       
+  method: 'GET'
+}).then(
+response=>{
+  if(response.ok){
+    return response.json();
+  }else{
+    throw new Error("something went wrong");
+  }
+}
+).then(result=>{
+
+  console.log(result[0].TotalCredit);
+  document.getElementById("FatAnual").innerHTML = result[0].TotalCredit + "€";
+});
+
+
+$("#charts2019").hide();
+console.log("yooo");
+
+$(document).ready(function(){
+  $('#selectYear').on('change', function() {
+    if ( this.value == '2020')
+    {
+      $("#charts2020").show();
+      $("#charts2019").hide();
+
+    }
+    else
+    {
+      if (this.value == '2019') {
+        $("#charts2019").show();
+        $("#charts2020").hide();
+      }
+    }
+  });
+});
+
+console.log("teste");
+
+$("#tables2019").hide();
+
+$(document).ready(function(){
+  $('#selectYearTables').on('change', function() {
+    if ( this.value == '2020')
+    {
+      $("#tables2020").show();
+      $("#tables2019").hide();
+
+    }
+    else
+    {
+      if (this.value == '2019') {
+        $("#tables2019").show();
+        $("#tables2020").hide();
+      }
+    }
+  });
+});
 
