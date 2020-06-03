@@ -31,7 +31,7 @@ InvoiceController.topClientesAno = async function (req, res, next) {
     }},
     {
         $unwind:{path:"$CustomerInfo"}
-    }
+    },{$limit: 5}
     ], function (err, result) {
 		res.json(result);
 	});
