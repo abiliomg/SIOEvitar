@@ -28,10 +28,7 @@ InvoiceController.topClientesAno = async function (req, res, next) {
         localField:'_id',
         foreignField:'CustomerID',
         as:'CustomerInfo'
-    }},
-    {
-        $unwind:{path:"$CustomerInfo"}
-    },{$limit: 5}
+    }}
     ], function (err, result) {
 		res.json(result);
 	});
