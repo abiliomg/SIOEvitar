@@ -77,4 +77,31 @@ TransactionController.getMediaComprasPorMes=function(req,res,next){
 	)
 }
 
+TransactionController.getComprasAno=function(req,res,next){
+	Transaction.aggregate(
+		[{$match: {
+			FiscalYear:2020,
+			TransactionID:/00041/
+			}}, {$lookup: {
+			from: 'creditlines',
+			localField: 'Lines.CreditLine',
+			foreignField: '_id',
+			as: 'data'
+		  }}, {$unwind: {
+			path: "$data"
+		  }}, {$group: {
+			_id:null,
+			TotalDinheiro:{
+			  $sum:"$data.CreditAmount"
+			}
+		  }}, {$sort: {
+			_id: 1
+		  }}]
+	,
+	function (err, result) {
+		res.json(result);
+	}
+	)
+}
+
 module.exports = TransactionController;
