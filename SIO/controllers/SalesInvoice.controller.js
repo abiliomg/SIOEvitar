@@ -15,7 +15,10 @@ SalesInvoiceController.getAllSalesInvoice = function (req, res, next) {
 };
 
 SalesInvoiceController.getInvoiceCreditYear = function (req, res, next) {
-    SalesInvoice.find(function (err, salesInvoices) {
+    SalesInvoice.find({
+        "FiscalYear":2020
+    },
+        function (err, salesInvoices) {
         if (err) {
             next(err);
         } else {
