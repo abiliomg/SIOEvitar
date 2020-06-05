@@ -7,14 +7,14 @@ function number_format(number, decimals, dec_point, thousands_sep) {
   // *     return: '1 234,56'
   number = (number + '').replace(',', '').replace(' ', '');
   var n = !isFinite(+number) ? 0 : +number,
-    prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
-    sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,
-    dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
-    s = '',
-    toFixedFix = function(n, prec) {
-      var k = Math.pow(10, prec);
-      return '' + Math.round(n * k) / k;
-    };
+  prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
+  sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,
+  dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
+  s = '',
+  toFixedFix = function(n, prec) {
+    var k = Math.pow(10, prec);
+    return '' + Math.round(n * k) / k;
+  };
   // Fix for IE parseFloat(0.55).toFixed(0) = 0;
   s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.');
   if (s[0].length > 3) {
@@ -27,16 +27,82 @@ function number_format(number, decimals, dec_point, thousands_sep) {
   return s.join(dec);
 }
 
+
+
+
+
+vendasAreaChart(2020);
+
+async function vendasAreaChart(year){
+
+  let vendas2020 = await getVendasAno(year);
+  let vendas2019 = await getVendasAno(year -1);
+  var yearBefore = year - 1;
+
+  var totalDinheiro2020 = [];
+  var totalDinheiro2019 = [];
+  var vendasTotais = [];
+  var labels = ["Janeiro", "Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+
+  var canvasDiv = document.getElementById('myAreaChartDiv');
+  var oldCanvas = document.getElementById('myAreaChart');
+
+  oldCanvas.parentNode.removeChild(oldCanvas);
+
+  var canv = document.createElement('canvas');
+  canv.id = 'myAreaChart';
+  canvasDiv.appendChild(canv);
+
+  for(let i = 0; i < 12 ;i++){
+
+    if(i != 0){
+
+      if(typeof vendas2019[i] === 'undefined'){
+        soma2019 = 0;
+      }else{
+        soma2019 = totalDinheiro2019[i-1] + vendas2019[i].TotalDinheiro;
+      }
+
+      if(typeof vendas2020[i] === 'undefined'){
+        soma2020 = 0;
+      }else{
+        soma2020 = totalDinheiro2020[i-1] + vendas2020[i].TotalDinheiro;
+      }
+
+      totalDinheiro2019.push(soma2019);
+      totalDinheiro2020.push(soma2020);
+    }
+    else{
+      if(typeof vendas2019[i] !== 'undefined'){
+        totalDinheiro2019.push(vendas2019[i].TotalDinheiro);
+        console.log(totalDinheiro2019[i]);
+      }else{
+         totalDinheiro2019.push(0);
+      }
+      if(typeof vendas2020[i] !== 'undefined'){
+        totalDinheiro2020.push(vendas2020[i].TotalDinheiro);
+      }
+    }
+  }
+
+
+  var lab = document.getElementById('myVendasTrimestraisChartLabels') ;
+
+  lab.innerHTML = "";
+
+  lab.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:#4E73DF"></i>'+ year +'</span>';
+  lab.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:#EE7334"></i>'+ yearBefore +'</span>';
+
 // Area Chart Example
 var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    labels: labels,
     datasets: [{
-      label: "Earnings",
+      label: "Vendas " + year ,
       lineTension: 0.3,
-      backgroundColor: "rgba(78, 115, 223, 0.05)",
+      backgroundColor: "rgba(78, 115, 223, 0.1)",
       borderColor: "rgba(78, 115, 223, 1)",
       pointRadius: 3,
       pointBackgroundColor: "rgba(78, 115, 223, 1)",
@@ -46,8 +112,24 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [0, 10000, 5000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000],
-    }],
+      data: totalDinheiro2020 ,
+    },
+    {
+      label: "vendas " + (year - 1),
+      lineTension: 0.3,
+      backgroundColor: "rgba(238, 145, 52, 0.1)",
+      borderColor: "rgba(238, 145, 52, 1)",
+      pointRadius: 3,
+      pointBackgroundColor: "rgba(238, 145, 52, 1)",
+      pointBorderColor: "rgba(238, 145, 52, 1)",
+      pointHoverRadius: 3,
+      pointHoverBackgroundColor: "rgba(238, 145, 52, 1)",
+      pointHoverBorderColor: "rgba(238, 145, 52, 1)",
+      pointHitRadius: 10,
+      pointBorderWidth: 2,
+      data: totalDinheiro2019,
+    }
+    ],
   },
   options: {
     maintainAspectRatio: false,
@@ -78,7 +160,7 @@ var myLineChart = new Chart(ctx, {
           padding: 10,
           // Include a dollar sign in the ticks
           callback: function(value, index, values) {
-            return '$' + number_format(value);
+            return '€' + number_format(value);
           }
         },
         gridLines: {
@@ -110,9 +192,18 @@ var myLineChart = new Chart(ctx, {
       callbacks: {
         label: function(tooltipItem, chart) {
           var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
-          return datasetLabel + ': $' + number_format(tooltipItem.yLabel);
+          return datasetLabel + ': €' + number_format(tooltipItem.yLabel);
         }
       }
     }
   }
+});
+}
+
+$(document).ready(function(){
+  $('#selectYear').on('change', function() {
+
+     vendasAreaChart(this.value);
+
+  });
 });

@@ -73,58 +73,55 @@
 
           <!-- Content Wrapper -->
           <div id="content-wrapper" class="d-flex flex-column">
+            <!-- Main Content -->
+            <div id="tables2020">
+              <!-- Begin Page Content -->
+              <div class="container-fluid">
 
-           <select class="bootstrap-select" id="selectYearTables">
-            <option value="2020" selected="selected">2020</option>
-            <option value="2019">2019</option>
-          </select>
+                <!-- Page Heading -->
+                <h1 class="h3 mb-2 text-gray-800">Tabelas</h1>
+                <!--<p class="mb-4"><a target="_blank" href="https://datatables.net">official DataTables documentation</a></p>-->
 
-          <!-- Main Content -->
-          <div id="tables2020">
-            <!-- Begin Page Content -->
-            <div class="container-fluid">
-
-              <!-- Page Heading -->
-              <h1 class="h3 mb-2 text-gray-800">Tabelas</h1>
-              <p class="mb-4"><a target="_blank" href="https://datatables.net">official DataTables documentation</a></p>
-
-              <!-- DataTales Example -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos</h6>
-                </div>
-                <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTableProdutos2020" width="100%" cellspacing="0">
-                      <thead>
-                        <tr>
-                          <th>Código</th>
-                          <th>Descrição</th>
-                          <th>Quantidade</th>    
-                          <th>Valor Total</th>
-                        </tr>
-                      </thead>
-                      <tbody>                  
-                      </tbody>
-                    </table>
+                <!-- DataTales Example -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Produtos</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-bordered" id="dataTableProdutos2020" width="100%" cellspacing="0">
+                        <thead>
+                          <tr>
+                            <th>Tipo Produto</th>
+                            <th>Código</th>
+                            <th>Grupo</th>    
+                            <th>Nome</th>
+                            <th>Código Numerico</th>
+                          </tr>
+                        </thead>
+                        <tbody>                  
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Top de Fornecedores</h6>
-                </div>
-                <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTableFornecedores2020" width="100%" cellspacing="0">
-                      <thead>
-                       <tr>
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Fornecedores</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-bordered" id="dataTableFornecedores2020" width="100%" cellspacing="0">
+                        <thead>
+                         <tr>
                           <th>Nome</th>
+                          <th>Telefone</th>
+                          <th>Fax</th>
                           <th>Morada</th>
                           <th>Cidade</th>
                           <th>Código Postal</th>
-                          <th>Total</th>
+                          <th>Website</th>
                         </tr>
                       </thead>
                       <tbody>                
@@ -136,7 +133,7 @@
 
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Top 5 Clientes</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Clientes</h6>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
@@ -144,10 +141,11 @@
                       <thead>
                         <tr>
                           <th>Nome</th>
+                          <th>Telefone</th>
+                          <th>Fax</th>
                           <th>Morada</th>
                           <th>Cidade</th>
                           <th>Código Postal</th>
-                          <th>Total</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -159,85 +157,7 @@
             </div>
             <!-- /.container-fluid -->
 
-          </div>
-          <!-- End of Main Content -->
 
-          <div id="tables2019">
-            <!-- Begin Page Content -->
-            <div class="container-fluid">
-
-              <!-- Page Heading -->
-              <h1 class="h3 mb-2 text-gray-800">Tabelas</h1>
-              <p class="mb-4"><a target="_blank" href="https://datatables.net">official DataTables documentation</a></p>
-
-              <!-- DataTales Example -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos</h6>
-                </div>
-                <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTableProdutos2019" width="100%" cellspacing="0">
-                      <thead>
-                        <tr>
-                          <th>Código</th>
-                          <th>Descrição</th>
-                          <th>Quantidade</th>    
-                          <th>Valor Total</th>
-                        </tr>
-                      </thead>
-                      <tbody>                  
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Top de Fornecedores</h6>
-                </div>
-                <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTableFornecedores2019" width="100%" cellspacing="0">
-                      <thead>
-                        <tr>
-                          <th>Nome</th>
-                          <th>Morada</th>
-                          <th>Cidade</th>
-                          <th>Código Postal</th>
-                          <th>Total</th>
-                        </tr>
-                      </thead>
-                      <tbody>                
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Top de Clientes</h6>
-                </div>
-                <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTableClientes2019" width="100%" cellspacing="0">
-                      <thead>
-                       <tr>
-                        <th>Nome</th>
-                        <th>Morada</th>
-                        <th>Cidade</th>
-                        <th>Código Postal</th>
-                        <th>Total</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">

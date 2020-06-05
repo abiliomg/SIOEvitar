@@ -47,7 +47,7 @@ var WorkingDocuments = mongoose.model('WorkingDocuments').schema;
 var PaymentsSchema = require('../models/Payments.model.js');
 var Payments = mongoose.model('Payments').schema;
 router.get('/test', async function (req, res, next) {
-	var fileXml = path.join(__dirname, '../public/SAFT_EVITAR_01-01-2020_31-12-2020.xml');
+	var fileXml = path.join(__dirname, '../public/SAFT_EVITAR_01-01-2019_31-12-2019.xml');
 
 	fs.readFile(fileXml, 'utf8', async function (err, xml) {
 		if (err) throw err;
