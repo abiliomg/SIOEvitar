@@ -9,8 +9,7 @@ var TransactionSchema = new Schema({
 	DocArchivalNumber: String,
 	TransactionType: String,
 	GlPostingDate: Date,
-	CustomerID: String,
-	SupplierID: String,
+	FiscalYear:Number,
 	Lines: {
 		CreditLine: [
 			{

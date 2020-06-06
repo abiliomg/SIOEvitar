@@ -47,7 +47,7 @@ var WorkingDocuments = mongoose.model('WorkingDocuments').schema;
 var PaymentsSchema = require('../models/Payments.model.js');
 var Payments = mongoose.model('Payments').schema;
 router.get('/test', async function (req, res, next) {
-	var fileXml = path.join(__dirname, '../public/SAFT_EVITAR_01-01-2020_31-12-2020.xml');
+	var fileXml = path.join(__dirname, '../public/SAFT_EVITAR_01-01-2019_31-12-2019.xml');
 
 	fs.readFile(fileXml, 'utf8', async function (err, xml) {
 		if (err) throw err;
@@ -60,7 +60,7 @@ router.get('/test', async function (req, res, next) {
 
     //TaxTableEntrys
     var TaxTableEntrys = jsonObj.AuditFile.MasterFiles.TaxTable.TaxTableEntry;
-		for (let i = 0; i < TaxTableEntry.length; i++) {
+		for (let i = 0; i < TaxTableEntrys.length; i++) {
 			const TaxTableEntryData = await TaxTableEntrySchema.create(TaxTableEntrys[i]).then((dados) => {
 				return dados;
 			});
@@ -149,7 +149,8 @@ router.get('/test', async function (req, res, next) {
 			});
 		}
 
-    var MovementOfGoods = jsonObj.AuditFile.SourceDocuments.MovementOfGoods;
+	var MovementOfGoods = jsonObj.AuditFile.SourceDocuments.MovementOfGoods;
+	if(MovementOfGoods){
     var MovementOfGoodsObj={
       NumberOfMovementLines: MovementOfGoods.NumberOfMovementLines,
 	  TotalQuantityIssued: MovementOfGoods.TotalQuantityIssued,
@@ -187,7 +188,7 @@ router.get('/test', async function (req, res, next) {
 				return dados;
 			});
 		}
-
+	}
 		var WorkingDocuments = jsonObj.AuditFile.SourceDocuments.WorkingDocuments;
     if (WorkingDocuments){
     var WorkingDocumentsObj={
@@ -269,14 +270,14 @@ router.get('/test', async function (req, res, next) {
 				};
 				const journalData = await JournalSchema.create(journal).then((dados) => {
 					//Criar Journal
-					LinesTransaction(dados._id,Journals[i].Transaction);
+					LinesTransaction(dados._id,Journals[i].Transaction,FiscalYear);
 					return dados;
 				});
 			}
 	});
 });
 
-const LinesTransaction =async function (id , Lines) { //ID journal
+const LinesTransaction =async function (id , Lines,FiscalYear) { //ID journal
   if (Lines.length)
     for (let i = 0; i < Lines.length; i++) {
       transaction = {
@@ -287,17 +288,11 @@ const LinesTransaction =async function (id , Lines) { //ID journal
         Description: Lines[i].Description,
         DocArchivalNumber: Lines[i].DocArchivalNumber,
         TransactionType: Lines[i].TransactionType,
-        GlPostingDate: Lines[i].GlPostingDate,
-        CustomerID: Lines[i].CustomerID,
-        SupplierID: Lines[i].SupplierID,
+		GlPostingDate: Lines[i].GlPostingDate,
+		FiscalYear:FiscalYear,
         Lines:{}
       }
       TransactionSchema.create(transaction, async function (err, dados) { 
-        const ola = await JournalSchema.findOneAndUpdate(
-          { _id: id },
-          { $push: { Transaction: dados._id } },
-          { new: true, useFindAndModify: false }
-          );
         LinesDebitLine(dados._id,Lines[i].Lines.DebitLine);
         LinesCreditLine(dados._id,Lines[i].Lines.CreditLine);
         return dados;
@@ -313,17 +308,11 @@ const LinesTransaction =async function (id , Lines) { //ID journal
         Description: Lines.Description,
         DocArchivalNumber: Lines.DocArchivalNumber,
         TransactionType: Lines.TransactionType,
-        GlPostingDate: Lines.GlPostingDate,
-        CustomerID: Lines.CustomerID,
-        SupplierID: Lines.SupplierID,
+		GlPostingDate: Lines.GlPostingDate,
+		FiscalYear:FiscalYear,
         Lines:{}
       }
       TransactionSchema.create(transaction, async function (err, dados) {
-        const ola = await JournalSchema.findOneAndUpdate(
-          { _id: id },
-          { $push: { Transaction: dados._id } },
-          { new: true, useFindAndModify: false }
-          );
         LinesDebitLine(dados._id,Lines.Lines.DebitLine);
         LinesCreditLine(dados._id,Lines.Lines.CreditLine);
         return dados;

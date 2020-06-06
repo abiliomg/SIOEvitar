@@ -48,6 +48,42 @@
 
 })(jQuery); // End of use strict
 
+fetch("http://localhost:4000/salesInvoice/InvoiceCreditYear",{
+  headers:{
+    'Accept': 'application/json',
+    'Content-Type': 'application/json; charset=utf-8'
+  },       
+  method: 'GET'
+}).then(
+response=>{
+  if(response.ok){
+    return response.json();
+  }else{
+    throw new Error("something went wrong");
+  }
+}
+).then(result=>{
+  document.getElementById("FatAnual").innerHTML = result[0].TotalCredit + "€";
+});
+
+
+fetch("http://localhost:4000/invoice/mediaVendasAno/2020",{
+  headers:{
+    'Accept': 'application/json',
+    'Content-Type': 'application/json; charset=utf-8'
+  },       
+  method: 'GET'
+}).then(
+response=>{
+  if(response.ok){
+    return response.json();
+  }else{
+    throw new Error("something went wrong");
+  }
+}
+).then(result=>{
+  document.getElementById("mediaMensal").innerHTML = result[0].MediaDinheiro.toFixed(2) + "€";
+});
 
 
 

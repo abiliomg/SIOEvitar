@@ -5,7 +5,16 @@ var ProductController = {};
 
 
 ProductController.getAllProduct = function (req, res, next) {
-    Product.find(function (err, products) {
+    Product.aggregate(
+        [{$group: {
+            _id:{ProductType:"$ProductType",
+            ProductCode: "$ProductCode",
+            ProductGroup: "$ProductGroup",
+            ProductDescription: "$ProductDescription",
+            ProductNumberCode: "$ProductNumberCode"
+        }
+		  }}],   
+        function (err, products) {
         if (err) {
             next(err);
         } else {
