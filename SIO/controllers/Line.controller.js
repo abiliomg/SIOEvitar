@@ -75,6 +75,28 @@ LineController.getQuantityFirst=function(req,res,next){
 		}
 	)
 }
+LineController.getMoneyFirst=function(req,res,next){
+	var year=req.params.year;
+	var code=req.params.code;
+	Line.aggregate(
+		[{$match: {
+			ProductCode:code,
+			TaxPointDate:{
+			  $gte:new Date(year+"-01-01T00:00:00.000Z"),
+			  $lte:new Date(year+"-03-31T23:59:59.000Z")
+			},
+			InvoiceId: {$exists:true}
+		  }}, {$group: {
+			_id:"$ProductCode",
+			QuantidadeVendida:{$sum:"$CreditAmount"}
+		  }}]
+		  ,
+		function (err, result) {
+			res.json(result);
+		}
+	)
+}
+
 LineController.getQuantitySecond=function(req,res,next){
 	var year=req.params.year;
 	var code=req.params.code;
@@ -96,6 +118,28 @@ LineController.getQuantitySecond=function(req,res,next){
 		}
 	)
 }
+LineController.getMoneySecond=function(req,res,next){
+	var year=req.params.year;
+	var code=req.params.code;
+	Line.aggregate(
+		[{$match: {
+			ProductCode:code,
+			TaxPointDate:{
+			  $gte:new Date(year+"-04-01T00:00:00.000Z"),
+			  $lte:new Date(year+"-06-30T23:59:59.000Z")
+			},
+			InvoiceId: {$exists:true}
+		  }}, {$group: {
+			_id:"$ProductCode",
+			QuantidadeVendida:{$sum:"$CreditAmount"}
+		  }}]
+		  ,
+		function (err, result) {
+			res.json(result);
+		}
+	)
+}
+
 LineController.getQuantityThird=function(req,res,next){
 	var year=req.params.year;
 	var code=req.params.code;
@@ -117,6 +161,27 @@ LineController.getQuantityThird=function(req,res,next){
 		}
 	)
 }
+LineController.getMoneyThird=function(req,res,next){
+	var year=req.params.year;
+	var code=req.params.code;
+	Line.aggregate(
+		[{$match: {
+			ProductCode:code,
+			TaxPointDate:{
+			  $gte:new Date(year+"-07-01T00:00:00.000Z"),
+			  $lte:new Date(year+"-09-30T23:59:59.000Z")
+			},
+			InvoiceId: {$exists:true}
+		  }}, {$group: {
+			_id:"$ProductCode",
+			QuantidadeVendida:{$sum:"$CreditAmount"}
+		  }}]
+		  ,
+		function (err, result) {
+			res.json(result);
+		}
+	)
+}
 LineController.getQuantityForth=function(req,res,next){
 	var year=req.params.year;
 	var code=req.params.code;
@@ -131,6 +196,27 @@ LineController.getQuantityForth=function(req,res,next){
 		  }}, {$group: {
 			_id:"$ProductCode",
 			QuantidadeVendida:{$sum:"$Quantity"}
+		  }}]
+		  ,
+		function (err, result) {
+			res.json(result);
+		}
+	)
+}
+LineController.getMoneyForth=function(req,res,next){
+	var year=req.params.year;
+	var code=req.params.code;
+	Line.aggregate(
+		[{$match: {
+			ProductCode:code,
+			TaxPointDate:{
+			  $gte:new Date(year+"-10-01T00:00:00.000Z"),
+			  $lte:new Date(year+"-12-31T23:59:59.000Z")
+			},
+			InvoiceId: {$exists:true}
+		  }}, {$group: {
+			_id:"$ProductCode",
+			QuantidadeVendida:{$sum:"$CreditAmount"}
 		  }}]
 		  ,
 		function (err, result) {
