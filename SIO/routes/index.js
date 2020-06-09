@@ -150,16 +150,18 @@ router.get('/test', async function (req, res, next) {
 		}
 
 	var MovementOfGoods = jsonObj.AuditFile.SourceDocuments.MovementOfGoods;
+
 	if(MovementOfGoods){
     var MovementOfGoodsObj={
       NumberOfMovementLines: MovementOfGoods.NumberOfMovementLines,
 	  TotalQuantityIssued: MovementOfGoods.TotalQuantityIssued,
 	  FiscalYear:FiscalYear
-    }
+	}
+	
     const MovementOfGoodsData =await MovementOfGoodsSchema.create(MovementOfGoodsObj).then((dados) => {
       return dados;
 	});
-		for (let i = 0; i < parseInt(MovementOfGoods.NumberOfMovementLines); i++) {
+		for (let i = 0; i < parseInt(MovementOfGoods.StockMovement.length); i++) {
 			stockMovement = {
 				DocumentNumber: MovementOfGoods.StockMovement[i].DocumentNumber,
 				Atcud: MovementOfGoods.StockMovement[i].Atcud,
@@ -183,8 +185,9 @@ router.get('/test', async function (req, res, next) {
 				DocumentTotals: MovementOfGoods.StockMovement[i].DocumentTotals,
 				FiscalYear:FiscalYear
 			};
+			const MovementType=MovementOfGoods.StockMovement[i].MovementType;
 			const stockMovementData = await StockMovementSchema.create(stockMovement).then((dados) => {
-				LinesStockMovement(dados._id, MovementOfGoods.StockMovement[i].Line,FiscalYear);
+				LinesStockMovement(dados._id, MovementOfGoods.StockMovement[i].Line,FiscalYear,MovementType);
 				return dados;
 			});
 		}
@@ -386,13 +389,13 @@ const LinesInvoice = function (id, Lines,FiscalYear) {
 		});
 	}
 };
-const LinesStockMovement = function (id, Lines,FiscalYear) {
+const LinesStockMovement = function (id, Lines,FiscalYear,MovementType) {
 	if (Lines.length)
 		for (let j = 0; j < Lines.length; j++) {
 			LineSchema.create(Lines[j], async function (err, data) {
 				const ola = await LineSchema.findOneAndUpdate(
 					{ _id: data._id },
-					{StockMovementId: id,FiscalYear:FiscalYear },
+					{StockMovementId: id,FiscalYear:FiscalYear,MovementType:MovementType },
 					{ new: true, useFindAndModify: false }
 				);
 			});
@@ -401,7 +404,7 @@ const LinesStockMovement = function (id, Lines,FiscalYear) {
 		LineSchema.create(Lines, async function (err, data) {
 			const ola = await LineSchema.findOneAndUpdate(
 				{ _id: data._id },
-				{StockMovementId: id,FiscalYear:FiscalYear },
+				{StockMovementId: id,FiscalYear:FiscalYear,MovementType:MovementType },
 				{ new: true, useFindAndModify: false }
 			);
 		});

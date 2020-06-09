@@ -33,7 +33,7 @@ var LineSchema = new Schema({
 	SettlementAmount: { type: Number },
     CustomsInformation: { type: customsInformationSchema },
 	FiscalYear: {type:Number},
-	
+	MovementType:String,
 	InvoiceId: {
 		type: mongoose.Schema.Types.ObjectId,
 		ref: 'Invoice',

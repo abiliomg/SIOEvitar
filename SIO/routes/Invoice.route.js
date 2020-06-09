@@ -12,4 +12,5 @@ router.get('/vendasFirst/:year',InvoiceController.getVendasFirst);
 router.get('/vendasSecond/:year',InvoiceController.getVendasSecond);
 router.get('/vendasThird/:year',InvoiceController.getVendasThird);
 router.get('/vendasForth/:year',InvoiceController.getVendasForth);
+
 module.exports = router;

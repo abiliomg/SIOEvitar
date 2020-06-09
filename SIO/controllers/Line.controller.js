@@ -53,6 +53,46 @@ LineController.getTopProdutosYear = function (req, res, next) {
 		}
 	);
 };
+LineController.getTopProdutosVYear = function (req, res, next) {
+	var year = req.params.year;
+	Line.aggregate(
+		[
+			{
+				$match: {
+					FiscalYear: {
+						$eq: parseInt(year),
+					},
+					InvoiceId: {
+						$exists: true,
+					},
+				},
+			},
+			{
+				$group: {
+					_id: '$ProductCode',
+                    Description: { $first: '$ProductDescription' },
+					Quantity: {
+						$sum: '$Quantity',
+					},
+					CreditAmount: {
+						$sum: '$CreditAmount',
+					},
+				},
+			},
+			{
+				$sort: {
+					CreditAmount: -1,
+				},
+			},
+			{
+				$limit: 5,
+			},
+		],
+		function (err, result) {
+			res.json(result);
+		}
+	);
+};
 
 LineController.getQuantityFirst=function(req,res,next){
 	var year=req.params.year;
