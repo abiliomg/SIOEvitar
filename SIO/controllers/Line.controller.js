@@ -41,7 +41,7 @@ LineController.getTopProdutosYear = function (req, res, next) {
 			},
 			{
 				$group: {
-					_id: '$ProductCode',
+					_id: {Product:'$ProductCode',ProductDescription:'$ProductDescription'},
 					soma: {
 						$sum: {
 							$cond: [
@@ -113,7 +113,7 @@ LineController.getTopProdutosVYear = function (req, res, next) {
 			},
 			{
 				$group: {
-					_id: '$ProductCode',
+					_id: {Product:'$ProductCode',ProductDescription:'$ProductDescription'},
 					soma: {
 						$sum: {
 							$cond: [
@@ -728,5 +728,57 @@ LineController.getMoneyForth = function (req, res, next) {
 		}
 	);
 };
-
+LineController.queryDoAbilio=function(req,res,next){
+	const year=req.params.year;
+	Line.aggregate(
+		[{$match: {
+			FiscalYear:parseInt(year),
+			$or:[
+						  {
+							InvoiceId:{$exists:true}
+						  },
+						  {
+							$and:
+							[
+							  {
+								StockMovementId:{
+								  $exists:true
+								},
+							  },
+							  {
+								MovementType:{$eq:"NC"},
+							  }
+							]
+							}
+						  ]
+		  }}, {$group: {
+						_id: null,
+						soma:{
+						  $sum:{
+						  $cond:[{
+							$ifNull:["$InvoiceId",false]
+						  },
+						  '$CreditAmount',
+						  0]
+						}
+						},
+						sub:{
+						  $sum:{
+						  $cond:[{
+							$ifNull:["$StockMovementId",false]
+						  },
+						  '$CreditAmount',
+						  0]
+						}
+						}
+					  }}, {$addFields: {
+			QuantidadeVendida: {
+						  $subtract:["$soma","$sub"]
+						}
+		  }}]
+	,
+		function (err, result) {
+			res.json(result);
+		})
+}
 module.exports = LineController;

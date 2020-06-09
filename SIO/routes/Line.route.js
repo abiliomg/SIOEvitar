@@ -14,4 +14,5 @@ router.get('/moneyFirst/:year/:code',LineController.getMoneyFirst);
 router.get('/moneySecond/:year/:code',LineController.getMoneySecond);
 router.get('/moneyThird/:year/:code',LineController.getMoneyThird);
 router.get('/moneyForth/:year/:code',LineController.getMoneyForth);
+router.get('/queryDoAbilio/:year',LineController.queryDoAbilio);
 module.exports = router;
