@@ -824,13 +824,15 @@ LineController.getVendasMes=function(req,res,next){
 						  0]
 						}
 						}
-					  }}, {$addFields: {
-			QuantidadeVendida: {
+					  }},
+			{$addFields: {
+				QuantidadeVendida: {
 						  $subtract:["$soma","$sub"]
 						}
+		  }
 		  },
 		  {$sort: {
-			_id: 1
+			_id: 1,
 		  }}
 		  ]
 	  ,
