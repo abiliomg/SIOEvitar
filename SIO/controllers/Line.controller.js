@@ -626,7 +626,7 @@ LineController.getQuantityForth = function (req, res, next) {
 								{
 									$ifNull: ['$InvoiceId', false],
 								},
-								'$CreditAmount',
+								'$Quantity',
 								0,
 							],
 						},
@@ -637,7 +637,7 @@ LineController.getQuantityForth = function (req, res, next) {
 								{
 									$ifNull: ['$StockMovementId', false],
 								},
-								'$CreditAmount',
+								'$Quantity',
 								0,
 							],
 						},
