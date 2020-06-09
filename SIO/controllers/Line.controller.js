@@ -167,8 +167,8 @@ LineController.getQuantityFirst = function (req, res, next) {
 				$match: {
 					ProductCode: code,
 					TaxPointDate: {
-						$gte: ISODate(year + '-01-01T00:00:00.000Z'),
-						$lte: ISODate(year + '-03-30T23:59:59.000Z'),
+						$gte:  new Date(year + '-01-01T00:00:00.000Z'),
+						$lte:  new Date(year + '-03-30T23:59:59.000Z'),
 					},
 					$or: [
 						{
@@ -238,8 +238,8 @@ LineController.getMoneyFirst = function (req, res, next) {
 				$match: {
 					ProductCode: code,
 					TaxPointDate: {
-						$gte: ISODate(year + '-01-01T00:00:00.000Z'),
-						$lte: ISODate(year + '-03-30T23:59:59.000Z'),
+						$gte:  new Date(year + '-01-01T00:00:00.000Z'),
+						$lte:  new Date(year + '-03-30T23:59:59.000Z'),
 					},
 					$or: [
 						{
@@ -310,8 +310,8 @@ LineController.getQuantitySecond = function (req, res, next) {
 				$match: {
 					ProductCode: code,
 					TaxPointDate: {
-						$gte: ISODate(year + '-04-01T00:00:00.000Z'),
-						$lte: ISODate(year + '-06-30T23:59:59.000Z'),
+						$gte:  new Date(year + '-04-01T00:00:00.000Z'),
+						$lte:  new Date(year + '-06-30T23:59:59.000Z'),
 					},
 					$or: [
 						{
@@ -381,8 +381,8 @@ LineController.getMoneySecond = function (req, res, next) {
 				$match: {
 					ProductCode: code,
 					TaxPointDate: {
-						$gte: ISODate(year + '-04-01T00:00:00.000Z'),
-						$lte: ISODate(year + '-06-30T23:59:59.000Z'),
+						$gte:  new Date(year + '-04-01T00:00:00.000Z'),
+						$lte:  new Date(year + '-06-30T23:59:59.000Z'),
 					},
 					$or: [
 						{
@@ -453,8 +453,8 @@ LineController.getQuantityThird = function (req, res, next) {
 				$match: {
 					ProductCode: code,
 					TaxPointDate: {
-						$gte: ISODate(year + '-07-01T00:00:00.000Z'),
-						$lte: ISODate(year + '-09-30T23:59:59.000Z'),
+						$gte:  new Date(year + '-07-01T00:00:00.000Z'),
+						$lte:  new Date(year + '-09-30T23:59:59.000Z'),
 					},
 					$or: [
 						{
@@ -524,8 +524,8 @@ LineController.getMoneyThird = function (req, res, next) {
 				$match: {
 					ProductCode: code,
 					TaxPointDate: {
-						$gte: ISODate(year + '-07-01T00:00:00.000Z'),
-						$lte: ISODate(year + '-09-30T23:59:59.000Z'),
+						$gte:  new Date(year + '-07-01T00:00:00.000Z'),
+						$lte:  new Date(year + '-09-30T23:59:59.000Z'),
 					},
 					$or: [
 						{
