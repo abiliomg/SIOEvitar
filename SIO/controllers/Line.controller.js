@@ -870,7 +870,7 @@ LineController.getVendasFirst=function(req,res,next){
 					],
 				},
 			],
-		  }}, , {$group: {
+		  }}, {$group: {
 			_id: null,
 			soma:{
 			  $sum:{
@@ -1094,7 +1094,7 @@ LineController.getVendasFirstQ=function(req,res,next){
 					],
 				},
 			],
-		  }}, , {$group: {
+		  }},  {$group: {
 			_id: null,
 			soma:{
 			  $sum:{
