@@ -16,4 +16,13 @@ router.get('/moneyThird/:year/:code',LineController.getMoneyThird);
 router.get('/moneyForth/:year/:code',LineController.getMoneyForth);
 router.get('/queryDoAbilio/:year',LineController.queryDoAbilio);
 router.get('/vendasMes/:year',LineController.getVendasMes);
+
+router.get('/vendasFirst/:year',LineController.getVendasFirst);
+router.get('/vendasSecond/:year',LineController.getVendasSecond);
+router.get('/vendasThird/:year',LineController.getVendasThird);
+router.get('/vendasForth/:year',LineController.getVendasForth);
+router.get('/vendasFirstQ/:year',LineController.getVendasFirstQ);
+router.get('/vendasSecondQ/:year',LineController.getVendasSecondQ);
+router.get('/vendasThirdQ/:year',LineController.getVendasThirdQ);
+router.get('/vendasForthQ/:year',LineController.getVendasForthQ);
 module.exports = router;
