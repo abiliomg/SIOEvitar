@@ -84,7 +84,7 @@ var myPieChart = new Chart(canv, {
 }
 
 function pieChartClientes(year) {
-  fetch("http://localhost:4000/invoice//topClientesAno/"+ year,{
+  fetch("http://localhost:4000/invoice/topClientesAno/"+ year,{
     headers:{
       'Accept': 'application/json',
       'Content-Type': 'application/json; charset=utf-8'
