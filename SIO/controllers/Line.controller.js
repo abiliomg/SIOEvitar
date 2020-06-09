@@ -781,4 +781,61 @@ LineController.queryDoAbilio=function(req,res,next){
 			res.json(result);
 		})
 }
+LineController.getVendasMes=function(req,res,next){
+	let year=req.params.year;
+	Line.aggregate(
+		[{$match: {
+			FiscalYear:parseInt(year),
+			$or:[
+						  {
+							InvoiceId:{$exists:true}
+						  },
+						  {
+							$and:
+							[
+							  {
+								StockMovementId:{
+								  $exists:true
+								},
+							  },
+							  {
+								MovementType:{$eq:"NC"},
+							  }
+							]
+							}
+						  ]
+		  }}, {$group: {
+						_id: {$month:"$TaxPointDate"},
+						soma:{
+						  $sum:{
+						  $cond:[{
+							$ifNull:["$InvoiceId",false]
+						  },
+						  '$CreditAmount',
+						  0]
+						}
+						},
+						sub:{
+						  $sum:{
+						  $cond:[{
+							$ifNull:["$StockMovementId",false]
+						  },
+						  '$CreditAmount',
+						  0]
+						}
+						}
+					  }}, {$addFields: {
+			QuantidadeVendida: {
+						  $subtract:["$soma","$sub"]
+						}
+		  }},
+		  {$sort: {
+			_id: 1
+		  }]
+	  ,
+	  function(err,result){
+		res.json(result);
+	  }
+	)
+  }
 module.exports = LineController;

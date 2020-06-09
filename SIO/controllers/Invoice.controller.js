@@ -50,23 +50,6 @@ InvoiceController.getMediaVendasAno= function (req, res, next) {
 		res.json(result);
 	})
 }
-InvoiceController.getVendasMes=function(req,res,next){
-  let year=req.params.year;
-  Invoice.aggregate(
-    [{$match: {
-      FiscalYear:parseInt(year)
-    }}, {$group: {
-      _id: {$month:"$InvoiceDate"},
-      TotalDinheiro:{$sum:"$DocumentTotals.NetTotal"}
-    }}, {$sort: {
-      _id: 1
-    }}]
-    ,
-    function(err,result){
-      res.json(result);
-    }
-  )
-}
 
 InvoiceController.getVendasFirst=function(req,res,next){
 	var year=req.params.year;

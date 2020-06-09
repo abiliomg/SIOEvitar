@@ -6,7 +6,7 @@ var InvoiceController = require("../controllers/Invoice.controller.js");
 router.get('/', InvoiceController.getAllInvoice);
 router.get('/topClientesAno/:year',InvoiceController.topClientesAno)
 router.get('/mediaVendasAno/:year',InvoiceController.getMediaVendasAno)
-router.get('/vendasMes/:year',InvoiceController.getVendasMes);
+
 
 router.get('/vendasFirst/:year',InvoiceController.getVendasFirst);
 router.get('/vendasSecond/:year',InvoiceController.getVendasSecond);
