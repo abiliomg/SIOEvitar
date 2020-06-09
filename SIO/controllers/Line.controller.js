@@ -828,10 +828,11 @@ LineController.getVendasMes=function(req,res,next){
 			QuantidadeVendida: {
 						  $subtract:["$soma","$sub"]
 						}
-		  }},
+		  },
 		  {$sort: {
 			_id: 1
-		  }]
+		  }}
+		  ]
 	  ,
 	  function(err,result){
 		res.json(result);
