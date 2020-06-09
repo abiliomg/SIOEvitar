@@ -19,23 +19,57 @@ LineController.getTopProdutosYear = function (req, res, next) {
 		[
 			{
 				$match: {
-					FiscalYear: {
-						$eq: parseInt(year),
-					},
-					InvoiceId: {
-						$exists: true,
-					},
+					FiscalYear: { $eq: parseInt(year) },
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
 				},
 			},
 			{
 				$group: {
 					_id: '$ProductCode',
-                    Description: { $first: '$ProductDescription' },
-					Quantity: {
-						$sum: '$Quantity',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
 					},
-					CreditAmount: {
-						$sum: '$CreditAmount',
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					Quantity: {
+						$subtract: ['$soma', '$sub'],
 					},
 				},
 			},
@@ -44,9 +78,7 @@ LineController.getTopProdutosYear = function (req, res, next) {
 					Quantity: -1,
 				},
 			},
-			{
-				$limit: 5,
-			},
+			{ $limit: 5 },
 		],
 		function (err, result) {
 			res.json(result);
@@ -59,33 +91,208 @@ LineController.getTopProdutosVYear = function (req, res, next) {
 		[
 			{
 				$match: {
-					FiscalYear: {
-						$eq: parseInt(year),
-					},
-					InvoiceId: {
-						$exists: true,
-					},
+					FiscalYear: { $eq: parseInt(year) },
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
 				},
 			},
 			{
 				$group: {
 					_id: '$ProductCode',
-                    Description: { $first: '$ProductDescription' },
-					Quantity: {
-						$sum: '$Quantity',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
 					},
-					CreditAmount: {
-						$sum: '$CreditAmount',
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
 					},
 				},
 			},
 			{
 				$sort: {
-					CreditAmount: -1,
+					QuantidadeVendida: -1,
+				},
+			},
+			{ $limit: 5 },
+		],
+		function (err, result) {
+			res.json(result);
+		}
+	);
+};
+
+LineController.getQuantityFirst = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
+	Line.aggregate(
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: ISODate(year + '-01-01T00:00:00.000Z'),
+						$lte: ISODate(year + '-03-30T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
 				},
 			},
 			{
-				$limit: 5,
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
+			},
+		],
+		function (err, result) {
+			res.json(result);
+		}
+	);
+};
+LineController.getMoneyFirst = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
+	Line.aggregate(
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: ISODate(year + '-01-01T00:00:00.000Z'),
+						$lte: ISODate(year + '-03-30T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
+				},
+			},
+			{
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
 			},
 		],
 		function (err, result) {
@@ -94,176 +301,432 @@ LineController.getTopProdutosVYear = function (req, res, next) {
 	);
 };
 
-LineController.getQuantityFirst=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
+LineController.getQuantitySecond = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
 	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-01-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-03-31T23:59:59.000Z")
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: ISODate(year + '-04-01T00:00:00.000Z'),
+						$lte: ISODate(year + '-06-30T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
+				},
 			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$Quantity"}
-		  }}]
-		  ,
+			{
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
+			},
+		],
 		function (err, result) {
 			res.json(result);
 		}
-	)
-}
-LineController.getMoneyFirst=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
+	);
+};
+LineController.getMoneySecond = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
 	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-01-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-03-31T23:59:59.000Z")
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: ISODate(year + '-04-01T00:00:00.000Z'),
+						$lte: ISODate(year + '-06-30T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
+				},
 			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$CreditAmount"}
-		  }}]
-		  ,
+			{
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
+			},
+		],
 		function (err, result) {
 			res.json(result);
 		}
-	)
-}
+	);
+};
 
-LineController.getQuantitySecond=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
+LineController.getQuantityThird = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
 	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-04-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-06-30T23:59:59.000Z")
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: ISODate(year + '-07-01T00:00:00.000Z'),
+						$lte: ISODate(year + '-09-30T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
+				},
 			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$Quantity"}
-		  }}]
-		  ,
+			{
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$Quantity',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
+			},
+		],
 		function (err, result) {
 			res.json(result);
 		}
-	)
-}
-LineController.getMoneySecond=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
+	);
+};
+LineController.getMoneyThird = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
 	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-04-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-06-30T23:59:59.000Z")
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: ISODate(year + '-07-01T00:00:00.000Z'),
+						$lte: ISODate(year + '-09-30T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
+				},
 			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$CreditAmount"}
-		  }}]
-		  ,
+			{
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
+			},
+		],
 		function (err, result) {
 			res.json(result);
 		}
-	)
-}
-
-LineController.getQuantityThird=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
+	);
+};
+LineController.getQuantityForth = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
 	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-07-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-09-30T23:59:59.000Z")
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: new Date(year + '-10-01T00:00:00.000Z'),
+						$lte: new Date(year + '-12-31T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
+				},
 			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$Quantity"}
-		  }}]
-		  ,
+			{
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
+			},
+		],
 		function (err, result) {
 			res.json(result);
 		}
-	)
-}
-LineController.getMoneyThird=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
+	);
+};
+LineController.getMoneyForth = function (req, res, next) {
+	var year = req.params.year;
+	var code = req.params.code;
 	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-07-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-09-30T23:59:59.000Z")
+		[
+			{
+				$match: {
+					ProductCode: code,
+					TaxPointDate: {
+						$gte: new Date(year + '-10-01T00:00:00.000Z'),
+						$lte: new Date(year + '-12-31T23:59:59.000Z'),
+					},
+					$or: [
+						{
+							InvoiceId: { $exists: true },
+						},
+						{
+							$and: [
+								{
+									StockMovementId: {
+										$exists: true,
+									},
+								},
+								{
+									MovementType: { $eq: 'NC' },
+								},
+							],
+						},
+					],
+				},
 			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$CreditAmount"}
-		  }}]
-		  ,
+			{
+				$group: {
+					_id: '$ProductCode',
+					soma: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$InvoiceId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+					sub: {
+						$sum: {
+							$cond: [
+								{
+									$ifNull: ['$StockMovementId', false],
+								},
+								'$CreditAmount',
+								0,
+							],
+						},
+					},
+				},
+			},
+			{
+				$addFields: {
+					QuantidadeVendida: {
+						$subtract: ['$soma', '$sub'],
+					},
+				},
+			},
+		],
 		function (err, result) {
 			res.json(result);
 		}
-	)
-}
-LineController.getQuantityForth=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
-	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-10-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-12-31T23:59:59.000Z")
-			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$Quantity"}
-		  }}]
-		  ,
-		function (err, result) {
-			res.json(result);
-		}
-	)
-}
-LineController.getMoneyForth=function(req,res,next){
-	var year=req.params.year;
-	var code=req.params.code;
-	Line.aggregate(
-		[{$match: {
-			ProductCode:code,
-			TaxPointDate:{
-			  $gte:new Date(year+"-10-01T00:00:00.000Z"),
-			  $lte:new Date(year+"-12-31T23:59:59.000Z")
-			},
-			InvoiceId: {$exists:true}
-		  }}, {$group: {
-			_id:"$ProductCode",
-			QuantidadeVendida:{$sum:"$CreditAmount"}
-		  }}]
-		  ,
-		function (err, result) {
-			res.json(result);
-		}
-	)
-}
-
+	);
+};
 
 module.exports = LineController;

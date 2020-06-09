@@ -186,8 +186,9 @@ router.get('/test', async function (req, res, next) {
 				FiscalYear:FiscalYear
 			};
 			const MovementType=MovementOfGoods.StockMovement[i].MovementType;
+			const MovementDate=MovementOfGoods.StockMovement[i].MovementDate;
 			const stockMovementData = await StockMovementSchema.create(stockMovement).then((dados) => {
-				LinesStockMovement(dados._id, MovementOfGoods.StockMovement[i].Line,FiscalYear,MovementType);
+				LinesStockMovement(dados._id, MovementOfGoods.StockMovement[i].Line,FiscalYear,MovementType,MovementDate);
 				return dados;
 			});
 		}
@@ -389,13 +390,13 @@ const LinesInvoice = function (id, Lines,FiscalYear) {
 		});
 	}
 };
-const LinesStockMovement = function (id, Lines,FiscalYear,MovementType) {
+const LinesStockMovement = function (id, Lines,FiscalYear,MovementType,MovementDate) {
 	if (Lines.length)
 		for (let j = 0; j < Lines.length; j++) {
 			LineSchema.create(Lines[j], async function (err, data) {
 				const ola = await LineSchema.findOneAndUpdate(
 					{ _id: data._id },
-					{StockMovementId: id,FiscalYear:FiscalYear,MovementType:MovementType },
+					{StockMovementId: id,FiscalYear:FiscalYear,MovementType:MovementType,TaxPointDate:MovementDate },
 					{ new: true, useFindAndModify: false }
 				);
 			});
@@ -404,7 +405,7 @@ const LinesStockMovement = function (id, Lines,FiscalYear,MovementType) {
 		LineSchema.create(Lines, async function (err, data) {
 			const ola = await LineSchema.findOneAndUpdate(
 				{ _id: data._id },
-				{StockMovementId: id,FiscalYear:FiscalYear,MovementType:MovementType },
+				{StockMovementId: id,FiscalYear:FiscalYear,MovementType:MovementType,TaxPointDate:MovementDate },
 				{ new: true, useFindAndModify: false }
 			);
 		});
