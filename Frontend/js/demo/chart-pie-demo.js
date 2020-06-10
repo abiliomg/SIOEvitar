@@ -5,6 +5,7 @@ Chart.defaults.global.defaultFontColor = '#858796';
 //Call Functions to populate pie-charts
 pieChartClientes(2020);
 pieChartProdutos(2020);
+pieChartProdutosValor(2020);
 
 
 // Pie Chart Example
@@ -25,6 +26,7 @@ function pieChartProdutos(year){
   }
   ).then(result=>{
 
+
    var labels = [];
    var quantity = [];
    var colors = ["#4e73df", "#1cc88a", "#36b9cc","#c15353","#cebc09"];
@@ -44,9 +46,9 @@ function pieChartProdutos(year){
 //console.log(document.getElementById("pieChartLabels"));
 
 for(let i = 0; i < result.length; i++){
-  labels.push(result[i].Description);
+  labels.push(result[i]._id.ProductDescription);
   quantity.push(result[i].Quantity);
-  pie.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:' + colors[i] +'"></i>'+ result[i].Description +'</span>';
+  pie.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:' + colors[i] +'"></i>'+ result[i]._id.ProductDescription +'</span>';
 
 }
 
@@ -80,7 +82,83 @@ var myPieChart = new Chart(canv, {
   },
 });
 }).catch(error => alert('Error! ' + error.message));
+}  
 
+function pieChartProdutosValor(year){
+  fetch("http://localhost:4000/line/topProdutosV/" + year,{
+    headers:{
+      'Accept': 'application/json',
+      'Content-Type': 'application/json; charset=utf-8'
+    },       
+    method: 'GET'
+  }).then(
+  response=>{
+    if(response.ok){
+      return response.json();
+    }else{
+      throw new Error("something went wrong");
+    }
+  }
+  ).then(result=>{
+
+  //console.log(result);
+
+
+   var labels = [];
+   var quantity = [];
+   var colors = ["#4e73df", "#1cc88a", "#36b9cc","#c15353","#cebc09"];
+
+   var canvasDiv = document.getElementById('canvasProdutosValor');
+   var oldCanvas = document.getElementById('myPieChartProdutosValor');
+
+   oldCanvas.parentNode.removeChild(oldCanvas);
+
+   var canv = document.createElement('canvas');
+   canv.class = 'class="chart-pie pt-4"';
+   canv.id = 'myPieChartProdutosValor';
+   canvasDiv.appendChild(canv);
+
+   var pie = document.getElementById("pieChartLabelsValor");
+   pie.innerHTML = "";
+//console.log(document.getElementById("pieChartLabels"));
+
+for(let i = 0; i < result.length; i++){
+  labels.push(result[i]._id.ProductDescription);
+  quantity.push(result[i].QuantidadeVendida);
+  pie.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:' + colors[i] +'"></i>'+ result[i]._id.ProductDescription +'</span>';
+}
+var myPieChart = new Chart(canv, {
+  type: 'doughnut',
+  data: {
+    labels: labels,
+    datasets: [{
+      data: quantity,
+      backgroundColor: colors,
+      hoverBorderColor: "rgba(234, 236, 244, 1)",
+    }],
+  },
+  options: {
+    maintainAspectRatio: false,
+    tooltips: {
+      backgroundColor: "rgb(255,255,255)",
+      bodyFontColor: "#858796",
+      borderColor: '#dddfeb',
+      borderWidth: 1,
+      xPadding: 15,
+      yPadding: 15,
+      displayColors: false,
+      caretPadding: 10
+    },
+    legend: {
+      display: false
+    },
+    cutoutPercentage: 80,
+    animation:{
+      animateRotate: true
+    } 
+  },
+});
+}).catch(error => alert('Error! ' + error.message));
 }
 
 function pieChartClientes(year) {

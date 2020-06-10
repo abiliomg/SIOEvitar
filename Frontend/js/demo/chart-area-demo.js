@@ -27,10 +27,6 @@ function number_format(number, decimals, dec_point, thousands_sep) {
   return s.join(dec);
 }
 
-
-
-
-
 vendasAreaChart(2020);
 
 async function vendasAreaChart(year){
@@ -60,13 +56,13 @@ async function vendasAreaChart(year){
       if(typeof vendas2019[i] === 'undefined'){
         soma2019 = 0;
       }else{
-        soma2019 = totalDinheiro2019[i-1] + vendas2019[i].TotalDinheiro;
+        soma2019 = totalDinheiro2019[i-1] + vendas2019[i].QuantidadeVendida;
       }
 
       if(typeof vendas2020[i] === 'undefined'){
         soma2020 = 0;
       }else{
-        soma2020 = totalDinheiro2020[i-1] + vendas2020[i].TotalDinheiro;
+        soma2020 = totalDinheiro2020[i-1] + vendas2020[i].QuantidadeVendida;
       }
 
       totalDinheiro2019.push(soma2019);
@@ -74,13 +70,13 @@ async function vendasAreaChart(year){
     }
     else{
       if(typeof vendas2019[i] !== 'undefined'){
-        totalDinheiro2019.push(vendas2019[i].TotalDinheiro);
+        totalDinheiro2019.push(vendas2019[i].QuantidadeVendida);
         console.log(totalDinheiro2019[i]);
       }else{
          totalDinheiro2019.push(0);
       }
       if(typeof vendas2020[i] !== 'undefined'){
-        totalDinheiro2020.push(vendas2020[i].TotalDinheiro);
+        totalDinheiro2020.push(vendas2020[i].QuantidadeVendida);
       }
     }
   }

@@ -33,6 +33,7 @@ function anos(){
       anosSelect.innerHTML +=  '<option value="'+result[i].FiscalYear +'">' + result[i].FiscalYear + '</option>';
     }
     vendasTrimestre($('#selectYear')[0].value);
+    vendasTrimestreValor($('#selectYear')[0].value);
 
   }).catch(error => alert('Error! ' + error.message));
 }
@@ -72,7 +73,7 @@ function produtos(){
 //Initialize bar-charts
 const getVendasAno=async function (year){
   return new Promise(async function(resolve,reject){
-    fetch("http://localhost:4000/invoice/vendasMes/" + year,{
+    fetch("http://localhost:4000/line/vendasMes/" + year,{
       headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json; charset=utf-8'
@@ -255,7 +256,7 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 
 const getVendasPrimeiroTrimestre=async function (year){
   return new Promise(async function(resolve,reject){
-    fetch("http://localhost:4000/invoice/vendasFirst/" + year ,{
+    fetch("http://localhost:4000/line/vendasFirst/" + year ,{
       headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json; charset=utf-8'
@@ -273,7 +274,8 @@ const getVendasPrimeiroTrimestre=async function (year){
       if(result.length == 0){
         resolve(0);
       }else{
-        resolve(result[0].Valor);
+        console.log(result[0]);
+        resolve(result[0].QuantidadeVendida);
       }
     }).catch(error => alert('Error! ' + error.message));
   })
@@ -281,7 +283,7 @@ const getVendasPrimeiroTrimestre=async function (year){
 
 const getVendasSegundoTrimestre=async function (year){
   return new Promise(async function(resolve,reject){
-    fetch("http://localhost:4000/invoice/vendasSecond/" + year ,{
+    fetch("http://localhost:4000/line/vendasSecond/" + year ,{
       headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json; charset=utf-8'
@@ -299,7 +301,7 @@ const getVendasSegundoTrimestre=async function (year){
       if(result.length == 0){
         resolve(0);
       }else{
-        resolve(result[0].Valor);
+        resolve(result[0].QuantidadeVendida);
       }
     }).catch(error => alert('Error! ' + error.message));
   })
@@ -308,7 +310,7 @@ const getVendasSegundoTrimestre=async function (year){
 
 const getVendasTerceiroTrimestre=async function (year){
   return new Promise(async function(resolve,reject){
-    fetch("http://localhost:4000/invoice/vendasThird/" + year ,{
+    fetch("http://localhost:4000/line/vendasThird/" + year ,{
       headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json; charset=utf-8'
@@ -326,7 +328,7 @@ const getVendasTerceiroTrimestre=async function (year){
       if(result.length == 0){
         resolve(0);
       }else{
-        resolve(result[0].Valor);
+        resolve(result[0].QuantidadeVendida);
       }
     }).catch(error => alert('Error! ' + error.message));
   })
@@ -335,7 +337,7 @@ const getVendasTerceiroTrimestre=async function (year){
 
 const getVendasQuartoTrimestre=async function (year){
   return new Promise(async function(resolve,reject){
-    fetch("http://localhost:4000/invoice/vendasForth/" + year ,{
+    fetch("http://localhost:4000/line/vendasForth/" + year ,{
       headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json; charset=utf-8'
@@ -353,18 +355,125 @@ const getVendasQuartoTrimestre=async function (year){
       if(result.length == 0){
         resolve(0);
       }else{
-        resolve(result[0].Valor);
+        resolve(result[0].QuantidadeVendida);
       }
     }).catch(error => alert('Error! ' + error.message));
   })
 }
 
 
+
+
+
+const getVendasPrimeiroTrimestreQ=async function (year){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/vendasFirstQ/" + year ,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+
+const getVendasSegundoTrimestreQ=async function (year){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/vendasSecondQ/" + year ,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+
+const getVendasTerceiroTrimestreQ=async function (year){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/vendasThirdQ/" + year ,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+
+const getVendasQuartoTrimestreQ=async function (year){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/vendasForthQ/" + year ,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+
 //console.log($('#selectYear option:selected').text());
 
 
 
-
+//Yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 async function vendasTrimestre(year){
 
@@ -372,17 +481,17 @@ async function vendasTrimestre(year){
 
   var yearBefore = year - 1;
 
-  let vendasYearFirst = await getVendasPrimeiroTrimestre(year);
-  let vendasYearSecond = await getVendasSegundoTrimestre(year);
-  let vendasYearThird = await getVendasTerceiroTrimestre(year);
-  let vendasYearForth = await getVendasQuartoTrimestre(year);
+  let vendasYearFirst = await getVendasPrimeiroTrimestreQ(year);
+  let vendasYearSecond = await getVendasSegundoTrimestreQ(year);
+  let vendasYearThird = await getVendasTerceiroTrimestreQ(year);
+  let vendasYearForth = await getVendasQuartoTrimestreQ(year);
 
   console.log(vendasYearFirst);
 
-  let vendasYearBeforeFirst = await getVendasPrimeiroTrimestre(yearBefore);
-  let vendasYearBeforeSecond = await getVendasSegundoTrimestre(yearBefore);
-  let vendasYearBeforeThird = await getVendasTerceiroTrimestre(yearBefore);
-  let vendasYearBeforeForth = await getVendasQuartoTrimestre(yearBefore);
+  let vendasYearBeforeFirst = await getVendasPrimeiroTrimestreQ(yearBefore);
+  let vendasYearBeforeSecond = await getVendasSegundoTrimestreQ(yearBefore);
+  let vendasYearBeforeThird = await getVendasTerceiroTrimestreQ(yearBefore);
+  let vendasYearBeforeForth = await getVendasQuartoTrimestreQ(yearBefore);
 
   var vendasYear = [];
   var vendasYearBefore = [];
@@ -417,15 +526,15 @@ async function vendasTrimestre(year){
   var myBarChart = new Chart(canv, {
     type: 'bar',
     data: {
-      labels: ["Primeiro Semestre" ,"Segundo Semestre ", "Terceiro Semestre ", "Quarto Semestre "],
+      labels: ["Primeiro Trimestre" ,"Segundo Trimestre ", "Terceiro Trimestre ", "Quarto Trimestre "],
       datasets: [{
-        label: "Valor: " ,
+        label: "Quantidade: " ,
         backgroundColor: "#4E73DF",
         borderColor: "#4E73DF",
         data: vendasYear
       },
       {
-        label: "Valor: ",
+        label: "Quantidade: ",
         backgroundColor: "#EE7334",
         borderColor: "#EE7334",
         data: vendasYearBefore
@@ -494,6 +603,143 @@ async function vendasTrimestre(year){
       callbacks: {
         label: function(tooltipItem, chart) {
           var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
+          return datasetLabel + number_format(tooltipItem.yLabel);
+        }
+      }
+    },
+  }
+});
+
+}
+
+async function vendasTrimestreValor(year){
+
+
+
+  var yearBefore = year - 1;
+
+  let vendasYearFirst = await getVendasPrimeiroTrimestre(year);
+  let vendasYearSecond = await getVendasSegundoTrimestre(year);
+  let vendasYearThird = await getVendasTerceiroTrimestre(year);
+  let vendasYearForth = await getVendasQuartoTrimestre(year);
+
+  console.log(vendasYearFirst);
+
+  let vendasYearBeforeFirst = await getVendasPrimeiroTrimestre(yearBefore);
+  let vendasYearBeforeSecond = await getVendasSegundoTrimestre(yearBefore);
+  let vendasYearBeforeThird = await getVendasTerceiroTrimestre(yearBefore);
+  let vendasYearBeforeForth = await getVendasQuartoTrimestre(yearBefore);
+
+  var vendasYear = [];
+  var vendasYearBefore = [];
+
+  vendasYear.push(vendasYearFirst);
+  vendasYear.push(vendasYearSecond);
+  vendasYear.push(vendasYearThird);
+  vendasYear.push(vendasYearForth);
+
+  vendasYearBefore.push(vendasYearBeforeFirst);
+  vendasYearBefore.push(vendasYearBeforeSecond);
+  vendasYearBefore.push(vendasYearBeforeThird);
+  vendasYearBefore.push(vendasYearBeforeForth);
+
+
+  var canvasDiv = document.getElementById('canvasTrimestreValor');
+  var oldCanvas = document.getElementById('myVendasTrimestraisValorChart');
+
+  oldCanvas.parentNode.removeChild(oldCanvas);
+
+  var canv = document.createElement('canvas');
+  canv.id = 'myVendasTrimestraisValorChart';
+  canvasDiv.appendChild(canv);
+
+  var lab = document.getElementById('myVendasTrimestraisValorChartLabels') ;
+
+  lab.innerHTML = "";
+
+  lab.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:#4E73DF"></i>'+ year +'</span>';
+  lab.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:#EE7334"></i>'+ yearBefore +'</span>';
+
+  var myBarChart = new Chart(canv, {
+    type: 'bar',
+    data: {
+      labels: ["Primeiro Trimestre" ,"Segundo Trimestre ", "Terceiro Trimestre ", "Quarto Trimestre "],
+      datasets: [{
+        label: "Valor: " ,
+        backgroundColor: "#4E73DF",
+        borderColor: "#4E73DF",
+        data: vendasYear
+      },
+      {
+        label: "Valor: ",
+        backgroundColor: "#EE7334",
+        borderColor: "#EE7334",
+        data: vendasYearBefore
+      }
+      ],
+
+    },
+    options: {
+      maintainAspectRatio: false,
+      layout: {
+        padding: {
+          left: 10,
+          right: 25,
+          top: 25,
+          bottom: 0
+        }
+      },
+      scales: {
+        xAxes: [{
+          time: {
+            unit: 'month'
+          },
+          gridLines: {
+            display: false,
+            drawBorder: false
+          },
+          ticks: {
+            maxTicksLimit: 12
+          },
+          maxBarThickness: 25,
+        }],
+        yAxes: [{
+          ticks: {
+            min: 0,
+            maxTicksLimit: 5,
+            padding: 10,
+          // Include an euro sign in the ticks
+          callback: function(value, index, values) {
+            return '€' +  number_format(value);
+          }
+        },
+        gridLines: {
+          color: "rgb(234, 236, 244)",
+          zeroLineColor: "rgb(234, 236, 244)",
+          drawBorder: false,
+          borderDash: [2],
+          zeroLineBorderDash: [2]
+        }
+      }],
+    },
+    legend: {
+      display: false
+    },
+    tooltips: {
+      titleMarginBottom: 10,
+      titleFontColor: '#6e707e',
+      titleFontSize: 14,
+      backgroundColor: "rgb(255,255,255)",
+      bodyFontColor: "#858796",
+      borderColor: '#dddfeb',
+      borderWidth: 1,
+      xPadding: 15,
+      yPadding: 15,
+      displayColors: false,
+      caretPadding: 10,
+      callbacks: {
+        label: function(tooltipItem, chart) {
+          var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
           return datasetLabel + "€" + number_format(tooltipItem.yLabel);
         }
       }
@@ -501,10 +747,244 @@ async function vendasTrimestre(year){
   }
 });
 
-
-
 }
 
+
+const getVendasPrimeiroSemestreValor=async function (year,produto){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/moneyFirst/" + year + "/" + produto,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+const getVendasSegundoSemestreValor=async function (year,produto){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/moneySecond/" + year + "/" + produto,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+const getVendasTerceiroSemestreValor=async function (year,produto){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/moneyThird/" + year + "/" + produto,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+const getVendasQuartoSemestreValor=async function (year,produto){
+  return new Promise(async function(resolve,reject){
+    fetch("http://localhost:4000/line/moneyForth/" + year + "/" + produto,{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json; charset=utf-8'
+      },       
+      method: 'GET'
+    }).then(
+    response=>{
+      if(response.ok){
+        return response.json();
+      }else{
+        throw new Error("something went wrong");
+      }
+    }
+    ).then(result=>{
+      if(result.length == 0){
+        resolve(0);
+      }else{
+        resolve(result[0].QuantidadeVendida);
+      }
+    }).catch(error => alert('Error! ' + error.message));
+  })
+}
+
+
+async function vendasProdutoSemestreValor(year, produto){
+
+  var yearBefore = year - 1;
+
+  let vendasYearFirst = await getVendasPrimeiroSemestreValor(year,produto);
+  let vendasYearSecond = await getVendasSegundoSemestreValor(year,produto);
+  let vendasYearThird = await getVendasTerceiroSemestreValor(year,produto);
+  let vendasYearForth = await getVendasQuartoSemestreValor(year,produto);
+
+
+  let vendasYearBeforeFirst = await getVendasPrimeiroSemestreValor(year - 1,produto);
+  let vendasYearBeforeSecond = await getVendasSegundoSemestreValor(year - 1,produto);
+  let vendasYearBeforeThird = await getVendasTerceiroSemestreValor(year - 1,produto);
+  let vendasYearBeforeForth = await getVendasQuartoSemestreValor(year - 1,produto);
+
+  var vendasYear = [];
+  var vendasYearBefore = [];
+
+  vendasYear.push(vendasYearFirst);
+  vendasYear.push(vendasYearSecond);
+  vendasYear.push(vendasYearThird);
+  vendasYear.push(vendasYearForth);
+
+  vendasYearBefore.push(vendasYearBeforeFirst);
+  vendasYearBefore.push(vendasYearBeforeSecond);
+  vendasYearBefore.push(vendasYearBeforeThird);
+  vendasYearBefore.push(vendasYearBeforeForth);
+
+
+  var canvasDiv = document.getElementById('canvasTrimestreValor');
+  var oldCanvas = document.getElementById('myVendasTrimestraisValorChart');
+
+  oldCanvas.parentNode.removeChild(oldCanvas);
+
+  var canv = document.createElement('canvas');
+  canv.id = 'myVendasTrimestraisValorChart';
+  canvasDiv.appendChild(canv);
+
+  var lab = document.getElementById('myVendasTrimestraisValorChartLabels');
+
+  lab.innerHTML = "";
+
+  lab.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:#4E73DF"></i>'+ year +'</span>';
+  lab.innerHTML += '<span class="mr-2"><i class="fa fa-circle" style="color:#EE7334"></i>'+ yearBefore +'</span>';
+
+  var myBarChart = new Chart(canv, {
+    type: 'bar',
+    data: {
+      labels: ["Primeiro Trimestre" ,"Segundo Trimestre ", "Terceiro Trimestre ", "Quarto Trimestre "],
+      datasets: [{
+        label: "Valor: " ,
+        backgroundColor: "#4E73DF",
+        borderColor: "#4E73DF",
+        data: vendasYear
+      },
+      {
+        label: "Valor: ",
+        backgroundColor: "#EE7334",
+        borderColor: "#EE7334",
+        data: vendasYearBefore
+      }
+      ],
+
+    },
+    options: {
+      maintainAspectRatio: false,
+      layout: {
+        padding: {
+          left: 10,
+          right: 25,
+          top: 25,
+          bottom: 0
+        }
+      },
+      scales: {
+        xAxes: [{
+          time: {
+            unit: 'month'
+          },
+          gridLines: {
+            display: false,
+            drawBorder: false
+          },
+          ticks: {
+            maxTicksLimit: 12
+          },
+          maxBarThickness: 25,
+        }],
+        yAxes: [{
+          ticks: {
+            min: 0,
+            maxTicksLimit: 5,
+            padding: 10,
+          // Include an euro sign in the ticks
+          callback: function(value, index, values) {
+            return '€' + number_format(value);
+          }
+        },
+        gridLines: {
+          color: "rgb(234, 236, 244)",
+          zeroLineColor: "rgb(234, 236, 244)",
+          drawBorder: false,
+          borderDash: [2],
+          zeroLineBorderDash: [2]
+        }
+      }],
+    },
+    legend: {
+      display: false
+    },
+    tooltips: {
+      titleMarginBottom: 10,
+      titleFontColor: '#6e707e',
+      titleFontSize: 14,
+      backgroundColor: "rgb(255,255,255)",
+      bodyFontColor: "#858796",
+      borderColor: '#dddfeb',
+      borderWidth: 1,
+      xPadding: 15,
+      yPadding: 15,
+      displayColors: false,
+      caretPadding: 10,
+      callbacks: {
+        label: function(tooltipItem, chart) {
+          var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
+          return datasetLabel + "€" + number_format(tooltipItem.yLabel);
+        }
+      }
+    },
+  }
+});
+
+}
 
 
 async function vendasProdutoSemestre(year, produto){
@@ -555,7 +1035,7 @@ async function vendasProdutoSemestre(year, produto){
   var myBarChart = new Chart(canv, {
     type: 'bar',
     data: {
-      labels: ["Primeiro Semestre" ,"Segundo Semestre ", "Terceiro Semestre ", "Quarto Semestre "],
+      labels: ["Primeiro Trimestre" ,"Segundo Trimestre ", "Terceiro Trimestre ", "Quarto Trimestre "],
       datasets: [{
         label: "Quantidade: " ,
         backgroundColor: "#4E73DF",
@@ -642,6 +1122,9 @@ async function vendasProdutoSemestre(year, produto){
 }
 
 
+
+
+
 vendasBarChart(2020);
 
 async function vendasBarChart(year){
@@ -680,17 +1163,18 @@ async function vendasBarChart(year){
 
   var totalDinheiro2020 = [0,0,0,0,0,0,0,0,0,0,0,0];
   var totalDinheiro2019 = [0,0,0,0,0,0,0,0,0,0,0,0];
+  //var totalDinheiroTeste = [-1000,0,5532,-60000,24134,35555,53636,3333,96868,-6545,222,1000];
 
   var cycle = Math.max(vendas2019.length,vendas2020.length);
 
   for(let i = 0; i < cycle ;i++){
     if (typeof vendas2019[i] === "undefined"){
     }else{
-     totalDinheiro2019[(vendas2019[i]._id -1)] = vendas2019[i].TotalDinheiro;
+     totalDinheiro2019[(vendas2019[i]._id -1)] = vendas2019[i].QuantidadeVendida;
    }
    if(typeof vendas2020[i] === "undefined"){   
    }else{
-    totalDinheiro2020[(vendas2020[i]._id -1)] = vendas2020[i].TotalDinheiro;
+    totalDinheiro2020[(vendas2020[i]._id -1)] = vendas2020[i].QuantidadeVendida;
   }
 }
 
@@ -742,7 +1226,7 @@ var myBarChart = new Chart(ctx, {
       }],
       yAxes: [{
         ticks: {
-          min: 0,
+          //min: 0,
           maxTicksLimit: 5,
           padding: 10,
           // Include an euro sign in the ticks
@@ -929,6 +1413,7 @@ $(document).on('change', 'input', function(){
   for (var i=0;i<options.length;i++){
    if (options[i].value == $(this).val()){
     vendasProdutoSemestre( $('#selectYear')[0].value,$(this).val()); 
+    vendasProdutoSemestreValor( $('#selectYear')[0].value,$(this).val()); 
           //console.log($('select[name=selectYear] option').filter(':selected').val());
           break;
         }
@@ -941,8 +1426,9 @@ $(document).ready(function(){
   $('#selectYear').on('change', function() {
 
     vendasBarChart(this.value);
-    
     comprasBarChart(this.value); 
     vendasTrimestre($('#selectYear')[0].value);
+    vendasTrimestreValor($('#selectYear')[0].value);
+
   });
 });

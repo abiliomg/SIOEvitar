@@ -85,113 +85,133 @@
                 <select class="bootstrap-select" id="selectYear">
                 </select>
 
-                <!-- Content Row -->
                 <div class="row">
-
-                  <div class="col-xl-8 col-lg-7">
-
-                    <!-- Area Chart -->
-                    <div class="card shadow mb-4">
-                      <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Soma das vendas por mês</h6>
-                      </div>
-                      <div class="card-body">
-                        <div class="chart-area" id="myAreaChartDiv">
-                          <canvas id="myAreaChart"></canvas>
-                        </div> 
-                        <div class="mt-4 text-center small" id="myAreaChartLabels">
-                        </div>
-
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <!-- Donut Chart -->
                   <div class="col-xl-4 col-lg-5">
-                    <div class="card shadow mb-4">
-                      <!-- Card Header - Dropdown -->
-                      <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos (Quantidade)</h6>
-                      </div>
-                      <!-- Card Body -->
-                      <div class="card-body">
-                        <div class="chart-pie pt-4" id="canvasProdutos">
-                          <canvas id="myPieChartProdutos"></canvas>
-                        </div>
-                        <div class="mt-4 text-center small" id="pieChartLabels">
-                        </div>       
-                      </div>
+
+                   <div class="card shadow mb-4">
+                    <!-- Card Header - Dropdown -->
+                    <div class="card-header py-3">
+                      <h6 class="m-0 font-weight-bold text-primary">Top 5 Clientes</h6>
                     </div>
-
-                    
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <div class="chart-pie pt-4" id="canvasClientes">
+                        <canvas id="myPieChartClientes"></canvas>
+                      </div>
+                      <div class="mt-4 text-center small" id="pieChartLabelsClientes">
+                      </div>       
+                    </div>
                   </div>
-
                 </div>
 
-                <div class="row">
-
-                 <div class="col-xl-8 col-lg-7">
-
-                  <!-- Bar Chart -->
+                <div class="col-xl-4 col-lg-5">
                   <div class="card shadow mb-4">
+                    <!-- Card Header - Dropdown -->
                     <div class="card-header py-3">
-                      <h6 class="m-0 font-weight-bold text-primary">Vendas por mês</h6>
+                      <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos (Valor)</h6>
                     </div>
+                    <!-- Card Body -->
                     <div class="card-body">
-                      <div class="chart-bar" id="myBarChartCanvasDiv">
-                        <canvas id="myBarChart"></canvas>
+                      <div class="chart-pie pt-4" id="canvasProdutosValor">
+                        <canvas id="myPieChartProdutosValor"></canvas>
                       </div>
-                      <div class="mt-4 text-center small" id="myBarChartLabels">
-                      </div>
+                      <div class="mt-4 text-center small" id="pieChartLabelsValor">
+                      </div>       
                     </div>
                   </div>
 
                 </div>
 
                 <div class="col-xl-4 col-lg-5">
-
-                 <div class="card shadow mb-4">
-                  <!-- Card Header - Dropdown -->
-                  <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Top 5 Clientes</h6>
-                  </div>
-                  <!-- Card Body -->
-                  <div class="card-body">
-                    <div class="chart-pie pt-4" id="canvasClientes">
-                      <canvas id="myPieChartClientes"></canvas>
+                  <div class="card shadow mb-4">
+                    <!-- Card Header - Dropdown -->
+                    <div class="card-header py-3">
+                      <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos (Quantidade)</h6>
                     </div>
-                    <div class="mt-4 text-center small" id="pieChartLabelsClientes">
-                    </div>       
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <div class="chart-pie pt-4" id="canvasProdutos">
+                        <canvas id="myPieChartProdutos"></canvas>
+                      </div>
+                      <div class="mt-4 text-center small" id="pieChartLabels">
+                      </div>       
+                    </div>
                   </div>
+
+
                 </div>
 
               </div>
 
+
+              <!-- Content Row -->
+              <div class="row">
+
+                <div class="col-xl-12 col-lg-7">
+
+                  <!-- Area Chart -->
+                  <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                      <h6 class="m-0 font-weight-bold text-primary">Soma das vendas por mês</h6>
+                    </div>
+                    <div class="card-body">
+                      <div class="chart-area" id="myAreaChartDiv">
+                        <canvas id="myAreaChart"></canvas>
+                      </div> 
+                      <div class="mt-4 text-center small" id="myAreaChartLabels">
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Donut Chart -->
+
+
+              </div>
+
+              <div class="row">
+
+               <div class="col-xl-12 col-lg-7">
+
+                <!-- Bar Chart -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Vendas por mês</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-bar" id="myBarChartCanvasDiv">
+                      <canvas id="myBarChart"></canvas>
+                    </div>
+                    <div class="mt-4 text-center small" id="myBarChartLabels">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
 
             <div class="row">
-
-
-              <div class="col-xl-8 col-lg-7">
-
+              <div class="col-xl-12 col-lg-7">
                 <div class="card shadow mb-4">
                   <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Vendas por Trimestre</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Compras por mês</h6>
                   </div>
                   <div class="card-body">
-                    <div class="chart-bar" id="canvasTrimestre" >
-                      <canvas id="myVendasTrimestraisChart"></canvas>
+                    <div class="chart-bar" id ="myBarChartComprasDiv">
+                      <canvas id="myBarChartCompras"></canvas>
                     </div>
-                    <div class="mt-4 text-center small" id="myVendasTrimestraisChartLabels">
+                    <div class="mt-4 text-center small" id="myBarChartComprasLabels">
                     </div>
-
                   </div>
                 </div>
-
               </div>
+            </div>
 
-              <div class="col-xl-4 col-lg-5">
+            <div class="row">
+            
+             <div class="col-xl-12 col-lg-5">
                <form>
                 <label for="browser">Escolha o produto que quer comparar:</label>
                 <input list="produtosDataList" name="browser" id="browser">
@@ -201,63 +221,60 @@
             </div>
 
           </div>
+          <div class="row">
+            <div class="clear">
+              <br>
+            </div>
+          </div>
 
-           <div class="row">
+          <div class="row">
 
-            <div class="col-xl-8 col-lg-7">
+            <div class="col-xl-12 col-lg-7">
 
-                <div class="card shadow mb-4">
-                  <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Vendas por Trimestre</h6>
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Vendas por Trimestre (Quantidade)</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-bar" id="canvasTrimestre" >
+                    <canvas id="myVendasTrimestraisChart"></canvas>
                   </div>
-                  <div class="card-body">
-                    <div class="chart-bar" id="canvasTrimestreValor" >
-                      <canvas id="myVendasTrimestraisValorChart"></canvas>
-                    </div>
-                    <div class="mt-4 text-center small" id="myVendasTrimestraisValorChartLabels">
-                    </div>
-
+                  <div class="mt-4 text-center small" id="myVendasTrimestraisChartLabels">
                   </div>
 
                 </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-5">
-                <div class="card shadow mb-4">
-                      <!-- Card Header - Dropdown -->
-                      <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Top 5 Produtos (Valor)</h6>
-                      </div>
-                      <!-- Card Body -->
-                      <div class="card-body">
-                        <div class="chart-pie pt-4" id="canvasProdutosValor">
-                          <canvas id="myPieChartProdutosValor"></canvas>
-                        </div>
-                        <div class="mt-4 text-center small" id="pieChartLabelsValor">
-                        </div>       
-                      </div>
-                    </div>
+              </div>
 
             </div>
+
+
 
           </div>
 
+          <div class="row">
+
+            <div class="col-xl-12 col-lg-7">
+
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Vendas por Trimestre (Valor)</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-bar" id="canvasTrimestreValor" >
+                    <canvas id="myVendasTrimestraisValorChart"></canvas>
+                  </div>
+                  <div class="mt-4 text-center small" id="myVendasTrimestraisValorChartLabels">
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
 
 
-          <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Compras por mês</h6>
-            </div>
-            <div class="card-body">
-              <div class="chart-bar" id ="myBarChartComprasDiv">
-                <canvas id="myBarChartCompras"></canvas>
-              </div>
-              <div class="mt-4 text-center small" id="myBarChartComprasLabels">
-              </div>
-            </div>
+
           </div>
 
-         
 
         </div>
         <!-- /.container-fluid -->

@@ -86,7 +86,7 @@
 			</Account>
 			<Account>
 				<AccountID>21111003</AccountID>
-				<AccountDescription>José Maria Fernandes &amp; Filhos, Lda.</AccountDescription>
+				<AccountDescription>JosÃ© Maria Fernandes &amp; Filhos, Lda.</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>10475.40</ClosingDebitBalance>
@@ -108,7 +108,7 @@
 			</Account>
 			<Account>
 				<AccountID>21113001</AccountID>
-				<AccountDescription>Inforshow, Informática Comunicação</AccountDescription>
+				<AccountDescription>Inforshow, InformÃ¡tica ComunicaÃ§Ã£o</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>5679.00</ClosingDebitBalance>
@@ -130,7 +130,7 @@
 			</Account>
 			<Account>
 				<AccountID>21113006</AccountID>
-				<AccountDescription>Maria José da Silva</AccountDescription>
+				<AccountDescription>Maria JosÃ© da Silva</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1830.00</ClosingDebitBalance>
@@ -162,7 +162,7 @@
 			</Account>
 			<Account>
 				<AccountID>21123005</AccountID>
-				<AccountDescription>Paulo Construções LDA</AccountDescription>
+				<AccountDescription>Paulo ConstruÃ§Ãµes LDA</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>4722.00</ClosingDebitBalance>
@@ -235,7 +235,7 @@
 			</Account>
 			<Account>
 				<AccountID>22111004</AccountID>
-				<AccountDescription>Distribuição Informática</AccountDescription>
+				<AccountDescription>DistribuiÃ§Ã£o InformÃ¡tica</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>0.00</ClosingDebitBalance>
@@ -268,7 +268,7 @@
 			</Account>
 			<Account>
 				<AccountID>24</AccountID>
-				<AccountDescription>Estados e Outros Entes Públicos</AccountDescription>
+				<AccountDescription>Estados e Outros Entes PÃºblicos</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>8905.08</ClosingDebitBalance>
@@ -287,7 +287,7 @@
 			</Account>
 			<Account>
 				<AccountID>2432</AccountID>
-				<AccountDescription>Iva - Dedutível</AccountDescription>
+				<AccountDescription>Iva - DedutÃ­vel</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>8590.08</ClosingDebitBalance>
@@ -297,7 +297,7 @@
 			</Account>
 			<Account>
 				<AccountID>24321</AccountID>
-				<AccountDescription>Existências</AccountDescription>
+				<AccountDescription>ExistÃªncias</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>8590.08</ClosingDebitBalance>
@@ -307,7 +307,7 @@
 			</Account>
 			<Account>
 				<AccountID>243211</AccountID>
-				<AccountDescription>Existências Continente</AccountDescription>
+				<AccountDescription>ExistÃªncias Continente</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>8590.08</ClosingDebitBalance>
@@ -347,7 +347,7 @@
 			</Account>
 			<Account>
 				<AccountID>24321132011</AccountID>
-				<AccountDescription>Ex. Tx. Nm..- MN-TT/Dedutível</AccountDescription>
+				<AccountDescription>Ex. Tx. Nm..- MN-TT/DedutÃ­vel</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>8590.08</ClosingDebitBalance>
@@ -429,7 +429,7 @@
 			</Account>
 			<Account>
 				<AccountID>2434</AccountID>
-				<AccountDescription>Iva - Regularizações</AccountDescription>
+				<AccountDescription>Iva - RegularizaÃ§Ãµes</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>315.00</ClosingDebitBalance>
@@ -449,7 +449,7 @@
 			</Account>
 			<Account>
 				<AccountID>243412</AccountID>
-				<AccountDescription>Rg Fe - Por Devoluções de Clientes e Descontos</AccountDescription>
+				<AccountDescription>Rg Fe - Por DevoluÃ§Ãµes de Clientes e Descontos</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>315.00</ClosingDebitBalance>
@@ -581,7 +581,7 @@
 			</Account>
 			<Account>
 				<AccountID>717</AccountID>
-				<AccountDescription>Devoluções de Vendas</AccountDescription>
+				<AccountDescription>DevoluÃ§Ãµes de Vendas</AccountDescription>
 				<OpeningDebitBalance>0.00</OpeningDebitBalance>
 				<OpeningCreditBalance>0.00</OpeningCreditBalance>
 				<ClosingDebitBalance>1615.00</ClosingDebitBalance>
@@ -667,7 +667,7 @@
 			<CustomerID>AO823892388_C</CustomerID>
 			<AccountID>21113001</AccountID>
 			<CustomerTaxID>823892388</CustomerTaxID>
-			<CompanyName>Inforshow, Informática Comunicação</CompanyName>
+			<CompanyName>Inforshow, InformÃ¡tica ComunicaÃ§Ã£o</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. dos Coqueiros, 464646</AddressDetail>
 				<City>Luanda</City>
@@ -688,7 +688,7 @@
 			<CustomerID>PT505678900_C</CustomerID>
 			<AccountID>21111003</AccountID>
 			<CustomerTaxID>505678900</CustomerTaxID>
-			<CompanyName>José Maria Fernandes &amp; Filhos, Lda.</CompanyName>
+			<CompanyName>JosÃ© Maria Fernandes &amp; Filhos, Lda.</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. do Norte, 484848</AddressDetail>
 				<City>Porto</City>
@@ -730,7 +730,7 @@
 			<CustomerID>PT506363864_C</CustomerID>
 			<AccountID>21123005</AccountID>
 			<CustomerTaxID>506363864</CustomerTaxID>
-			<CompanyName>Paulo Construções LDA</CompanyName>
+			<CompanyName>Paulo ConstruÃ§Ãµes LDA</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Rua dos Carvalhos</AddressDetail>
 				<City>Ermesinde</City>
@@ -775,13 +775,13 @@
 			<CompanyName>Sociedade Vidreira da Marinha, Lda.</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. dos Vidros,546756</AddressDetail>
-				<City>S.João dos Vidros</City>
+				<City>S.JoÃ£o dos Vidros</City>
 				<PostalCode>3000-001</PostalCode>
 				<Country>PT</Country>
 			</BillingAddress>
 			<ShipToAddress>
 				<AddressDetail>Av. dos Vidros,546756</AddressDetail>
-				<City>S.João dos Vidros</City>
+				<City>S.JoÃ£o dos Vidros</City>
 				<PostalCode>3000-001</PostalCode>
 				<Country>PT</Country>
 			</ShipToAddress>
@@ -793,15 +793,15 @@
 			<CustomerID>PT508742900_C</CustomerID>
 			<AccountID>21113006</AccountID>
 			<CustomerTaxID>508742900</CustomerTaxID>
-			<CompanyName>Maria José da Silva</CompanyName>
+			<CompanyName>Maria JosÃ© da Silva</CompanyName>
 			<BillingAddress>
-				<AddressDetail>Rua de S. Geraldo Nº 41</AddressDetail>
+				<AddressDetail>Rua de S. Geraldo NÂº 41</AddressDetail>
 				<City>Cividade</City>
 				<PostalCode>4700-008</PostalCode>
 				<Country>PT</Country>
 			</BillingAddress>
 			<ShipToAddress>
-				<AddressDetail>Rua de S. Geraldo Nº 41</AddressDetail>
+				<AddressDetail>Rua de S. Geraldo NÂº 41</AddressDetail>
 				<City>Cividade</City>
 				<PostalCode>4700-008</PostalCode>
 				<Country>PT</Country>
@@ -814,15 +814,15 @@
 			<CustomerID>PT510254721_C</CustomerID>
 			<AccountID>21113006</AccountID>
 			<CustomerTaxID>510254721</CustomerTaxID>
-			<CompanyName>Maria José da Silva</CompanyName>
+			<CompanyName>Maria JosÃ© da Silva</CompanyName>
 			<BillingAddress>
-				<AddressDetail>Rua de S. Geraldo Nº 41</AddressDetail>
+				<AddressDetail>Rua de S. Geraldo NÂº 41</AddressDetail>
 				<City>Cividade</City>
 				<PostalCode>4700-008</PostalCode>
 				<Country>PT</Country>
 			</BillingAddress>
 			<ShipToAddress>
-				<AddressDetail>Rua de S. Geraldo Nº 41</AddressDetail>
+				<AddressDetail>Rua de S. Geraldo NÂº 41</AddressDetail>
 				<City>Cividade</City>
 				<PostalCode>4700-008</PostalCode>
 				<Country>PT</Country>
@@ -860,13 +860,13 @@
 			<CompanyName>Vidro Z- Vidraria Especializada,Lda</CompanyName>
 			<BillingAddress>
 				<AddressDetail>R. das Vidreiras, 437474</AddressDetail>
-				<City>S. António dos Vidrinhos</City>
+				<City>S. AntÃ³nio dos Vidrinhos</City>
 				<PostalCode>1000-001</PostalCode>
 				<Country>PT</Country>
 			</BillingAddress>
 			<ShipToAddress>
 				<AddressDetail>R. das Vidreiras, 437474</AddressDetail>
-				<City>S. António dos Vidrinhos</City>
+				<City>S. AntÃ³nio dos Vidrinhos</City>
 				<PostalCode>1000-001</PostalCode>
 				<Country>PT</Country>
 			</ShipToAddress>
@@ -944,7 +944,7 @@
 			<SupplierID>500711542_F</SupplierID>
 			<AccountID>22111004</AccountID>
 			<SupplierTaxID>500711542</SupplierTaxID>
-			<CompanyName>Distribuição Informática</CompanyName>
+			<CompanyName>DistribuiÃ§Ã£o InformÃ¡tica</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. da Boavista, 1500</AddressDetail>
 				<City>Desconhecido</City>
@@ -966,7 +966,7 @@
 			<SupplierID>507423488_F</SupplierID>
 			<AccountID>22111004</AccountID>
 			<SupplierTaxID>507423488</SupplierTaxID>
-			<CompanyName>Distribuição Informática</CompanyName>
+			<CompanyName>DistribuiÃ§Ã£o InformÃ¡tica</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. da Boavista, 1500</AddressDetail>
 				<City>Desconhecido</City>
@@ -988,7 +988,7 @@
 			<SupplierID>508742900_F</SupplierID>
 			<AccountID>22111004</AccountID>
 			<SupplierTaxID>508742900</SupplierTaxID>
-			<CompanyName>Distribuição Informática</CompanyName>
+			<CompanyName>DistribuiÃ§Ã£o InformÃ¡tica</CompanyName>
 			<BillingAddress>
 				<AddressDetail>Av. da Boavista, 1500</AddressDetail>
 				<City>Desconhecido</City>
@@ -1087,15 +1087,15 @@
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>A0005</ProductCode>
-			<ProductGroup>Mobiliário</ProductGroup>
+			<ProductGroup>MobiliÃ¡rio</ProductGroup>
 			<ProductDescription>Mesa p/ PC</ProductDescription>
 			<ProductNumberCode>5605476109995</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>A0006</ProductCode>
-			<ProductGroup>Mobiliário</ProductGroup>
-			<ProductDescription>Secretária 1,50*0,70*0,70</ProductDescription>
+			<ProductGroup>MobiliÃ¡rio</ProductGroup>
+			<ProductDescription>SecretÃ¡ria 1,50*0,70*0,70</ProductDescription>
 			<ProductNumberCode>A0006</ProductNumberCode>
 		</Product>
 		<Product>
@@ -1108,119 +1108,119 @@
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>CREDE</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Cabo de Rede</ProductDescription>
 			<ProductNumberCode>CREDE</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>O</ProductType>
 			<ProductCode>Especial</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Linha especial</ProductDescription>
 			<ProductNumberCode>Especial</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>M17ACER</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Monitor 17 Acer</ProductDescription>
 			<ProductNumberCode>M17ACER</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>M17LENOVO</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Monitor 17 Lenovo</ProductDescription>
 			<ProductNumberCode>M17LENOVO</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>M24ACER</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Monitor 24 Acer</ProductDescription>
 			<ProductNumberCode>M24ACER</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>M24LENOVO</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Monitor 24 Lenovo</ProductDescription>
 			<ProductNumberCode>M24LENOVO</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>PASUS</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
-			<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
+			<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 			<ProductNumberCode>PASUS</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>PHP</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
-			<ProductDescription>Portátil HP 512G</ProductDescription>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
+			<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 			<ProductNumberCode>PHP</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>PLENOVO</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
-			<ProductDescription>Portátil Lenovo</ProductDescription>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
+			<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 			<ProductNumberCode>PLENOVO</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>RACER</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Rato Acer</ProductDescription>
 			<ProductNumberCode>RACER</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>RHP</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Rato HP</ProductDescription>
 			<ProductNumberCode>RHP</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>RLENOVO</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Rato Lenovo</ProductDescription>
 			<ProductNumberCode>RLENOVO</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>ROUTER</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>router</ProductDescription>
 			<ProductNumberCode>ROUTER</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>TAPETE</ProductCode>
-			<ProductGroup>Acessórios</ProductGroup>
-			<ProductDescription>Tapete de Rato 2.ª Geração</ProductDescription>
+			<ProductGroup>AcessÃ³rios</ProductGroup>
+			<ProductDescription>Tapete de Rato 2.Âª GeraÃ§Ã£o</ProductDescription>
 			<ProductNumberCode>TAPETE</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>TASUS</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Teclado Asus</ProductDescription>
 			<ProductNumberCode>TASUS</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>THP</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Teclado HP</ProductDescription>
 			<ProductNumberCode>THP</ProductNumberCode>
 		</Product>
 		<Product>
 			<ProductType>P</ProductType>
 			<ProductCode>TLENOVO</ProductCode>
-			<ProductGroup>Sem família</ProductGroup>
+			<ProductGroup>Sem famÃ­lia</ProductGroup>
 			<ProductDescription>Teclado Lenovo</ProductDescription>
 			<ProductNumberCode>TLENOVO</ProductNumberCode>
 		</Product>
@@ -1264,7 +1264,7 @@
 				<TaxType>IVA</TaxType>
 				<TaxCountryRegion>PT</TaxCountryRegion>
 				<TaxCode>INT</TaxCode>
-				<Description>Intermédia</Description>
+				<Description>IntermÃ©dia</Description>
 				<TaxPercentage>12.00</TaxPercentage>
 			</TaxTableEntry>
 			<TaxTableEntry>
@@ -1386,7 +1386,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-02</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 1/E</Description>
+				<Description>VFA NÂº 1/E</Description>
 				<DocArchivalNumber>10001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1396,7 +1396,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA E/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T12:23:18</SystemEntryDate>
-						<Description>VFA Nº 1/E</Description>
+						<Description>VFA NÂº 1/E</Description>
 						<CreditAmount>16151.76</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1404,7 +1404,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T12:23:18</SystemEntryDate>
-						<Description>VFA Nº 1/E</Description>
+						<Description>VFA NÂº 1/E</Description>
 						<DebitAmount>2691.96</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1412,7 +1412,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T12:23:18</SystemEntryDate>
-						<Description>VFA Nº 1/E</Description>
+						<Description>VFA NÂº 1/E</Description>
 						<DebitAmount>13459.80</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1422,7 +1422,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-04</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 3/E</Description>
+				<Description>VFA NÂº 3/E</Description>
 				<DocArchivalNumber>10003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1432,7 +1432,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA E/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T14:39:37</SystemEntryDate>
-						<Description>VFA Nº 3/E</Description>
+						<Description>VFA NÂº 3/E</Description>
 						<CreditAmount>546.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1440,7 +1440,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T14:39:37</SystemEntryDate>
-						<Description>VFA Nº 3/E</Description>
+						<Description>VFA NÂº 3/E</Description>
 						<DebitAmount>91.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1448,7 +1448,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T14:39:37</SystemEntryDate>
-						<Description>VFA Nº 3/E</Description>
+						<Description>VFA NÂº 3/E</Description>
 						<DebitAmount>455.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1458,7 +1458,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-04</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 4/E</Description>
+				<Description>VFA NÂº 4/E</Description>
 				<DocArchivalNumber>10004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1468,7 +1468,7 @@
 						<AccountID>22111004</AccountID>
 						<SourceDocumentID>VFA E/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T14:44:05</SystemEntryDate>
-						<Description>VFA Nº 4/E</Description>
+						<Description>VFA NÂº 4/E</Description>
 						<CreditAmount>180.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1476,7 +1476,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T14:44:05</SystemEntryDate>
-						<Description>VFA Nº 4/E</Description>
+						<Description>VFA NÂº 4/E</Description>
 						<DebitAmount>30.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1484,7 +1484,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T14:44:05</SystemEntryDate>
-						<Description>VFA Nº 4/E</Description>
+						<Description>VFA NÂº 4/E</Description>
 						<DebitAmount>150.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1494,7 +1494,7 @@
 				<Period>2</Period>
 				<TransactionDate>2020-02-03</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 6/E</Description>
+				<Description>VFA NÂº 6/E</Description>
 				<DocArchivalNumber>20001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1504,7 +1504,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA E/6</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:43:56</SystemEntryDate>
-						<Description>VFA Nº 6/E</Description>
+						<Description>VFA NÂº 6/E</Description>
 						<CreditAmount>756.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1512,7 +1512,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/6</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:43:56</SystemEntryDate>
-						<Description>VFA Nº 6/E</Description>
+						<Description>VFA NÂº 6/E</Description>
 						<DebitAmount>126.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1520,7 +1520,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/6</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:43:56</SystemEntryDate>
-						<Description>VFA Nº 6/E</Description>
+						<Description>VFA NÂº 6/E</Description>
 						<DebitAmount>630.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1530,7 +1530,7 @@
 				<Period>2</Period>
 				<TransactionDate>2020-02-15</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 7/E</Description>
+				<Description>VFA NÂº 7/E</Description>
 				<DocArchivalNumber>20002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1540,7 +1540,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/7</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:45:34</SystemEntryDate>
-						<Description>VFA Nº 7/E</Description>
+						<Description>VFA NÂº 7/E</Description>
 						<CreditAmount>1800.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1548,7 +1548,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/7</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:45:34</SystemEntryDate>
-						<Description>VFA Nº 7/E</Description>
+						<Description>VFA NÂº 7/E</Description>
 						<DebitAmount>300.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1556,7 +1556,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/7</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:45:34</SystemEntryDate>
-						<Description>VFA Nº 7/E</Description>
+						<Description>VFA NÂº 7/E</Description>
 						<DebitAmount>1500.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1566,7 +1566,7 @@
 				<Period>3</Period>
 				<TransactionDate>2020-03-05</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 8/E</Description>
+				<Description>VFA NÂº 8/E</Description>
 				<DocArchivalNumber>30001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1576,7 +1576,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA E/8</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:21:17</SystemEntryDate>
-						<Description>VFA Nº 8/E</Description>
+						<Description>VFA NÂº 8/E</Description>
 						<CreditAmount>369.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1584,7 +1584,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/8</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:21:17</SystemEntryDate>
-						<Description>VFA Nº 8/E</Description>
+						<Description>VFA NÂº 8/E</Description>
 						<DebitAmount>61.50</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1592,7 +1592,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/8</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:21:17</SystemEntryDate>
-						<Description>VFA Nº 8/E</Description>
+						<Description>VFA NÂº 8/E</Description>
 						<DebitAmount>307.50</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1602,7 +1602,7 @@
 				<Period>3</Period>
 				<TransactionDate>2020-03-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 9/E</Description>
+				<Description>VFA NÂº 9/E</Description>
 				<DocArchivalNumber>30002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1612,7 +1612,7 @@
 						<AccountID>22111003</AccountID>
 						<SourceDocumentID>VFA E/9</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:22:26</SystemEntryDate>
-						<Description>VFA Nº 9/E</Description>
+						<Description>VFA NÂº 9/E</Description>
 						<CreditAmount>1777.92</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1620,7 +1620,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/9</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:22:26</SystemEntryDate>
-						<Description>VFA Nº 9/E</Description>
+						<Description>VFA NÂº 9/E</Description>
 						<DebitAmount>296.32</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1628,7 +1628,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/9</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:22:26</SystemEntryDate>
-						<Description>VFA Nº 9/E</Description>
+						<Description>VFA NÂº 9/E</Description>
 						<DebitAmount>1481.60</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1638,7 +1638,7 @@
 				<Period>4</Period>
 				<TransactionDate>2020-04-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 10/E</Description>
+				<Description>VFA NÂº 10/E</Description>
 				<DocArchivalNumber>40001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1648,7 +1648,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/10</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:57:28</SystemEntryDate>
-						<Description>VFA Nº 10/E</Description>
+						<Description>VFA NÂº 10/E</Description>
 						<CreditAmount>2490.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1656,7 +1656,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/10</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:57:28</SystemEntryDate>
-						<Description>VFA Nº 10/E</Description>
+						<Description>VFA NÂº 10/E</Description>
 						<DebitAmount>415.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1664,7 +1664,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/10</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:57:28</SystemEntryDate>
-						<Description>VFA Nº 10/E</Description>
+						<Description>VFA NÂº 10/E</Description>
 						<DebitAmount>2075.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1674,7 +1674,7 @@
 				<Period>4</Period>
 				<TransactionDate>2020-04-15</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 11/E</Description>
+				<Description>VFA NÂº 11/E</Description>
 				<DocArchivalNumber>40002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1684,7 +1684,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA E/11</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:58:43</SystemEntryDate>
-						<Description>VFA Nº 11/E</Description>
+						<Description>VFA NÂº 11/E</Description>
 						<CreditAmount>1008.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1692,7 +1692,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/11</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:58:43</SystemEntryDate>
-						<Description>VFA Nº 11/E</Description>
+						<Description>VFA NÂº 11/E</Description>
 						<DebitAmount>168.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1700,7 +1700,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/11</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:58:43</SystemEntryDate>
-						<Description>VFA Nº 11/E</Description>
+						<Description>VFA NÂº 11/E</Description>
 						<DebitAmount>840.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1710,7 +1710,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-07</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 12/E</Description>
+				<Description>VFA NÂº 12/E</Description>
 				<DocArchivalNumber>50007</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1720,7 +1720,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/12</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:08:38</SystemEntryDate>
-						<Description>VFA Nº 12/E</Description>
+						<Description>VFA NÂº 12/E</Description>
 						<CreditAmount>1440.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1728,7 +1728,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/12</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:08:38</SystemEntryDate>
-						<Description>VFA Nº 12/E</Description>
+						<Description>VFA NÂº 12/E</Description>
 						<DebitAmount>240.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1736,7 +1736,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/12</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:08:38</SystemEntryDate>
-						<Description>VFA Nº 12/E</Description>
+						<Description>VFA NÂº 12/E</Description>
 						<DebitAmount>1200.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1746,7 +1746,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-18</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 3/D</Description>
+				<Description>VFA NÂº 3/D</Description>
 				<DocArchivalNumber>50003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-05-18</GLPostingDate>
@@ -1756,7 +1756,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA D/3</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:17:18</SystemEntryDate>
-						<Description>VFA Nº 3/D</Description>
+						<Description>VFA NÂº 3/D</Description>
 						<CreditAmount>546.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1764,7 +1764,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA D/3</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:17:18</SystemEntryDate>
-						<Description>VFA Nº 3/D</Description>
+						<Description>VFA NÂº 3/D</Description>
 						<DebitAmount>91.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1772,7 +1772,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA D/3</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:17:18</SystemEntryDate>
-						<Description>VFA Nº 3/D</Description>
+						<Description>VFA NÂº 3/D</Description>
 						<DebitAmount>455.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1782,7 +1782,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-18</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 5/D</Description>
+				<Description>VFA NÂº 5/D</Description>
 				<DocArchivalNumber>50005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-05-18</GLPostingDate>
@@ -1792,7 +1792,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA D/5</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:48:41</SystemEntryDate>
-						<Description>VFA Nº 5/D</Description>
+						<Description>VFA NÂº 5/D</Description>
 						<CreditAmount>546.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1800,7 +1800,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA D/5</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:48:41</SystemEntryDate>
-						<Description>VFA Nº 5/D</Description>
+						<Description>VFA NÂº 5/D</Description>
 						<DebitAmount>91.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1808,7 +1808,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA D/5</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:48:41</SystemEntryDate>
-						<Description>VFA Nº 5/D</Description>
+						<Description>VFA NÂº 5/D</Description>
 						<DebitAmount>455.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1818,7 +1818,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-18</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 6/D</Description>
+				<Description>VFA NÂº 6/D</Description>
 				<DocArchivalNumber>50006</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-05-18</GLPostingDate>
@@ -1828,7 +1828,7 @@
 						<AccountID>22113003</AccountID>
 						<SourceDocumentID>VFA D/6</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:50:26</SystemEntryDate>
-						<Description>VFA Nº 6/D</Description>
+						<Description>VFA NÂº 6/D</Description>
 						<CreditAmount>546.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1836,7 +1836,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA D/6</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:50:26</SystemEntryDate>
-						<Description>VFA Nº 6/D</Description>
+						<Description>VFA NÂº 6/D</Description>
 						<DebitAmount>91.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1844,7 +1844,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA D/6</SourceDocumentID>
 						<SystemEntryDate>2020-05-18T11:50:26</SystemEntryDate>
-						<Description>VFA Nº 6/D</Description>
+						<Description>VFA NÂº 6/D</Description>
 						<DebitAmount>455.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1854,7 +1854,7 @@
 				<Period>7</Period>
 				<TransactionDate>2020-07-08</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 13/E</Description>
+				<Description>VFA NÂº 13/E</Description>
 				<DocArchivalNumber>70001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1864,7 +1864,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/13</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:40:02</SystemEntryDate>
-						<Description>VFA Nº 13/E</Description>
+						<Description>VFA NÂº 13/E</Description>
 						<CreditAmount>4824.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1872,7 +1872,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/13</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:40:02</SystemEntryDate>
-						<Description>VFA Nº 13/E</Description>
+						<Description>VFA NÂº 13/E</Description>
 						<DebitAmount>804.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1880,7 +1880,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/13</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:40:02</SystemEntryDate>
-						<Description>VFA Nº 13/E</Description>
+						<Description>VFA NÂº 13/E</Description>
 						<DebitAmount>4020.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1890,7 +1890,7 @@
 				<Period>7</Period>
 				<TransactionDate>2020-07-12</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 14/E</Description>
+				<Description>VFA NÂº 14/E</Description>
 				<DocArchivalNumber>70002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1900,7 +1900,7 @@
 						<AccountID>22111003</AccountID>
 						<SourceDocumentID>VFA E/14</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:42:28</SystemEntryDate>
-						<Description>VFA Nº 14/E</Description>
+						<Description>VFA NÂº 14/E</Description>
 						<CreditAmount>3964.80</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1908,7 +1908,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/14</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:42:28</SystemEntryDate>
-						<Description>VFA Nº 14/E</Description>
+						<Description>VFA NÂº 14/E</Description>
 						<DebitAmount>660.80</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1916,7 +1916,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/14</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:42:28</SystemEntryDate>
-						<Description>VFA Nº 14/E</Description>
+						<Description>VFA NÂº 14/E</Description>
 						<DebitAmount>3304.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1926,7 +1926,7 @@
 				<Period>7</Period>
 				<TransactionDate>2020-07-20</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 15/E</Description>
+				<Description>VFA NÂº 15/E</Description>
 				<DocArchivalNumber>70003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1936,7 +1936,7 @@
 						<AccountID>22111004</AccountID>
 						<SourceDocumentID>VFA E/15</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:47:51</SystemEntryDate>
-						<Description>VFA Nº 15/E</Description>
+						<Description>VFA NÂº 15/E</Description>
 						<CreditAmount>240.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1944,7 +1944,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/15</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:47:51</SystemEntryDate>
-						<Description>VFA Nº 15/E</Description>
+						<Description>VFA NÂº 15/E</Description>
 						<DebitAmount>40.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1952,7 +1952,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/15</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:47:51</SystemEntryDate>
-						<Description>VFA Nº 15/E</Description>
+						<Description>VFA NÂº 15/E</Description>
 						<DebitAmount>200.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1962,7 +1962,7 @@
 				<Period>8</Period>
 				<TransactionDate>2020-08-01</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 16/E</Description>
+				<Description>VFA NÂº 16/E</Description>
 				<DocArchivalNumber>80001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -1972,7 +1972,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/16</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:50:43</SystemEntryDate>
-						<Description>VFA Nº 16/E</Description>
+						<Description>VFA NÂº 16/E</Description>
 						<CreditAmount>240.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -1980,7 +1980,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/16</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:50:43</SystemEntryDate>
-						<Description>VFA Nº 16/E</Description>
+						<Description>VFA NÂº 16/E</Description>
 						<DebitAmount>40.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -1988,7 +1988,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/16</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:50:43</SystemEntryDate>
-						<Description>VFA Nº 16/E</Description>
+						<Description>VFA NÂº 16/E</Description>
 						<DebitAmount>200.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -1998,7 +1998,7 @@
 				<Period>8</Period>
 				<TransactionDate>2020-08-21</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 17/E</Description>
+				<Description>VFA NÂº 17/E</Description>
 				<DocArchivalNumber>80002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2008,7 +2008,7 @@
 						<AccountID>22111004</AccountID>
 						<SourceDocumentID>VFA E/17</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:02:49</SystemEntryDate>
-						<Description>VFA Nº 17/E</Description>
+						<Description>VFA NÂº 17/E</Description>
 						<CreditAmount>300.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2016,7 +2016,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/17</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:02:49</SystemEntryDate>
-						<Description>VFA Nº 17/E</Description>
+						<Description>VFA NÂº 17/E</Description>
 						<DebitAmount>50.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2024,7 +2024,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/17</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:02:49</SystemEntryDate>
-						<Description>VFA Nº 17/E</Description>
+						<Description>VFA NÂº 17/E</Description>
 						<DebitAmount>250.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2034,7 +2034,7 @@
 				<Period>8</Period>
 				<TransactionDate>2020-08-23</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 18/E</Description>
+				<Description>VFA NÂº 18/E</Description>
 				<DocArchivalNumber>80003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2044,7 +2044,7 @@
 						<AccountID>22111003</AccountID>
 						<SourceDocumentID>VFA E/18</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:03:21</SystemEntryDate>
-						<Description>VFA Nº 18/E</Description>
+						<Description>VFA NÂº 18/E</Description>
 						<CreditAmount>7.20</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2052,7 +2052,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/18</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:03:21</SystemEntryDate>
-						<Description>VFA Nº 18/E</Description>
+						<Description>VFA NÂº 18/E</Description>
 						<DebitAmount>1.20</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2060,7 +2060,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/18</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:03:21</SystemEntryDate>
-						<Description>VFA Nº 18/E</Description>
+						<Description>VFA NÂº 18/E</Description>
 						<DebitAmount>6.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2070,7 +2070,7 @@
 				<Period>10</Period>
 				<TransactionDate>2020-10-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 19/E</Description>
+				<Description>VFA NÂº 19/E</Description>
 				<DocArchivalNumber>100001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2080,7 +2080,7 @@
 						<AccountID>22111003</AccountID>
 						<SourceDocumentID>VFA E/19</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:17:04</SystemEntryDate>
-						<Description>VFA Nº 19/E</Description>
+						<Description>VFA NÂº 19/E</Description>
 						<CreditAmount>648.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2088,7 +2088,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/19</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:17:04</SystemEntryDate>
-						<Description>VFA Nº 19/E</Description>
+						<Description>VFA NÂº 19/E</Description>
 						<DebitAmount>108.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2096,7 +2096,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/19</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:17:04</SystemEntryDate>
-						<Description>VFA Nº 19/E</Description>
+						<Description>VFA NÂº 19/E</Description>
 						<DebitAmount>540.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2106,7 +2106,7 @@
 				<Period>10</Period>
 				<TransactionDate>2020-10-15</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 20/E</Description>
+				<Description>VFA NÂº 20/E</Description>
 				<DocArchivalNumber>100002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2116,7 +2116,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/20</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:17:46</SystemEntryDate>
-						<Description>VFA Nº 20/E</Description>
+						<Description>VFA NÂº 20/E</Description>
 						<CreditAmount>1710.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2124,7 +2124,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/20</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:17:46</SystemEntryDate>
-						<Description>VFA Nº 20/E</Description>
+						<Description>VFA NÂº 20/E</Description>
 						<DebitAmount>285.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2132,7 +2132,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/20</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:17:46</SystemEntryDate>
-						<Description>VFA Nº 20/E</Description>
+						<Description>VFA NÂº 20/E</Description>
 						<DebitAmount>1425.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2142,7 +2142,7 @@
 				<Period>11</Period>
 				<TransactionDate>2020-11-02</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 21/E</Description>
+				<Description>VFA NÂº 21/E</Description>
 				<DocArchivalNumber>110001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2152,7 +2152,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/21</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:35:52</SystemEntryDate>
-						<Description>VFA Nº 21/E</Description>
+						<Description>VFA NÂº 21/E</Description>
 						<CreditAmount>720.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2160,7 +2160,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/21</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:35:52</SystemEntryDate>
-						<Description>VFA Nº 21/E</Description>
+						<Description>VFA NÂº 21/E</Description>
 						<DebitAmount>120.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2168,7 +2168,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/21</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:35:52</SystemEntryDate>
-						<Description>VFA Nº 21/E</Description>
+						<Description>VFA NÂº 21/E</Description>
 						<DebitAmount>600.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2178,7 +2178,7 @@
 				<Period>11</Period>
 				<TransactionDate>2020-11-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 22/E</Description>
+				<Description>VFA NÂº 22/E</Description>
 				<DocArchivalNumber>110002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2188,7 +2188,7 @@
 						<AccountID>22111003</AccountID>
 						<SourceDocumentID>VFA E/22</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:36:37</SystemEntryDate>
-						<Description>VFA Nº 22/E</Description>
+						<Description>VFA NÂº 22/E</Description>
 						<CreditAmount>960.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2196,7 +2196,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/22</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:36:37</SystemEntryDate>
-						<Description>VFA Nº 22/E</Description>
+						<Description>VFA NÂº 22/E</Description>
 						<DebitAmount>160.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2204,7 +2204,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/22</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:36:37</SystemEntryDate>
-						<Description>VFA Nº 22/E</Description>
+						<Description>VFA NÂº 22/E</Description>
 						<DebitAmount>800.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2214,7 +2214,7 @@
 				<Period>11</Period>
 				<TransactionDate>2020-11-12</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 23/E</Description>
+				<Description>VFA NÂº 23/E</Description>
 				<DocArchivalNumber>110003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2224,7 +2224,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA E/23</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:37:41</SystemEntryDate>
-						<Description>VFA Nº 23/E</Description>
+						<Description>VFA NÂº 23/E</Description>
 						<CreditAmount>570.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2232,7 +2232,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/23</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:37:41</SystemEntryDate>
-						<Description>VFA Nº 23/E</Description>
+						<Description>VFA NÂº 23/E</Description>
 						<DebitAmount>95.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2240,7 +2240,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/23</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:37:41</SystemEntryDate>
-						<Description>VFA Nº 23/E</Description>
+						<Description>VFA NÂº 23/E</Description>
 						<DebitAmount>475.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2250,7 +2250,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-01</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 24/E</Description>
+				<Description>VFA NÂº 24/E</Description>
 				<DocArchivalNumber>120001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2260,7 +2260,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/24</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:38:21</SystemEntryDate>
-						<Description>VFA Nº 24/E</Description>
+						<Description>VFA NÂº 24/E</Description>
 						<CreditAmount>1037.40</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2268,7 +2268,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/24</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:38:21</SystemEntryDate>
-						<Description>VFA Nº 24/E</Description>
+						<Description>VFA NÂº 24/E</Description>
 						<DebitAmount>172.90</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2276,7 +2276,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/24</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:38:21</SystemEntryDate>
-						<Description>VFA Nº 24/E</Description>
+						<Description>VFA NÂº 24/E</Description>
 						<DebitAmount>864.50</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2286,7 +2286,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-02</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 25/E</Description>
+				<Description>VFA NÂº 25/E</Description>
 				<DocArchivalNumber>120002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2296,7 +2296,7 @@
 						<AccountID>22111004</AccountID>
 						<SourceDocumentID>VFA E/25</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:39:15</SystemEntryDate>
-						<Description>VFA Nº 25/E</Description>
+						<Description>VFA NÂº 25/E</Description>
 						<CreditAmount>3540.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2304,7 +2304,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/25</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:39:15</SystemEntryDate>
-						<Description>VFA Nº 25/E</Description>
+						<Description>VFA NÂº 25/E</Description>
 						<DebitAmount>590.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2312,7 +2312,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/25</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:39:15</SystemEntryDate>
-						<Description>VFA Nº 25/E</Description>
+						<Description>VFA NÂº 25/E</Description>
 						<DebitAmount>2950.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2322,7 +2322,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-05</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 26/E</Description>
+				<Description>VFA NÂº 26/E</Description>
 				<DocArchivalNumber>120003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2332,7 +2332,7 @@
 						<AccountID>22113005</AccountID>
 						<SourceDocumentID>VFA E/26</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:40:26</SystemEntryDate>
-						<Description>VFA Nº 26/E</Description>
+						<Description>VFA NÂº 26/E</Description>
 						<CreditAmount>2400.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2340,7 +2340,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/26</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:40:26</SystemEntryDate>
-						<Description>VFA Nº 26/E</Description>
+						<Description>VFA NÂº 26/E</Description>
 						<DebitAmount>400.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2348,7 +2348,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/26</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:40:26</SystemEntryDate>
-						<Description>VFA Nº 26/E</Description>
+						<Description>VFA NÂº 26/E</Description>
 						<DebitAmount>2000.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2358,7 +2358,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-05</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>VFA Nº 27/E</Description>
+				<Description>VFA NÂº 27/E</Description>
 				<DocArchivalNumber>120004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2368,7 +2368,7 @@
 						<AccountID>22111001</AccountID>
 						<SourceDocumentID>VFA E/27</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:41:03</SystemEntryDate>
-						<Description>VFA Nº 27/E</Description>
+						<Description>VFA NÂº 27/E</Description>
 						<CreditAmount>2222.40</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2376,7 +2376,7 @@
 						<AccountID>24321132011</AccountID>
 						<SourceDocumentID>VFA E/27</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:41:03</SystemEntryDate>
-						<Description>VFA Nº 27/E</Description>
+						<Description>VFA NÂº 27/E</Description>
 						<DebitAmount>370.40</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2384,7 +2384,7 @@
 						<AccountID>3121</AccountID>
 						<SourceDocumentID>VFA E/27</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:41:03</SystemEntryDate>
-						<Description>VFA Nº 27/E</Description>
+						<Description>VFA NÂº 27/E</Description>
 						<DebitAmount>1852.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2392,13 +2392,13 @@
 		</Journal>
 		<Journal>
 			<JournalID>00051</JournalID>
-			<Description>Vendas - Crédito - MN</Description>
+			<Description>Vendas - CrÃ©dito - MN</Description>
 			<Transaction>
 				<TransactionID>2020-01-05 00051 10001</TransactionID>
 				<Period>1</Period>
 				<TransactionDate>2020-01-05</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 1/F</Description>
+				<Description>FA NÂº 1/F</Description>
 				<DocArchivalNumber>10001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2408,7 +2408,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA F/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:05:27</SystemEntryDate>
-						<Description>FA Nº 1/F</Description>
+						<Description>FA NÂº 1/F</Description>
 						<DebitAmount>2923.20</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2416,7 +2416,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:05:27</SystemEntryDate>
-						<Description>FA Nº 1/F</Description>
+						<Description>FA NÂº 1/F</Description>
 						<CreditAmount>487.20</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2424,7 +2424,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:05:27</SystemEntryDate>
-						<Description>FA Nº 1/F</Description>
+						<Description>FA NÂº 1/F</Description>
 						<CreditAmount>2436.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2434,7 +2434,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-07</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 2/F</Description>
+				<Description>FA NÂº 2/F</Description>
 				<DocArchivalNumber>10002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2444,7 +2444,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/2</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:14:22</SystemEntryDate>
-						<Description>FA Nº 2/F</Description>
+						<Description>FA NÂº 2/F</Description>
 						<DebitAmount>541.80</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2452,7 +2452,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/2</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:14:22</SystemEntryDate>
-						<Description>FA Nº 2/F</Description>
+						<Description>FA NÂº 2/F</Description>
 						<CreditAmount>90.30</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2460,7 +2460,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/2</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:14:22</SystemEntryDate>
-						<Description>FA Nº 2/F</Description>
+						<Description>FA NÂº 2/F</Description>
 						<CreditAmount>451.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2470,7 +2470,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-07</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 3/F</Description>
+				<Description>FA NÂº 3/F</Description>
 				<DocArchivalNumber>10003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2481,7 +2481,7 @@
 						<AccountID>21113001</AccountID>
 						<SourceDocumentID>FA F/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:15:50</SystemEntryDate>
-						<Description>FA Nº 3/F</Description>
+						<Description>FA NÂº 3/F</Description>
 						<DebitAmount>2763.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2489,7 +2489,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:15:50</SystemEntryDate>
-						<Description>FA Nº 3/F</Description>
+						<Description>FA NÂº 3/F</Description>
 						<CreditAmount>460.50</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2497,7 +2497,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:15:50</SystemEntryDate>
-						<Description>FA Nº 3/F</Description>
+						<Description>FA NÂº 3/F</Description>
 						<CreditAmount>2302.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2507,7 +2507,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-14</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>DEV Nº 1/E</Description>
+				<Description>DEV NÂº 1/E</Description>
 				<DocArchivalNumber>10006</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-08</GLPostingDate>
@@ -2517,7 +2517,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>DEV E/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:34:31</SystemEntryDate>
-						<Description>DEV Nº 1/E</Description>
+						<Description>DEV NÂº 1/E</Description>
 						<CreditAmount>48.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2525,7 +2525,7 @@
 						<AccountID>71711</AccountID>
 						<SourceDocumentID>DEV E/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:34:31</SystemEntryDate>
-						<Description>DEV Nº 1/E</Description>
+						<Description>DEV NÂº 1/E</Description>
 						<DebitAmount>40.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2533,7 +2533,7 @@
 						<AccountID>243412113201</AccountID>
 						<SourceDocumentID>DEV E/1</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:34:31</SystemEntryDate>
-						<Description>DEV Nº 1/E</Description>
+						<Description>DEV NÂº 1/E</Description>
 						<DebitAmount>8.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2543,7 +2543,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-15</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 4/F</Description>
+				<Description>FA NÂº 4/F</Description>
 				<DocArchivalNumber>10004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2553,7 +2553,7 @@
 						<AccountID>21123005</AccountID>
 						<SourceDocumentID>FA F/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:18:16</SystemEntryDate>
-						<Description>FA Nº 4/F</Description>
+						<Description>FA NÂº 4/F</Description>
 						<DebitAmount>1992.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2561,7 +2561,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:18:16</SystemEntryDate>
-						<Description>FA Nº 4/F</Description>
+						<Description>FA NÂº 4/F</Description>
 						<CreditAmount>332.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2569,7 +2569,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:18:16</SystemEntryDate>
-						<Description>FA Nº 4/F</Description>
+						<Description>FA NÂº 4/F</Description>
 						<CreditAmount>1660.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2579,7 +2579,7 @@
 				<Period>1</Period>
 				<TransactionDate>2020-01-25</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 5/F</Description>
+				<Description>FA NÂº 5/F</Description>
 				<DocArchivalNumber>10005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2589,7 +2589,7 @@
 						<AccountID>21113006</AccountID>
 						<SourceDocumentID>FA F/5</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:21:05</SystemEntryDate>
-						<Description>FA Nº 5/F</Description>
+						<Description>FA NÂº 5/F</Description>
 						<DebitAmount>540.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2597,7 +2597,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/5</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:21:05</SystemEntryDate>
-						<Description>FA Nº 5/F</Description>
+						<Description>FA NÂº 5/F</Description>
 						<CreditAmount>90.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2605,7 +2605,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/5</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:21:05</SystemEntryDate>
-						<Description>FA Nº 5/F</Description>
+						<Description>FA NÂº 5/F</Description>
 						<CreditAmount>450.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2615,7 +2615,7 @@
 				<Period>2</Period>
 				<TransactionDate>2020-02-02</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 6/F</Description>
+				<Description>FA NÂº 6/F</Description>
 				<DocArchivalNumber>20001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2625,7 +2625,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/6</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:24:22</SystemEntryDate>
-						<Description>FA Nº 6/F</Description>
+						<Description>FA NÂº 6/F</Description>
 						<DebitAmount>1428.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2633,7 +2633,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/6</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:24:22</SystemEntryDate>
-						<Description>FA Nº 6/F</Description>
+						<Description>FA NÂº 6/F</Description>
 						<CreditAmount>238.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2641,7 +2641,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/6</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:24:22</SystemEntryDate>
-						<Description>FA Nº 6/F</Description>
+						<Description>FA NÂº 6/F</Description>
 						<CreditAmount>1190.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2651,7 +2651,7 @@
 				<Period>2</Period>
 				<TransactionDate>2020-02-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 7/F</Description>
+				<Description>FA NÂº 7/F</Description>
 				<DocArchivalNumber>20002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2662,7 +2662,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA F/7</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:26:50</SystemEntryDate>
-						<Description>FA Nº 7/F</Description>
+						<Description>FA NÂº 7/F</Description>
 						<DebitAmount>2350.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2670,7 +2670,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA F/7</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:26:50</SystemEntryDate>
-						<Description>FA Nº 7/F</Description>
+						<Description>FA NÂº 7/F</Description>
 						<CreditAmount>2350.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2680,7 +2680,7 @@
 				<Period>2</Period>
 				<TransactionDate>2020-02-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>DEV Nº 2/E</Description>
+				<Description>DEV NÂº 2/E</Description>
 				<DocArchivalNumber>20005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-08</GLPostingDate>
@@ -2690,7 +2690,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>DEV E/2</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:57:52</SystemEntryDate>
-						<Description>DEV Nº 2/E</Description>
+						<Description>DEV NÂº 2/E</Description>
 						<CreditAmount>978.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2698,7 +2698,7 @@
 						<AccountID>71711</AccountID>
 						<SourceDocumentID>DEV E/2</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:57:52</SystemEntryDate>
-						<Description>DEV Nº 2/E</Description>
+						<Description>DEV NÂº 2/E</Description>
 						<DebitAmount>815.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2706,7 +2706,7 @@
 						<AccountID>243412113201</AccountID>
 						<SourceDocumentID>DEV E/2</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:57:52</SystemEntryDate>
-						<Description>DEV Nº 2/E</Description>
+						<Description>DEV NÂº 2/E</Description>
 						<DebitAmount>163.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2716,7 +2716,7 @@
 				<Period>2</Period>
 				<TransactionDate>2020-02-16</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 8/F</Description>
+				<Description>FA NÂº 8/F</Description>
 				<DocArchivalNumber>20003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2727,7 +2727,7 @@
 						<AccountID>21113002</AccountID>
 						<SourceDocumentID>FA F/8</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:28:54</SystemEntryDate>
-						<Description>FA Nº 8/F</Description>
+						<Description>FA NÂº 8/F</Description>
 						<DebitAmount>2745.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2735,7 +2735,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/8</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:28:54</SystemEntryDate>
-						<Description>FA Nº 8/F</Description>
+						<Description>FA NÂº 8/F</Description>
 						<CreditAmount>457.50</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2743,7 +2743,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/8</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:28:54</SystemEntryDate>
-						<Description>FA Nº 8/F</Description>
+						<Description>FA NÂº 8/F</Description>
 						<CreditAmount>2287.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2753,7 +2753,7 @@
 				<Period>2</Period>
 				<TransactionDate>2020-02-20</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 9/F</Description>
+				<Description>FA NÂº 9/F</Description>
 				<DocArchivalNumber>20004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2763,7 +2763,7 @@
 						<AccountID>21111005</AccountID>
 						<SourceDocumentID>FA F/9</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:39:11</SystemEntryDate>
-						<Description>FA Nº 9/F</Description>
+						<Description>FA NÂº 9/F</Description>
 						<DebitAmount>2328.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2771,7 +2771,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/9</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:39:11</SystemEntryDate>
-						<Description>FA Nº 9/F</Description>
+						<Description>FA NÂº 9/F</Description>
 						<CreditAmount>388.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2779,7 +2779,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/9</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:39:11</SystemEntryDate>
-						<Description>FA Nº 9/F</Description>
+						<Description>FA NÂº 9/F</Description>
 						<CreditAmount>1940.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2789,7 +2789,7 @@
 				<Period>3</Period>
 				<TransactionDate>2020-03-03</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 10/F</Description>
+				<Description>FA NÂº 10/F</Description>
 				<DocArchivalNumber>30001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2799,7 +2799,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/10</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:48:46</SystemEntryDate>
-						<Description>FA Nº 10/F</Description>
+						<Description>FA NÂº 10/F</Description>
 						<DebitAmount>284.40</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2807,7 +2807,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/10</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:48:46</SystemEntryDate>
-						<Description>FA Nº 10/F</Description>
+						<Description>FA NÂº 10/F</Description>
 						<CreditAmount>47.40</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2815,7 +2815,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/10</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:48:46</SystemEntryDate>
-						<Description>FA Nº 10/F</Description>
+						<Description>FA NÂº 10/F</Description>
 						<CreditAmount>237.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2825,7 +2825,7 @@
 				<Period>3</Period>
 				<TransactionDate>2020-03-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 11/F</Description>
+				<Description>FA NÂº 11/F</Description>
 				<DocArchivalNumber>30002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2835,7 +2835,7 @@
 						<AccountID>21111005</AccountID>
 						<SourceDocumentID>FA F/11</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:51:30</SystemEntryDate>
-						<Description>FA Nº 11/F</Description>
+						<Description>FA NÂº 11/F</Description>
 						<DebitAmount>1790.88</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2843,7 +2843,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/11</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:51:30</SystemEntryDate>
-						<Description>FA Nº 11/F</Description>
+						<Description>FA NÂº 11/F</Description>
 						<CreditAmount>298.48</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2851,7 +2851,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/11</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:51:30</SystemEntryDate>
-						<Description>FA Nº 11/F</Description>
+						<Description>FA NÂº 11/F</Description>
 						<CreditAmount>1492.40</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2861,7 +2861,7 @@
 				<Period>3</Period>
 				<TransactionDate>2020-03-15</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>DEV Nº 3/E</Description>
+				<Description>DEV NÂº 3/E</Description>
 				<DocArchivalNumber>30005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-08</GLPostingDate>
@@ -2871,7 +2871,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>DEV E/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:59:11</SystemEntryDate>
-						<Description>DEV Nº 3/E</Description>
+						<Description>DEV NÂº 3/E</Description>
 						<CreditAmount>864.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -2879,7 +2879,7 @@
 						<AccountID>71711</AccountID>
 						<SourceDocumentID>DEV E/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:59:11</SystemEntryDate>
-						<Description>DEV Nº 3/E</Description>
+						<Description>DEV NÂº 3/E</Description>
 						<DebitAmount>720.00</DebitAmount>
 					</DebitLine>
 					<DebitLine>
@@ -2887,7 +2887,7 @@
 						<AccountID>243412113201</AccountID>
 						<SourceDocumentID>DEV E/3</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T10:59:11</SystemEntryDate>
-						<Description>DEV Nº 3/E</Description>
+						<Description>DEV NÂº 3/E</Description>
 						<DebitAmount>144.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -2897,7 +2897,7 @@
 				<Period>3</Period>
 				<TransactionDate>2020-03-17</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 12/F</Description>
+				<Description>FA NÂº 12/F</Description>
 				<DocArchivalNumber>30003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2907,7 +2907,7 @@
 						<AccountID>21123005</AccountID>
 						<SourceDocumentID>FA F/12</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:53:07</SystemEntryDate>
-						<Description>FA Nº 12/F</Description>
+						<Description>FA NÂº 12/F</Description>
 						<DebitAmount>84.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2915,7 +2915,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/12</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:53:07</SystemEntryDate>
-						<Description>FA Nº 12/F</Description>
+						<Description>FA NÂº 12/F</Description>
 						<CreditAmount>14.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2923,7 +2923,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/12</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:53:07</SystemEntryDate>
-						<Description>FA Nº 12/F</Description>
+						<Description>FA NÂº 12/F</Description>
 						<CreditAmount>70.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2933,7 +2933,7 @@
 				<Period>3</Period>
 				<TransactionDate>2020-03-25</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 13/F</Description>
+				<Description>FA NÂº 13/F</Description>
 				<DocArchivalNumber>30004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2943,7 +2943,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA F/13</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:54:25</SystemEntryDate>
-						<Description>FA Nº 13/F</Description>
+						<Description>FA NÂº 13/F</Description>
 						<DebitAmount>2121.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2951,7 +2951,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/13</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:54:25</SystemEntryDate>
-						<Description>FA Nº 13/F</Description>
+						<Description>FA NÂº 13/F</Description>
 						<CreditAmount>353.50</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -2959,7 +2959,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/13</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T15:54:25</SystemEntryDate>
-						<Description>FA Nº 13/F</Description>
+						<Description>FA NÂº 13/F</Description>
 						<CreditAmount>1767.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2969,7 +2969,7 @@
 				<Period>4</Period>
 				<TransactionDate>2020-04-06</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 14/F</Description>
+				<Description>FA NÂº 14/F</Description>
 				<DocArchivalNumber>40001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -2980,7 +2980,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA F/14</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:24:12</SystemEntryDate>
-						<Description>FA Nº 14/F</Description>
+						<Description>FA NÂº 14/F</Description>
 						<DebitAmount>1155.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -2988,7 +2988,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA F/14</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:24:12</SystemEntryDate>
-						<Description>FA Nº 14/F</Description>
+						<Description>FA NÂº 14/F</Description>
 						<CreditAmount>1155.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -2998,7 +2998,7 @@
 				<Period>4</Period>
 				<TransactionDate>2020-04-11</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 15/F</Description>
+				<Description>FA NÂº 15/F</Description>
 				<DocArchivalNumber>40002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3008,7 +3008,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA F/15</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:26:00</SystemEntryDate>
-						<Description>FA Nº 15/F</Description>
+						<Description>FA NÂº 15/F</Description>
 						<DebitAmount>1890.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3016,7 +3016,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/15</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:26:00</SystemEntryDate>
-						<Description>FA Nº 15/F</Description>
+						<Description>FA NÂº 15/F</Description>
 						<CreditAmount>315.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3024,7 +3024,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/15</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:26:00</SystemEntryDate>
-						<Description>FA Nº 15/F</Description>
+						<Description>FA NÂº 15/F</Description>
 						<CreditAmount>1575.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3034,7 +3034,7 @@
 				<Period>4</Period>
 				<TransactionDate>2020-04-20</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 16/F</Description>
+				<Description>FA NÂº 16/F</Description>
 				<DocArchivalNumber>40003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3044,7 +3044,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/16</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:46:52</SystemEntryDate>
-						<Description>FA Nº 16/F</Description>
+						<Description>FA NÂº 16/F</Description>
 						<DebitAmount>2910.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3052,7 +3052,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/16</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:46:52</SystemEntryDate>
-						<Description>FA Nº 16/F</Description>
+						<Description>FA NÂº 16/F</Description>
 						<CreditAmount>485.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3060,7 +3060,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/16</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:46:52</SystemEntryDate>
-						<Description>FA Nº 16/F</Description>
+						<Description>FA NÂº 16/F</Description>
 						<CreditAmount>2425.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3070,7 +3070,7 @@
 				<Period>4</Period>
 				<TransactionDate>2020-04-22</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 17/F</Description>
+				<Description>FA NÂº 17/F</Description>
 				<DocArchivalNumber>40004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3080,7 +3080,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA F/17</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:50:54</SystemEntryDate>
-						<Description>FA Nº 17/F</Description>
+						<Description>FA NÂº 17/F</Description>
 						<DebitAmount>918.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3088,7 +3088,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/17</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:50:54</SystemEntryDate>
-						<Description>FA Nº 17/F</Description>
+						<Description>FA NÂº 17/F</Description>
 						<CreditAmount>153.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3096,7 +3096,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/17</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T16:50:54</SystemEntryDate>
-						<Description>FA Nº 17/F</Description>
+						<Description>FA NÂº 17/F</Description>
 						<CreditAmount>765.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3106,7 +3106,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-05</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 18/F</Description>
+				<Description>FA NÂº 18/F</Description>
 				<DocArchivalNumber>50004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3117,7 +3117,7 @@
 						<AccountID>21113001</AccountID>
 						<SourceDocumentID>FA F/18</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:04:45</SystemEntryDate>
-						<Description>FA Nº 18/F</Description>
+						<Description>FA NÂº 18/F</Description>
 						<DebitAmount>2040.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3125,7 +3125,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/18</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:04:45</SystemEntryDate>
-						<Description>FA Nº 18/F</Description>
+						<Description>FA NÂº 18/F</Description>
 						<CreditAmount>340.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3133,7 +3133,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/18</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:04:45</SystemEntryDate>
-						<Description>FA Nº 18/F</Description>
+						<Description>FA NÂº 18/F</Description>
 						<CreditAmount>1700.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3143,7 +3143,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-11</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 2/E</Description>
+				<Description>FA NÂº 2/E</Description>
 				<DocArchivalNumber>50002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-05-25</GLPostingDate>
@@ -3154,7 +3154,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA E/2</SourceDocumentID>
 						<SystemEntryDate>2020-05-25T10:40:01</SystemEntryDate>
-						<Description>FA Nº 2/E</Description>
+						<Description>FA NÂº 2/E</Description>
 						<DebitAmount>1700.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3162,7 +3162,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA E/2</SourceDocumentID>
 						<SystemEntryDate>2020-05-25T10:40:01</SystemEntryDate>
-						<Description>FA Nº 2/E</Description>
+						<Description>FA NÂº 2/E</Description>
 						<CreditAmount>1700.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3172,7 +3172,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-11</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 3/E</Description>
+				<Description>FA NÂº 3/E</Description>
 				<DocArchivalNumber>50003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-05-25</GLPostingDate>
@@ -3183,7 +3183,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA E/3</SourceDocumentID>
 						<SystemEntryDate>2020-05-25T10:53:29</SystemEntryDate>
-						<Description>FA Nº 3/E</Description>
+						<Description>FA NÂº 3/E</Description>
 						<DebitAmount>1198.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3191,7 +3191,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA E/3</SourceDocumentID>
 						<SystemEntryDate>2020-05-25T10:53:29</SystemEntryDate>
-						<Description>FA Nº 3/E</Description>
+						<Description>FA NÂº 3/E</Description>
 						<CreditAmount>1198.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3201,7 +3201,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-14</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 19/F</Description>
+				<Description>FA NÂº 19/F</Description>
 				<DocArchivalNumber>50005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3211,7 +3211,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/19</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:06:22</SystemEntryDate>
-						<Description>FA Nº 19/F</Description>
+						<Description>FA NÂº 19/F</Description>
 						<DebitAmount>282.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3219,7 +3219,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/19</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:06:22</SystemEntryDate>
-						<Description>FA Nº 19/F</Description>
+						<Description>FA NÂº 19/F</Description>
 						<CreditAmount>47.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3227,7 +3227,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/19</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:06:22</SystemEntryDate>
-						<Description>FA Nº 19/F</Description>
+						<Description>FA NÂº 19/F</Description>
 						<CreditAmount>235.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3237,7 +3237,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-19</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 20/F</Description>
+				<Description>FA NÂº 20/F</Description>
 				<DocArchivalNumber>50006</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3247,7 +3247,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA F/20</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:07:40</SystemEntryDate>
-						<Description>FA Nº 20/F</Description>
+						<Description>FA NÂº 20/F</Description>
 						<DebitAmount>1274.40</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3255,7 +3255,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/20</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:07:40</SystemEntryDate>
-						<Description>FA Nº 20/F</Description>
+						<Description>FA NÂº 20/F</Description>
 						<CreditAmount>212.40</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3263,7 +3263,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/20</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:07:40</SystemEntryDate>
-						<Description>FA Nº 20/F</Description>
+						<Description>FA NÂº 20/F</Description>
 						<CreditAmount>1062.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3273,7 +3273,7 @@
 				<Period>5</Period>
 				<TransactionDate>2020-05-19</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 21/F</Description>
+				<Description>FA NÂº 21/F</Description>
 				<DocArchivalNumber>50007</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3283,7 +3283,7 @@
 						<AccountID>21123005</AccountID>
 						<SourceDocumentID>FA F/21</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:09:49</SystemEntryDate>
-						<Description>FA Nº 21/F</Description>
+						<Description>FA NÂº 21/F</Description>
 						<DebitAmount>304.20</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3291,7 +3291,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/21</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:09:49</SystemEntryDate>
-						<Description>FA Nº 21/F</Description>
+						<Description>FA NÂº 21/F</Description>
 						<CreditAmount>50.70</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3299,7 +3299,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/21</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:09:49</SystemEntryDate>
-						<Description>FA Nº 21/F</Description>
+						<Description>FA NÂº 21/F</Description>
 						<CreditAmount>253.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3309,7 +3309,7 @@
 				<Period>6</Period>
 				<TransactionDate>2020-06-02</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 22/F</Description>
+				<Description>FA NÂº 22/F</Description>
 				<DocArchivalNumber>60001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3319,7 +3319,7 @@
 						<AccountID>21111002</AccountID>
 						<SourceDocumentID>FA F/22</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:12:25</SystemEntryDate>
-						<Description>FA Nº 22/F</Description>
+						<Description>FA NÂº 22/F</Description>
 						<DebitAmount>937.98</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3327,7 +3327,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/22</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:12:25</SystemEntryDate>
-						<Description>FA Nº 22/F</Description>
+						<Description>FA NÂº 22/F</Description>
 						<CreditAmount>156.33</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3335,7 +3335,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/22</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:12:25</SystemEntryDate>
-						<Description>FA Nº 22/F</Description>
+						<Description>FA NÂº 22/F</Description>
 						<CreditAmount>781.65</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3345,7 +3345,7 @@
 				<Period>6</Period>
 				<TransactionDate>2020-06-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 23/F</Description>
+				<Description>FA NÂº 23/F</Description>
 				<DocArchivalNumber>60002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3356,7 +3356,7 @@
 						<AccountID>21113002</AccountID>
 						<SourceDocumentID>FA F/23</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:13:43</SystemEntryDate>
-						<Description>FA Nº 23/F</Description>
+						<Description>FA NÂº 23/F</Description>
 						<DebitAmount>2400.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3364,7 +3364,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/23</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:13:43</SystemEntryDate>
-						<Description>FA Nº 23/F</Description>
+						<Description>FA NÂº 23/F</Description>
 						<CreditAmount>400.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3372,7 +3372,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/23</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:13:43</SystemEntryDate>
-						<Description>FA Nº 23/F</Description>
+						<Description>FA NÂº 23/F</Description>
 						<CreditAmount>2000.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3382,7 +3382,7 @@
 				<Period>6</Period>
 				<TransactionDate>2020-06-15</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 24/F</Description>
+				<Description>FA NÂº 24/F</Description>
 				<DocArchivalNumber>60003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3393,7 +3393,7 @@
 						<AccountID>21113002</AccountID>
 						<SourceDocumentID>FA F/24</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:17:17</SystemEntryDate>
-						<Description>FA Nº 24/F</Description>
+						<Description>FA NÂº 24/F</Description>
 						<DebitAmount>2400.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3401,7 +3401,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/24</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:17:17</SystemEntryDate>
-						<Description>FA Nº 24/F</Description>
+						<Description>FA NÂº 24/F</Description>
 						<CreditAmount>400.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3409,7 +3409,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/24</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:17:17</SystemEntryDate>
-						<Description>FA Nº 24/F</Description>
+						<Description>FA NÂº 24/F</Description>
 						<CreditAmount>2000.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3419,7 +3419,7 @@
 				<Period>6</Period>
 				<TransactionDate>2020-06-20</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 25/F</Description>
+				<Description>FA NÂº 25/F</Description>
 				<DocArchivalNumber>60004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3429,7 +3429,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/25</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:21:29</SystemEntryDate>
-						<Description>FA Nº 25/F</Description>
+						<Description>FA NÂº 25/F</Description>
 						<DebitAmount>1092.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3437,7 +3437,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/25</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:21:29</SystemEntryDate>
-						<Description>FA Nº 25/F</Description>
+						<Description>FA NÂº 25/F</Description>
 						<CreditAmount>182.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3445,7 +3445,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/25</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:21:29</SystemEntryDate>
-						<Description>FA Nº 25/F</Description>
+						<Description>FA NÂº 25/F</Description>
 						<CreditAmount>910.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3455,7 +3455,7 @@
 				<Period>6</Period>
 				<TransactionDate>2020-06-20</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>DEV Nº 4/E</Description>
+				<Description>DEV NÂº 4/E</Description>
 				<DocArchivalNumber>60005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-08</GLPostingDate>
@@ -3466,7 +3466,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>DEV E/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T11:01:15</SystemEntryDate>
-						<Description>DEV Nº 4/E</Description>
+						<Description>DEV NÂº 4/E</Description>
 						<CreditAmount>40.00</CreditAmount>
 					</CreditLine>
 					<DebitLine>
@@ -3474,7 +3474,7 @@
 						<AccountID>71712</AccountID>
 						<SourceDocumentID>DEV E/4</SourceDocumentID>
 						<SystemEntryDate>2020-06-08T11:01:15</SystemEntryDate>
-						<Description>DEV Nº 4/E</Description>
+						<Description>DEV NÂº 4/E</Description>
 						<DebitAmount>40.00</DebitAmount>
 					</DebitLine>
 				</Lines>
@@ -3484,7 +3484,7 @@
 				<Period>7</Period>
 				<TransactionDate>2020-07-01</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 26/F</Description>
+				<Description>FA NÂº 26/F</Description>
 				<DocArchivalNumber>70001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3495,7 +3495,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA F/26</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:26:59</SystemEntryDate>
-						<Description>FA Nº 26/F</Description>
+						<Description>FA NÂº 26/F</Description>
 						<DebitAmount>945.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3503,7 +3503,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA F/26</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:26:59</SystemEntryDate>
-						<Description>FA Nº 26/F</Description>
+						<Description>FA NÂº 26/F</Description>
 						<CreditAmount>945.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3513,7 +3513,7 @@
 				<Period>7</Period>
 				<TransactionDate>2020-07-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 27/F</Description>
+				<Description>FA NÂº 27/F</Description>
 				<DocArchivalNumber>70002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3524,7 +3524,7 @@
 						<AccountID>21113001</AccountID>
 						<SourceDocumentID>FA F/27</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:33:24</SystemEntryDate>
-						<Description>FA Nº 27/F</Description>
+						<Description>FA NÂº 27/F</Description>
 						<DebitAmount>876.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3532,7 +3532,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/27</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:33:24</SystemEntryDate>
-						<Description>FA Nº 27/F</Description>
+						<Description>FA NÂº 27/F</Description>
 						<CreditAmount>146.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3540,7 +3540,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/27</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:33:24</SystemEntryDate>
-						<Description>FA Nº 27/F</Description>
+						<Description>FA NÂº 27/F</Description>
 						<CreditAmount>730.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3550,7 +3550,7 @@
 				<Period>7</Period>
 				<TransactionDate>2020-07-18</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 28/F</Description>
+				<Description>FA NÂº 28/F</Description>
 				<DocArchivalNumber>70003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3560,7 +3560,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA F/28</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:34:26</SystemEntryDate>
-						<Description>FA Nº 28/F</Description>
+						<Description>FA NÂº 28/F</Description>
 						<DebitAmount>1353.60</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3568,7 +3568,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/28</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:34:26</SystemEntryDate>
-						<Description>FA Nº 28/F</Description>
+						<Description>FA NÂº 28/F</Description>
 						<CreditAmount>225.60</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3576,7 +3576,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/28</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:34:26</SystemEntryDate>
-						<Description>FA Nº 28/F</Description>
+						<Description>FA NÂº 28/F</Description>
 						<CreditAmount>1128.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3586,7 +3586,7 @@
 				<Period>7</Period>
 				<TransactionDate>2020-07-22</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 29/F</Description>
+				<Description>FA NÂº 29/F</Description>
 				<DocArchivalNumber>70004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3596,7 +3596,7 @@
 						<AccountID>21123005</AccountID>
 						<SourceDocumentID>FA F/29</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:36:12</SystemEntryDate>
-						<Description>FA Nº 29/F</Description>
+						<Description>FA NÂº 29/F</Description>
 						<DebitAmount>214.80</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3604,7 +3604,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/29</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:36:12</SystemEntryDate>
-						<Description>FA Nº 29/F</Description>
+						<Description>FA NÂº 29/F</Description>
 						<CreditAmount>35.80</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3612,7 +3612,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/29</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:36:12</SystemEntryDate>
-						<Description>FA Nº 29/F</Description>
+						<Description>FA NÂº 29/F</Description>
 						<CreditAmount>179.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3622,7 +3622,7 @@
 				<Period>8</Period>
 				<TransactionDate>2020-08-03</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 30/F</Description>
+				<Description>FA NÂº 30/F</Description>
 				<DocArchivalNumber>80001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3632,7 +3632,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/30</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:52:13</SystemEntryDate>
-						<Description>FA Nº 30/F</Description>
+						<Description>FA NÂº 30/F</Description>
 						<DebitAmount>433.80</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3640,7 +3640,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/30</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:52:13</SystemEntryDate>
-						<Description>FA Nº 30/F</Description>
+						<Description>FA NÂº 30/F</Description>
 						<CreditAmount>72.30</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3648,7 +3648,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/30</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:52:13</SystemEntryDate>
-						<Description>FA Nº 30/F</Description>
+						<Description>FA NÂº 30/F</Description>
 						<CreditAmount>361.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3658,7 +3658,7 @@
 				<Period>8</Period>
 				<TransactionDate>2020-08-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 31/F</Description>
+				<Description>FA NÂº 31/F</Description>
 				<DocArchivalNumber>80002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3668,7 +3668,7 @@
 						<AccountID>21111005</AccountID>
 						<SourceDocumentID>FA F/31</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:54:24</SystemEntryDate>
-						<Description>FA Nº 31/F</Description>
+						<Description>FA NÂº 31/F</Description>
 						<DebitAmount>1800.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3676,7 +3676,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/31</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:54:24</SystemEntryDate>
-						<Description>FA Nº 31/F</Description>
+						<Description>FA NÂº 31/F</Description>
 						<CreditAmount>300.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3684,7 +3684,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/31</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T17:54:24</SystemEntryDate>
-						<Description>FA Nº 31/F</Description>
+						<Description>FA NÂº 31/F</Description>
 						<CreditAmount>1500.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3694,7 +3694,7 @@
 				<Period>8</Period>
 				<TransactionDate>2020-08-16</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 32/F</Description>
+				<Description>FA NÂº 32/F</Description>
 				<DocArchivalNumber>80003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3704,7 +3704,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA F/32</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:00:06</SystemEntryDate>
-						<Description>FA Nº 32/F</Description>
+						<Description>FA NÂº 32/F</Description>
 						<DebitAmount>1080.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3712,7 +3712,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/32</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:00:06</SystemEntryDate>
-						<Description>FA Nº 32/F</Description>
+						<Description>FA NÂº 32/F</Description>
 						<CreditAmount>180.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3720,7 +3720,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/32</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:00:06</SystemEntryDate>
-						<Description>FA Nº 32/F</Description>
+						<Description>FA NÂº 32/F</Description>
 						<CreditAmount>900.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3730,7 +3730,7 @@
 				<Period>8</Period>
 				<TransactionDate>2020-08-25</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 33/F</Description>
+				<Description>FA NÂº 33/F</Description>
 				<DocArchivalNumber>80004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3741,7 +3741,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA F/33</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:01:27</SystemEntryDate>
-						<Description>FA Nº 33/F</Description>
+						<Description>FA NÂº 33/F</Description>
 						<DebitAmount>1940.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3749,7 +3749,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA F/33</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:01:27</SystemEntryDate>
-						<Description>FA Nº 33/F</Description>
+						<Description>FA NÂº 33/F</Description>
 						<CreditAmount>1940.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3759,7 +3759,7 @@
 				<Period>9</Period>
 				<TransactionDate>2020-09-03</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 34/F</Description>
+				<Description>FA NÂº 34/F</Description>
 				<DocArchivalNumber>90001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3769,7 +3769,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA F/34</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:04:37</SystemEntryDate>
-						<Description>FA Nº 34/F</Description>
+						<Description>FA NÂº 34/F</Description>
 						<DebitAmount>166.80</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3777,7 +3777,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/34</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:04:37</SystemEntryDate>
-						<Description>FA Nº 34/F</Description>
+						<Description>FA NÂº 34/F</Description>
 						<CreditAmount>27.80</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3785,7 +3785,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/34</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:04:37</SystemEntryDate>
-						<Description>FA Nº 34/F</Description>
+						<Description>FA NÂº 34/F</Description>
 						<CreditAmount>139.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3795,7 +3795,7 @@
 				<Period>9</Period>
 				<TransactionDate>2020-09-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 35/F</Description>
+				<Description>FA NÂº 35/F</Description>
 				<DocArchivalNumber>90002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3805,7 +3805,7 @@
 						<AccountID>21113006</AccountID>
 						<SourceDocumentID>FA F/35</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:06:06</SystemEntryDate>
-						<Description>FA Nº 35/F</Description>
+						<Description>FA NÂº 35/F</Description>
 						<DebitAmount>1290.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3813,7 +3813,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/35</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:06:06</SystemEntryDate>
-						<Description>FA Nº 35/F</Description>
+						<Description>FA NÂº 35/F</Description>
 						<CreditAmount>215.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3821,7 +3821,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/35</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:06:06</SystemEntryDate>
-						<Description>FA Nº 35/F</Description>
+						<Description>FA NÂº 35/F</Description>
 						<CreditAmount>1075.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3831,7 +3831,7 @@
 				<Period>9</Period>
 				<TransactionDate>2020-09-19</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 36/F</Description>
+				<Description>FA NÂº 36/F</Description>
 				<DocArchivalNumber>90003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3841,7 +3841,7 @@
 						<AccountID>21123005</AccountID>
 						<SourceDocumentID>FA F/36</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:08:06</SystemEntryDate>
-						<Description>FA Nº 36/F</Description>
+						<Description>FA NÂº 36/F</Description>
 						<DebitAmount>105.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3849,7 +3849,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/36</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:08:06</SystemEntryDate>
-						<Description>FA Nº 36/F</Description>
+						<Description>FA NÂº 36/F</Description>
 						<CreditAmount>17.50</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3857,7 +3857,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/36</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:08:06</SystemEntryDate>
-						<Description>FA Nº 36/F</Description>
+						<Description>FA NÂº 36/F</Description>
 						<CreditAmount>87.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3867,7 +3867,7 @@
 				<Period>9</Period>
 				<TransactionDate>2020-09-28</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 37/F</Description>
+				<Description>FA NÂº 37/F</Description>
 				<DocArchivalNumber>90004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3877,7 +3877,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/37</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:09:16</SystemEntryDate>
-						<Description>FA Nº 37/F</Description>
+						<Description>FA NÂº 37/F</Description>
 						<DebitAmount>1200.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3885,7 +3885,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/37</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:09:16</SystemEntryDate>
-						<Description>FA Nº 37/F</Description>
+						<Description>FA NÂº 37/F</Description>
 						<CreditAmount>200.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3893,7 +3893,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/37</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:09:16</SystemEntryDate>
-						<Description>FA Nº 37/F</Description>
+						<Description>FA NÂº 37/F</Description>
 						<CreditAmount>1000.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3903,7 +3903,7 @@
 				<Period>10</Period>
 				<TransactionDate>2020-10-03</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 38/F</Description>
+				<Description>FA NÂº 38/F</Description>
 				<DocArchivalNumber>100001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3913,7 +3913,7 @@
 						<AccountID>21111005</AccountID>
 						<SourceDocumentID>FA F/38</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:12:13</SystemEntryDate>
-						<Description>FA Nº 38/F</Description>
+						<Description>FA NÂº 38/F</Description>
 						<DebitAmount>269.76</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3921,7 +3921,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/38</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:12:13</SystemEntryDate>
-						<Description>FA Nº 38/F</Description>
+						<Description>FA NÂº 38/F</Description>
 						<CreditAmount>44.96</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3929,7 +3929,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/38</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:12:13</SystemEntryDate>
-						<Description>FA Nº 38/F</Description>
+						<Description>FA NÂº 38/F</Description>
 						<CreditAmount>224.80</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3939,7 +3939,7 @@
 				<Period>10</Period>
 				<TransactionDate>2020-10-12</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 39/F</Description>
+				<Description>FA NÂº 39/F</Description>
 				<DocArchivalNumber>100002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3950,7 +3950,7 @@
 						<AccountID>21123004</AccountID>
 						<SourceDocumentID>FA F/39</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:12:48</SystemEntryDate>
-						<Description>FA Nº 39/F</Description>
+						<Description>FA NÂº 39/F</Description>
 						<DebitAmount>2000.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3958,7 +3958,7 @@
 						<AccountID>7112</AccountID>
 						<SourceDocumentID>FA F/39</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:12:48</SystemEntryDate>
-						<Description>FA Nº 39/F</Description>
+						<Description>FA NÂº 39/F</Description>
 						<CreditAmount>2000.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -3968,7 +3968,7 @@
 				<Period>10</Period>
 				<TransactionDate>2020-10-20</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 40/F</Description>
+				<Description>FA NÂº 40/F</Description>
 				<DocArchivalNumber>100003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -3978,7 +3978,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA F/40</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:14:22</SystemEntryDate>
-						<Description>FA Nº 40/F</Description>
+						<Description>FA NÂº 40/F</Description>
 						<DebitAmount>1950.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -3986,7 +3986,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/40</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:14:22</SystemEntryDate>
-						<Description>FA Nº 40/F</Description>
+						<Description>FA NÂº 40/F</Description>
 						<CreditAmount>325.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -3994,7 +3994,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/40</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:14:22</SystemEntryDate>
-						<Description>FA Nº 40/F</Description>
+						<Description>FA NÂº 40/F</Description>
 						<CreditAmount>1625.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4004,7 +4004,7 @@
 				<Period>10</Period>
 				<TransactionDate>2020-10-30</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 41/F</Description>
+				<Description>FA NÂº 41/F</Description>
 				<DocArchivalNumber>100004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4014,7 +4014,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA F/41</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:15:32</SystemEntryDate>
-						<Description>FA Nº 41/F</Description>
+						<Description>FA NÂº 41/F</Description>
 						<DebitAmount>140.40</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4022,7 +4022,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/41</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:15:32</SystemEntryDate>
-						<Description>FA Nº 41/F</Description>
+						<Description>FA NÂº 41/F</Description>
 						<CreditAmount>23.40</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4030,7 +4030,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/41</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:15:32</SystemEntryDate>
-						<Description>FA Nº 41/F</Description>
+						<Description>FA NÂº 41/F</Description>
 						<CreditAmount>117.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4040,7 +4040,7 @@
 				<Period>11</Period>
 				<TransactionDate>2020-11-03</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 42/F</Description>
+				<Description>FA NÂº 42/F</Description>
 				<DocArchivalNumber>110001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4050,7 +4050,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/42</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:24:45</SystemEntryDate>
-						<Description>FA Nº 42/F</Description>
+						<Description>FA NÂº 42/F</Description>
 						<DebitAmount>2010.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4058,7 +4058,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/42</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:24:45</SystemEntryDate>
-						<Description>FA Nº 42/F</Description>
+						<Description>FA NÂº 42/F</Description>
 						<CreditAmount>335.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4066,7 +4066,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/42</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:24:45</SystemEntryDate>
-						<Description>FA Nº 42/F</Description>
+						<Description>FA NÂº 42/F</Description>
 						<CreditAmount>1675.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4076,7 +4076,7 @@
 				<Period>11</Period>
 				<TransactionDate>2020-11-10</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 43/F</Description>
+				<Description>FA NÂº 43/F</Description>
 				<DocArchivalNumber>110002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4086,7 +4086,7 @@
 						<AccountID>21123005</AccountID>
 						<SourceDocumentID>FA F/43</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:26:02</SystemEntryDate>
-						<Description>FA Nº 43/F</Description>
+						<Description>FA NÂº 43/F</Description>
 						<DebitAmount>1150.80</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4094,7 +4094,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/43</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:26:02</SystemEntryDate>
-						<Description>FA Nº 43/F</Description>
+						<Description>FA NÂº 43/F</Description>
 						<CreditAmount>191.80</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4102,7 +4102,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/43</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:26:02</SystemEntryDate>
-						<Description>FA Nº 43/F</Description>
+						<Description>FA NÂº 43/F</Description>
 						<CreditAmount>959.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4112,7 +4112,7 @@
 				<Period>11</Period>
 				<TransactionDate>2020-11-18</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 44/F</Description>
+				<Description>FA NÂº 44/F</Description>
 				<DocArchivalNumber>110003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4122,7 +4122,7 @@
 						<AccountID>21111005</AccountID>
 						<SourceDocumentID>FA F/44</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:28:01</SystemEntryDate>
-						<Description>FA Nº 44/F</Description>
+						<Description>FA NÂº 44/F</Description>
 						<DebitAmount>777.60</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4130,7 +4130,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/44</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:28:01</SystemEntryDate>
-						<Description>FA Nº 44/F</Description>
+						<Description>FA NÂº 44/F</Description>
 						<CreditAmount>129.60</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4138,7 +4138,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/44</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:28:01</SystemEntryDate>
-						<Description>FA Nº 44/F</Description>
+						<Description>FA NÂº 44/F</Description>
 						<CreditAmount>648.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4148,7 +4148,7 @@
 				<Period>11</Period>
 				<TransactionDate>2020-11-26</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 45/F</Description>
+				<Description>FA NÂº 45/F</Description>
 				<DocArchivalNumber>110004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4158,7 +4158,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA F/45</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:28:54</SystemEntryDate>
-						<Description>FA Nº 45/F</Description>
+						<Description>FA NÂº 45/F</Description>
 						<DebitAmount>342.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4166,7 +4166,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/45</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:28:54</SystemEntryDate>
-						<Description>FA Nº 45/F</Description>
+						<Description>FA NÂº 45/F</Description>
 						<CreditAmount>57.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4174,7 +4174,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/45</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:28:54</SystemEntryDate>
-						<Description>FA Nº 45/F</Description>
+						<Description>FA NÂº 45/F</Description>
 						<CreditAmount>285.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4184,7 +4184,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-03</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 46/F</Description>
+				<Description>FA NÂº 46/F</Description>
 				<DocArchivalNumber>120001</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4195,7 +4195,7 @@
 						<AccountID>21113002</AccountID>
 						<SourceDocumentID>FA F/46</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:29:51</SystemEntryDate>
-						<Description>FA Nº 46/F</Description>
+						<Description>FA NÂº 46/F</Description>
 						<DebitAmount>1245.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4203,7 +4203,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/46</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:29:51</SystemEntryDate>
-						<Description>FA Nº 46/F</Description>
+						<Description>FA NÂº 46/F</Description>
 						<CreditAmount>207.50</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4211,7 +4211,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/46</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:29:51</SystemEntryDate>
-						<Description>FA Nº 46/F</Description>
+						<Description>FA NÂº 46/F</Description>
 						<CreditAmount>1037.50</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4221,7 +4221,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-07</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 47/F</Description>
+				<Description>FA NÂº 47/F</Description>
 				<DocArchivalNumber>120002</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4231,7 +4231,7 @@
 						<AccountID>21123006</AccountID>
 						<SourceDocumentID>FA F/47</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:31:07</SystemEntryDate>
-						<Description>FA Nº 47/F</Description>
+						<Description>FA NÂº 47/F</Description>
 						<DebitAmount>4938.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4239,7 +4239,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/47</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:31:07</SystemEntryDate>
-						<Description>FA Nº 47/F</Description>
+						<Description>FA NÂº 47/F</Description>
 						<CreditAmount>823.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4247,7 +4247,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/47</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:31:07</SystemEntryDate>
-						<Description>FA Nº 47/F</Description>
+						<Description>FA NÂº 47/F</Description>
 						<CreditAmount>4115.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4257,7 +4257,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-12</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 48/F</Description>
+				<Description>FA NÂº 48/F</Description>
 				<DocArchivalNumber>120003</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4267,7 +4267,7 @@
 						<AccountID>21123005</AccountID>
 						<SourceDocumentID>FA F/48</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:32:02</SystemEntryDate>
-						<Description>FA Nº 48/F</Description>
+						<Description>FA NÂº 48/F</Description>
 						<DebitAmount>871.20</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4275,7 +4275,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/48</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:32:02</SystemEntryDate>
-						<Description>FA Nº 48/F</Description>
+						<Description>FA NÂº 48/F</Description>
 						<CreditAmount>145.20</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4283,7 +4283,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/48</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:32:02</SystemEntryDate>
-						<Description>FA Nº 48/F</Description>
+						<Description>FA NÂº 48/F</Description>
 						<CreditAmount>726.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4293,7 +4293,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-20</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 49/F</Description>
+				<Description>FA NÂº 49/F</Description>
 				<DocArchivalNumber>120004</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4303,7 +4303,7 @@
 						<AccountID>21111001</AccountID>
 						<SourceDocumentID>FA F/49</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:33:19</SystemEntryDate>
-						<Description>FA Nº 49/F</Description>
+						<Description>FA NÂº 49/F</Description>
 						<DebitAmount>1440.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4311,7 +4311,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/49</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:33:19</SystemEntryDate>
-						<Description>FA Nº 49/F</Description>
+						<Description>FA NÂº 49/F</Description>
 						<CreditAmount>240.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4319,7 +4319,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/49</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:33:19</SystemEntryDate>
-						<Description>FA Nº 49/F</Description>
+						<Description>FA NÂº 49/F</Description>
 						<CreditAmount>1200.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4329,7 +4329,7 @@
 				<Period>12</Period>
 				<TransactionDate>2020-12-21</TransactionDate>
 				<SourceID>estg</SourceID>
-				<Description>FA Nº 50/F</Description>
+				<Description>FA NÂº 50/F</Description>
 				<DocArchivalNumber>120005</DocArchivalNumber>
 				<TransactionType>N</TransactionType>
 				<GLPostingDate>2020-06-01</GLPostingDate>
@@ -4339,7 +4339,7 @@
 						<AccountID>21111003</AccountID>
 						<SourceDocumentID>FA F/50</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:34:57</SystemEntryDate>
-						<Description>FA Nº 50/F</Description>
+						<Description>FA NÂº 50/F</Description>
 						<DebitAmount>1698.00</DebitAmount>
 					</DebitLine>
 					<CreditLine>
@@ -4347,7 +4347,7 @@
 						<AccountID>24331113201</AccountID>
 						<SourceDocumentID>FA F/50</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:34:57</SystemEntryDate>
-						<Description>FA Nº 50/F</Description>
+						<Description>FA NÂº 50/F</Description>
 						<CreditAmount>283.00</CreditAmount>
 					</CreditLine>
 					<CreditLine>
@@ -4355,7 +4355,7 @@
 						<AccountID>7111</AccountID>
 						<SourceDocumentID>FA F/50</SourceDocumentID>
 						<SystemEntryDate>2020-06-01T18:34:57</SystemEntryDate>
-						<Description>FA Nº 50/F</Description>
+						<Description>FA NÂº 50/F</Description>
 						<CreditAmount>1415.00</CreditAmount>
 					</CreditLine>
 				</Lines>
@@ -4626,12 +4626,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>3</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-01-05</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>2400.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -4836,12 +4836,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>3</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>750</UnitPrice>
 					<TaxPointDate>2020-01-07</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>2250.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -4905,12 +4905,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-01-15</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>1600.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -4973,8 +4973,8 @@
 				<ShipTo>
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua JosÃ© InÃ¡cio Peixoto NÂº 68</AddressDetail>
+						<City>SÃ©</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -5184,12 +5184,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>750</UnitPrice>
 					<TaxPointDate>2020-02-10</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>750.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -5204,12 +5204,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-02-10</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>1600.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -5275,12 +5275,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>3</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>750</UnitPrice>
 					<TaxPointDate>2020-02-16</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>2250.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -5344,7 +5344,7 @@
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
 						<AddressDetail>R. das Vidreiras, 437474</AddressDetail>
-						<City>S. António dos Vidrinhos</City>
+						<City>S. AntÃ³nio dos Vidrinhos</City>
 						<PostalCode>1000-001</PostalCode>
 						<Country>PT</Country>
 					</Address>
@@ -5362,12 +5362,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>720</UnitPrice>
 					<TaxPointDate>2020-02-20</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>1440.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -5398,12 +5398,12 @@
 				<Line>
 					<LineNumber>3</LineNumber>
 					<ProductCode>A0006</ProductCode>
-					<ProductDescription>Secretária 1,50*0,70</ProductDescription>
+					<ProductDescription>SecretÃ¡ria 1,50*0,70</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>240</UnitPrice>
 					<TaxPointDate>2020-02-20</TaxPointDate>
-					<Description>Secretária 1,50*0,70</Description>
+					<Description>SecretÃ¡ria 1,50*0,70</Description>
 					<CreditAmount>480.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -5554,7 +5554,7 @@
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
 						<AddressDetail>R. das Vidreiras, 437474</AddressDetail>
-						<City>S. António dos Vidrinhos</City>
+						<City>S. AntÃ³nio dos Vidrinhos</City>
 						<PostalCode>1000-001</PostalCode>
 						<Country>PT</Country>
 					</Address>
@@ -5590,12 +5590,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>700</UnitPrice>
 					<TaxPointDate>2020-03-10</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>1400.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -5746,12 +5746,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>865</UnitPrice>
 					<TaxPointDate>2020-03-25</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>1730.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -5962,12 +5962,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>765</UnitPrice>
 					<TaxPointDate>2020-04-11</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>1530.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6049,12 +6049,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>850</UnitPrice>
 					<TaxPointDate>2020-04-20</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>850.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6067,12 +6067,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-04-20</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>800.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6085,12 +6085,12 @@
 				<Line>
 					<LineNumber>3</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>775</UnitPrice>
 					<TaxPointDate>2020-04-20</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>775.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6154,12 +6154,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>765</UnitPrice>
 					<TaxPointDate>2020-04-22</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>765.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6223,12 +6223,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>880</UnitPrice>
 					<TaxPointDate>2020-05-05</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>880.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6241,12 +6241,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>820</UnitPrice>
 					<TaxPointDate>2020-05-05</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>820.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6570,7 +6570,7 @@
 				<ShipTo>
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua Albano Lima Nº 562</AddressDetail>
+						<AddressDetail>Rua Albano Lima NÂº 562</AddressDetail>
 						<City>Porto</City>
 						<PostalCode>4000</PostalCode>
 						<Country>Desconhecido</Country>
@@ -6589,12 +6589,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>765</UnitPrice>
 					<TaxPointDate>2020-06-02</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>765.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6814,12 +6814,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>850</UnitPrice>
 					<TaxPointDate>2020-06-20</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>850.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6901,12 +6901,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>850</UnitPrice>
 					<TaxPointDate>2020-07-01</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>850.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -6992,12 +6992,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>600</UnitPrice>
 					<TaxPointDate>2020-07-10</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>600.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -7358,7 +7358,7 @@
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
 						<AddressDetail>R. das Vidreiras, 437474</AddressDetail>
-						<City>S. António dos Vidrinhos</City>
+						<City>S. AntÃ³nio dos Vidrinhos</City>
 						<PostalCode>1000-001</PostalCode>
 						<Country>PT</Country>
 					</Address>
@@ -7394,12 +7394,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>740</UnitPrice>
 					<TaxPointDate>2020-08-10</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>1480.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -7532,12 +7532,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>850</UnitPrice>
 					<TaxPointDate>2020-08-25</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>1700.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -7711,8 +7711,8 @@
 				<ShipTo>
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
-						<AddressDetail>Rua José Inácio Peixoto Nº 68</AddressDetail>
-						<City>Sé</City>
+						<AddressDetail>Rua JosÃ© InÃ¡cio Peixoto NÂº 68</AddressDetail>
+						<City>SÃ©</City>
 						<PostalCode>4700.892</PostalCode>
 						<Country>Desconhecido</Country>
 					</Address>
@@ -7853,12 +7853,12 @@
 				<Line>
 					<LineNumber>3</LineNumber>
 					<ProductCode>TAPETE</ProductCode>
-					<ProductDescription>Tapete de Rato 2.ª Geração</ProductDescription>
+					<ProductDescription>Tapete de Rato 2.Âª GeraÃ§Ã£o</ProductDescription>
 					<Quantity>3</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>2.5</UnitPrice>
 					<TaxPointDate>2020-09-19</TaxPointDate>
-					<Description>Tapete de Rato 2.ª Geração</Description>
+					<Description>Tapete de Rato 2.Âª GeraÃ§Ã£o</Description>
 					<CreditAmount>7.50</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -7973,7 +7973,7 @@
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
 						<AddressDetail>R. das Vidreiras, 437474</AddressDetail>
-						<City>S. António dos Vidrinhos</City>
+						<City>S. AntÃ³nio dos Vidrinhos</City>
 						<PostalCode>1000-001</PostalCode>
 						<Country>PT</Country>
 					</Address>
@@ -8167,12 +8167,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-10-20</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>1600.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -8323,12 +8323,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-11-03</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>1600.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -8464,12 +8464,12 @@
 				<Line>
 					<LineNumber>3</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-11-10</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>800.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -8515,7 +8515,7 @@
 					<DeliveryDate>2020-06-01</DeliveryDate>
 					<Address>
 						<AddressDetail>R. das Vidreiras, 437474</AddressDetail>
-						<City>S. António dos Vidrinhos</City>
+						<City>S. AntÃ³nio dos Vidrinhos</City>
 						<PostalCode>1000-001</PostalCode>
 						<Country>PT</Country>
 					</Address>
@@ -8794,12 +8794,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>860</UnitPrice>
 					<TaxPointDate>2020-12-07</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>1720.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -8812,12 +8812,12 @@
 				<Line>
 					<LineNumber>2</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>2</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
 					<TaxPointDate>2020-12-07</TaxPointDate>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>1600.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -8830,12 +8830,12 @@
 				<Line>
 					<LineNumber>3</LineNumber>
 					<ProductCode>PHP</ProductCode>
-					<ProductDescription>Portátil HP 512G</ProductDescription>
+					<ProductDescription>PortÃ¡til HP 512G</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>795</UnitPrice>
 					<TaxPointDate>2020-12-07</TaxPointDate>
-					<Description>Portátil HP 512G</Description>
+					<Description>PortÃ¡til HP 512G</Description>
 					<CreditAmount>795.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -9109,12 +9109,12 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>820</UnitPrice>
 					<TaxPointDate>2020-12-21</TaxPointDate>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>820.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -9344,11 +9344,11 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PLENOVO</ProductCode>
-					<ProductDescription>Portátil Lenovo</ProductDescription>
+					<ProductDescription>PortÃ¡til Lenovo</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>800</UnitPrice>
-					<Description>Portátil Lenovo</Description>
+					<Description>PortÃ¡til Lenovo</Description>
 					<CreditAmount>800.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
@@ -9421,11 +9421,11 @@
 				<Line>
 					<LineNumber>1</LineNumber>
 					<ProductCode>PASUS</ProductCode>
-					<ProductDescription>Portátil ASUS 16G RAM, 256G SSD</ProductDescription>
+					<ProductDescription>PortÃ¡til ASUS 16G RAM, 256G SSD</ProductDescription>
 					<Quantity>1</Quantity>
 					<UnitOfMeasure>UN</UnitOfMeasure>
 					<UnitPrice>720</UnitPrice>
-					<Description>Portátil ASUS 16G RAM, 256G SSD</Description>
+					<Description>PortÃ¡til ASUS 16G RAM, 256G SSD</Description>
 					<CreditAmount>720.00</CreditAmount>
 					<Tax>
 						<TaxType>IVA</TaxType>
